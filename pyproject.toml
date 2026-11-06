@@ -1,0 +1,23 @@
+[project]
+name = "chess-opening-tutor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Syed Sazzad Ali", email = "1am2syman@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+chess-opening-tutor = "chess_opening_tutor:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "python-chess==1.999",
+    "zstandard==0.25.0",
+]

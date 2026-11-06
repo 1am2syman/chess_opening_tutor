@@ -1,0 +1,46 @@
+{
+  "lineId": "caro-15",
+  "model": "cliproxyapi/gpt-6-astra",
+  "effort": "high",
+  "lessons": [
+    {
+      "key": "rnbqkb1r/pp2pppp/5n2/3p4/2PP4/8/PP3PPP/RNBQKBNR w KQkq - 1 5 g1f3",
+      "title": "White Reinforces Before Resolving the Tension",
+      "question": "How can White prepare king safety while keeping the central pawn exchanges undecided?",
+      "takeaway": "White develops the kingside knight, reinforces d4, and takes a step toward castling without exchanging either central pawn. Black must respect that combination: White is improving the position while retaining choices about the structure. Our response develops pressure against d4, but that pawn is not yet isolated or loose. The immediate contest is about coordinating pieces around tension, not collecting a structural weakness.",
+      "intent": "The knight adds control of e5 and joins the queen in defending d4. White's c4 pawn continues attacking d5, so Black still needs a reliable answer to a central capture. With the c-pawn present, describing d4 as an isolated pawn would confuse a possible future structure with the current board.",
+      "plan": "Black continues ...Nc6, and after Nc3 develops ...Bg4. The knight attacks d4 while the bishop puts pressure on one of its defenders. White can resolve the tension with cxd5 or keep developing. In our later Qb3 sequence, the queen leaves her defensive role on d1; Black should reassess the center then rather than assume today's defenders remain in place.",
+      "tactic": "After Nf3, d4 has two defenders: the queen along the d-file and the knight. Black's planned pressure is therefore not an immediate pawn win. At the other central contact, cxd5 can be answered by the f6 knight. Separate these calculations: recapturing White's c-pawn on d5 is not the same operation as capturing White's d-pawn.",
+      "theme": "White develops before settling the pawn structure. This creates the defensive connections that Black's later bishop exchange and White's queen excursion will alter; understanding those connections makes the sharp continuation less arbitrary.",
+      "alternativeNote": "The supplied Nc3 first attacks d5 directly, and ...Nc6 followed by Nf3 reaches the same arrangement. Nf3 first strengthens d4 and advances kingside development. Transposition is possible, not compulsory: the supplied ...g6 reply shows that Black can choose a different bishop setup before the positions converge."
+    },
+    {
+      "key": "rnbqkb1r/pp2pppp/5n2/3p4/2PP4/5N2/PP3PPP/RNBQKB1R b KQkq - 2 5 b8c6",
+      "title": "Build Central Pressure Without Fixing the Structure",
+      "question": "White can still exchange on d5; how should Black balance central pressure with flexibility in developing the bishops?",
+      "takeaway": "Black develops the queenside knight onto the square cleared by the earlier c-pawn recapture. It attacks d4 and controls e5 while leaving the e-pawn uncommitted. This gives Black central influence without yet choosing a bishop setup. The two knights have distinct responsibilities: the f6 knight can recapture on d5, whereas the new knight puts pressure on White's remaining central pawn.",
+      "intent": "White has defended d4 with both queen and knight, so Black is building pressure rather than threatening to win that pawn immediately. Keeping the e-pawn at home preserves the c8 bishop's route toward g4. That option is useful because the bishop can influence a central defender, not simply because developing outside the pawns is always desirable.",
+      "plan": "After Nc3, use ...Bg4 to connect bishop development with pressure on d4. White need not follow that exact route: the supplied immediate cxd5 Nxd5 Nc3 continuation uses ...Bf5 instead. If White closes the contact with c5, the supplied response begins ...a6. Identify whether White has exchanged, maintained, or closed the tension before choosing the bishop's job.",
+      "tactic": "If White plays cxd5, only the f6 knight can recapture on d5; the c6 knight does not attack that square. Its target is d4, which remains defended. This distinction matters later when both knights become active: do not transfer a capture or defensive duty from one knight to the other just because both are centrally developed.",
+      "theme": "The original ...c6 and ...cxd5 preparation has released a useful development square. Black now converts that benefit into pressure, while retaining the bishop flexibility needed to respond to White's choice of central structure.",
+      "alternativeNote": "The supplied ...e6 reinforces d5 with a pawn and continues Nc3 Bb4, followed by development and castling. It also closes the c8 bishop's present diagonal. ...Nc6 prioritizes piece pressure and keeps that diagonal open; the comparison is between development schemes, not a claim that either move wins the center."
+    },
+    {
+      "key": "r1bqkb1r/pp2pppp/2n2n2/3p4/2PP4/5N2/PP3PPP/RNBQKB1R w KQkq - 3 6 b1c3",
+      "title": "White Adds an Attacker Without Exchanging",
+      "question": "How can White strengthen the challenge to Black's central pawn without committing to a new pawn structure?",
+      "takeaway": "White develops the second knight and adds another attack on d5. The pawn tension remains, but Black must now account for both a pawn and a knight attacking the central foothold. The repertoire responds with ...Bg4, linking bishop activity to White's defense of d4. These are ordinary developing moves with concrete responsibilities, and the coming exchanges will change those responsibilities quickly.",
+      "intent": "The c4 pawn and c3 knight attack d5, while Black's queen and f6 knight defend it. White has increased pressure without creating an immediate material threat. Black can therefore continue developing, provided the next move preserves the recapture mechanism and contributes to the central struggle rather than merely placing another piece on an attractive square.",
+      "plan": "Continue ...Bg4. Our sequence then runs cxd5 Nxd5 Qb3, when White attacks b7 and adds queen pressure on the central knight. Black exchanges on f3 before reinforcing with ...e6. White can instead develop a bishop while retaining the pawn tension, so this sharp sequence is a response to specific choices, not a forced consequence of developing the knight.",
+      "tactic": "After ...Bg4, the f3 knight is pinned to the queen, not the king: moving it would be legal but could expose the queen. An immediate ...Bxf3 still allows Qxf3 through e2. Once White plays Qb3, the c3 knight blocks that queen recapture across the third rank. The same knight that increases central pressure also changes the later exchange geometry.",
+      "theme": "Both sides now have their knights developed around the pawn contact. The next phase is about changing defenders: Black's bishop targets f3, while White's queen activity will loosen the connection between the queen and d4.",
+      "alternativeNote": "The supplied c5 advance ends the immediate pawn contact and gains space; Black replies ...a6 before developing ...Bf5. Nc3 instead leaves cxd5 available and increases pressure on d5. White keeps the central decision open rather than choosing the more closed structure immediately."
+    }
+  ],
+  "review": {
+    "status": "accepted",
+    "positionsReviewed": 3,
+    "issues": [],
+    "notes": "Independently reviewed all three new lessons against the exact boards, played prefixes, supplied candidates, and accepted shared sequence. Revised the development explanations, distinguished current pawn tension from a future isolated pawn, clarified each knight's capture duties, and sharpened the relative-pin and queen-recapture geometry. Checked recall questions for answer spoilers and retained only the requested new entries. Chess and teaching review is complete with no substantive unresolved issues; automated validation remains with the parent runner."
+  }
+}

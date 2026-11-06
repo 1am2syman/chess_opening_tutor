@@ -1,0 +1,2422 @@
+{
+  "openingId": "vienna",
+  "repertoireColor": "White",
+  "rootUCI": [
+    "e2e4",
+    "e7e5",
+    "b1c3",
+    "g8f6",
+    "f2f4"
+  ],
+  "lineId": "vienna-13",
+  "rank": 13,
+  "family": "Gambit accepted",
+  "completeSequence": "1.e4 e5 2.Nc3 Nf6 3.f4 exf4 4.e5 Ng8 5.Nf3 d6 6.d4 dxe5 7.Bb5+ c6 8.Bc4 exd4 9.O-O Be6 10.Bxe6 fxe6 11.Ne2 Bd6 12.Nxf4 Bxf4 13.Bxf4 Nd7 14.Nxd4 e5 15.Ne6 Qb6+ 16.Kh1 exf4 17.Re1 Ngf6 18.Ng5+ Kd8 19.Nf7+ Kc8 20.Nxh8 Qxb2",
+  "positions": [
+    {
+      "key": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 e2e4",
+      "ply": 1,
+      "moveNumber": 1,
+      "side": "White",
+      "san": "e4",
+      "uci": "e2e4",
+      "beforeFen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "afterFen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+      "source": "opening-prefix",
+      "playedPrefix": "e4",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 e2e4",
+        "title": "Claim Space Before Choosing the Attack",
+        "question": "What should White establish before deciding whether a flank pawn advance is justified?",
+        "takeaway": "The move e4 claims central space while opening routes for the queen and the light-squared bishop. It is the foundation of this Vienna repertoire, not a commitment to attack regardless of Black's response. White first establishes a central foothold, then decides how development and a possible pawn challenge can work together.",
+        "intent": "White wants influence over d5 and f5 and room for the pieces behind the pawn. The advance does not develop a piece or secure the king. Its value depends on supporting the center while bringing the rest of the army into play.",
+        "plan": "If Black answers with ...e5, this repertoire continues with Nc3 and, against ...Nf6, f4. Black can instead choose the supplied ...c5, ...e6, or ...d6 replies, which require different decisions. Treat the Vienna sequence as a response to a particular structure rather than a universal setup.",
+        "tactic": "There is no immediate combination to execute. Notice both the newly controlled squares and the pawn's lack of protection. The pawn on e4 has no defender yet, so a later attack on it must be answered through development or justified by a concrete central operation.",
+        "theme": "This line begins with central occupation rather than a flank attack. The later f-pawn advance will challenge Black's center, and its justification must remain connected to development and king safety.",
+        "alternativeNote": "The supplied 1.d4 continuation builds a different central structure with ...d5 and c4. Its evaluation is close to the e4 candidate, so choosing e4 is a repertoire decision, not evidence that other first moves fail.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-23T23:52:18.112Z",
+        "lineOrigin": "vienna-1"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp 32 from side-to-move perspective",
+          "depth": 14,
+          "moves": "1.e4 1…e5 2.Nf3 2…Nf6 3.Nxe5 3…Nxe4 4.d4 4…d5"
+        },
+        {
+          "score": "cp 25 from side-to-move perspective",
+          "depth": 14,
+          "moves": "1.d4 1…d5 2.c4 2…e6 3.Nc3 3…Nf6 4.Nf3 4…Nbd7"
+        },
+        {
+          "score": "cp 22 from side-to-move perspective",
+          "depth": 14,
+          "moves": "1.Nf3 1…d5 2.d4 2…Nf6 3.c4 3…e6 4.Nc3 4…Nbd7"
+        },
+        {
+          "score": "cp 9 from side-to-move perspective",
+          "depth": 14,
+          "moves": "1.c4 1…e5 2.Nc3 2…Nf6 3.g3 3…Bb4 4.Bg2 4…O-O"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -31 from side-to-move perspective",
+          "depth": 14,
+          "moves": "1…e5 2.Nf3 2…d6 3.Nc3 3…c5 4.Bb5+ 4…Bd7 5.Bxd7+"
+        },
+        {
+          "score": "cp -34 from side-to-move perspective",
+          "depth": 14,
+          "moves": "1…e6"
+        },
+        {
+          "score": "cp -29 from side-to-move perspective",
+          "depth": 13,
+          "moves": "1…c5 2.Nf3 2…Nc6 3.Nc3 3…d6 4.d4 4…cxd4 5.Nxd4"
+        },
+        {
+          "score": "cp -35 from side-to-move perspective",
+          "depth": 13,
+          "moves": "1…d6 2.d4 2…e5 3.Nc3 3…exd4 4.Qxd4 4…Nc6 5.Bb5"
+        }
+      ]
+    },
+    {
+      "key": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1 e7e5",
+      "ply": 2,
+      "moveNumber": 1,
+      "side": "Black",
+      "san": "e5",
+      "uci": "e7e5",
+      "beforeFen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+      "afterFen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+      "source": "opening-prefix",
+      "playedPrefix": "e4 e5",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1 e7e5",
+        "title": "Black Matches the Central Claim",
+        "question": "What does Black gain by meeting White's central occupation directly?",
+        "takeaway": "Black's ...e5 establishes a matching central foothold and releases the queen and king's bishop. The opposing pawns block each other's forward movement, but neither side has secured the center permanently. White must now choose a development scheme and a method of challenging Black's pawn without falling behind in mobilization.",
+        "intent": "Black controls d4 and f4, making White's intended expansion a contested operation rather than free space. The symmetrical pawn placement does not imply symmetrical plans. White retains the first move, while Black has straightforward development and opportunities to challenge the center later.",
+        "plan": "White can develop with Nc3, as in the repertoire, or use the supplied Nf3 approach to attack e5 immediately. Black can answer with active piece development. In the Vienna route, Black's choice of knight development determines whether the planned f-pawn challenge belongs to this particular repertoire branch.",
+        "tactic": "The pawn on e5 attacks d4 and f4, not the white pawn directly in front of it. That distinction matters when White later offers the f-pawn: Black can capture diagonally, retain the tension, or counterstrike centrally. No exchange is forced by the present pawn contact.",
+        "theme": "Black is building a legitimate central position, not walking into an opening trick. White's later initiative must arise from specific choices about tension, development, and exchanges rather than the name of the opening.",
+        "alternativeNote": "The supplied ...c5 continuation contests the center asymmetrically and leads toward a different opening. The bounded scores for ...e5 and ...c5 are close from Black's perspective; they support treating both as serious replies rather than calling either a mistake.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-23T23:52:18.112Z",
+        "lineOrigin": "vienna-1"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp -31 from side-to-move perspective",
+          "depth": 14,
+          "moves": "1…e5 2.Nf3 2…d6 3.Nc3 3…c5 4.Bb5+ 4…Bd7 5.Bxd7+"
+        },
+        {
+          "score": "cp -34 from side-to-move perspective",
+          "depth": 14,
+          "moves": "1…e6"
+        },
+        {
+          "score": "cp -29 from side-to-move perspective",
+          "depth": 13,
+          "moves": "1…c5 2.Nf3 2…Nc6 3.Nc3 3…d6 4.d4 4…cxd4 5.Nxd4"
+        },
+        {
+          "score": "cp -35 from side-to-move perspective",
+          "depth": 13,
+          "moves": "1…d6 2.d4 2…e5 3.Nc3 3…exd4 4.Qxd4 4…Nc6 5.Bb5"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 34 from side-to-move perspective",
+          "depth": 13,
+          "moves": "2.Nf3 2…Nf6 3.d4 3…Nxe4 4.Bd3 4…d5 5.Nxe5 5…Bd6"
+        },
+        {
+          "score": "cp 19 from side-to-move perspective",
+          "depth": 13,
+          "moves": "2.Nc3 2…Nf6"
+        },
+        {
+          "score": "cp -2 from side-to-move perspective",
+          "depth": 12,
+          "moves": "2.d4 2…exd4 3.Nf3 3…Bb4+ 4.Nbd2 4…d5 5.exd5 5…Qxd5"
+        },
+        {
+          "score": "cp -7 from side-to-move perspective",
+          "depth": 12,
+          "moves": "2.Bc4 2…Nf6 3.d3 3…c6 4.Nf3 4…d5 5.Bb3 5…a5"
+        }
+      ]
+    },
+    {
+      "key": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2 b1c3",
+      "ply": 3,
+      "moveNumber": 2,
+      "side": "White",
+      "san": "Nc3",
+      "uci": "b1c3",
+      "beforeFen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+      "afterFen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR b KQkq - 1 2",
+      "source": "opening-prefix",
+      "playedPrefix": "e4 e5 Nc3",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2 b1c3",
+        "title": "Support the Center Before Challenging It",
+        "question": "How can White balance central support with flexibility over the kingside setup?",
+        "takeaway": "Nc3 develops the queenside knight, supports e4, and adds influence over d5. It leaves the kingside knight at home, preserving White's option of advancing the f-pawn before choosing a kingside setup. This flexibility has a cost: White has not yet cleared either of the pieces standing between the king and kingside castling.",
+        "intent": "The immediate job is central support, not an attack on e5. White gives the e-pawn a defender and places a piece where it can influence future central exchanges. Keeping the f-pawn unobstructed preserves an option without making that advance obligatory against every reply.",
+        "plan": "Against ...Nf6, the repertoire proceeds with f4 and accepts the resulting strategic risks. Black can also develop with ...Nc6, which lies outside this line's promised coverage. The supplied quieter Nf3 continuations show that White can prioritize ordinary development instead of treating the pawn challenge as compulsory.",
+        "tactic": "After Black attacks e4 with a knight, the knight on c3 provides a direct defender. Do not confuse that support with protection of every central square: it does not defend d4 or attack e5. Accurate knight geometry prevents importing tactics from a different development order.",
+        "theme": "The Vienna move order prepares a central challenge indirectly. White first reinforces the existing pawn, then considers using another pawn to disturb Black's center while accepting a slower route to king safety.",
+        "alternativeNote": "The supplied 2.Nf3 attacks e5 immediately and clears a kingside piece, but occupies the square the f-pawn would need to cross. Its continuation with ...Nf6 and d4 pursues central play by a different route. Nc3 chooses another ordering of priorities.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-23T23:52:18.112Z",
+        "lineOrigin": "vienna-1"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp 34 from side-to-move perspective",
+          "depth": 13,
+          "moves": "2.Nf3 2…Nf6 3.d4 3…Nxe4 4.Bd3 4…d5 5.Nxe5 5…Bd6"
+        },
+        {
+          "score": "cp 19 from side-to-move perspective",
+          "depth": 13,
+          "moves": "2.Nc3 2…Nf6"
+        },
+        {
+          "score": "cp -2 from side-to-move perspective",
+          "depth": 12,
+          "moves": "2.d4 2…exd4 3.Nf3 3…Bb4+ 4.Nbd2 4…d5 5.exd5 5…Qxd5"
+        },
+        {
+          "score": "cp -7 from side-to-move perspective",
+          "depth": 12,
+          "moves": "2.Bc4 2…Nf6 3.d3 3…c6 4.Nf3 4…d5 5.Bb3 5…a5"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -13 from side-to-move perspective",
+          "depth": 14,
+          "moves": "2…Nc6 3.Nf3"
+        },
+        {
+          "score": "cp -13 from side-to-move perspective",
+          "depth": 14,
+          "moves": "2…Nf6 3.Nf3 3…Nc6 4.Bb5 4…Bb4 5.Bxc6 5…bxc6 6.O-O"
+        },
+        {
+          "score": "cp -32 from side-to-move perspective",
+          "depth": 13,
+          "moves": "2…d6 3.d4 3…Nf6 4.dxe5 4…dxe5 5.Qxd8+ 5…Kxd8 6.Nf3"
+        },
+        {
+          "score": "cp -44 from side-to-move perspective",
+          "depth": 13,
+          "moves": "2…Be7 3.d4 3…d6 4.f4 4…exd4 5.Qxd4 5…Nf6 6.Bd2"
+        }
+      ]
+    },
+    {
+      "key": "rnbqkbnr/pppp1ppp/8/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR b KQkq - 1 2 g8f6",
+      "ply": 4,
+      "moveNumber": 2,
+      "side": "Black",
+      "san": "Nf6",
+      "uci": "g8f6",
+      "beforeFen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR b KQkq - 1 2",
+      "afterFen": "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 3",
+      "source": "opening-prefix",
+      "playedPrefix": "e4 e5 Nc3 Nf6",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "rnbqkbnr/pppp1ppp/8/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR b KQkq - 1 2 g8f6",
+        "title": "Black Develops With Central Pressure",
+        "question": "How does Black's active development change White's central responsibilities?",
+        "takeaway": "Black's ...Nf6 develops a kingside piece and attacks e4, which White's knight on c3 already defends. This is pressure rather than a free pawn threat. White can continue calmly or choose the repertoire's f-pawn challenge, but must recognize that Black is preparing active central play rather than merely waiting to be attacked.",
+        "intent": "Black increases control over d5 and e4 while bringing kingside castling closer. The knight does not defend e5 from f6. Its placement creates opportunities for central activity if White opens lines before developing enough pieces to support the operation.",
+        "plan": "White's repertoire choice is f4, after which ...d5 is a principled counterstrike and ...d6 maintains the existing center. The supplied Nf3 continuation instead develops toward a Four Knights structure. Black's response to the pawn challenge, rather than the knight move alone, determines White's next problem.",
+        "tactic": "Count the attack and defense of e4 before reacting: Black's knight attacks it and White's knight protects it. There is no need for an emergency pawn defense. If the center changes through captures, however, this count must be rebuilt rather than assumed to remain valid.",
+        "theme": "Both sides now have a developed knight, but their jobs differ. White supports the center from the queenside; Black pressures it while developing the kingside, setting up a genuine choice between development and confrontation.",
+        "alternativeNote": "The supplied ...Nc6 also develops naturally but supports e5 instead of attacking e4. Both knight moves receive similar bounded evaluations from Black's perspective. The present repertoire specifically addresses ...Nf6 and should not be read as coverage of every Vienna branch.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-23T23:52:18.112Z",
+        "lineOrigin": "vienna-1"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp -13 from side-to-move perspective",
+          "depth": 14,
+          "moves": "2…Nc6 3.Nf3"
+        },
+        {
+          "score": "cp -13 from side-to-move perspective",
+          "depth": 14,
+          "moves": "2…Nf6 3.Nf3 3…Nc6 4.Bb5 4…Bb4 5.Bxc6 5…bxc6 6.O-O"
+        },
+        {
+          "score": "cp -32 from side-to-move perspective",
+          "depth": 13,
+          "moves": "2…d6 3.d4 3…Nf6 4.dxe5 4…dxe5 5.Qxd8+ 5…Kxd8 6.Nf3"
+        },
+        {
+          "score": "cp -44 from side-to-move perspective",
+          "depth": 13,
+          "moves": "2…Be7 3.d4 3…d6 4.f4 4…exd4 5.Qxd4 5…Nf6 6.Bd2"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 13 from side-to-move perspective",
+          "depth": 14,
+          "moves": "3.Nf3 3…Nc6 4.Bb5 4…Bb4 5.O-O 5…O-O 6.Bxc6 6…dxc6"
+        },
+        {
+          "score": "cp -3 from side-to-move perspective",
+          "depth": 14,
+          "moves": "3.Bc4 3…Nc6 4.Bb3 4…Bc5 5.Nf3 5…O-O 6.d3 6…a5"
+        },
+        {
+          "score": "cp -4 from side-to-move perspective",
+          "depth": 14,
+          "moves": "3.g3 3…d5 4.exd5 4…Nxd5 5.Nf3 5…Nxc3 6.bxc3 6…Bc5"
+        },
+        {
+          "score": "cp -11 from side-to-move perspective",
+          "depth": 14,
+          "moves": "3.f4 3…d5 4.fxe5 4…Nxe4 5.Nf3 5…Be7 6.d4 6…c5"
+        }
+      ]
+    },
+    {
+      "key": "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 3 f2f4",
+      "ply": 5,
+      "moveNumber": 3,
+      "side": "White",
+      "san": "f4",
+      "uci": "f2f4",
+      "beforeFen": "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 3",
+      "afterFen": "rnbqkb1r/pppp1ppp/5n2/4p3/4PP2/2N5/PPPP2PP/R1BQKBNR b KQkq - 0 3",
+      "source": "opening-prefix",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 3 f2f4",
+        "title": "Challenge the Center at a Cost",
+        "question": "What central opportunity can justify weakening White's king cover before completing development?",
+        "takeaway": "The advance f4 directly challenges e5 and offers Black a choice about the central structure. White gains the possibility of opening lines or removing Black's central pawn, but weakens king cover and the e1–h4 diagonal. The f-file is not open: White's own pawn still occupies it, and the kingside pieces remain undeveloped.",
+        "intent": "White is trying to disturb Black's central foothold, not launch a justified mating attack on move three. The imbalance is increased central tension against reduced king security. White must use any resulting activity to develop efficiently and respond seriously to Black's central counterplay.",
+        "plan": "After ...d5, the supplied continuation uses fxe5, ...Nxe4, Nf3, and d4 to contest the center. After ...exf4, e5 attacks the knight and the supplied line retreats with ...Ng8. If Black declines with ...d6, White develops against the unchanged central structure instead of copying the accepted-gambit story.",
+        "tactic": "The e5 advance attacks a knight on f6 only when the square in front of White's e-pawn has become available. In the supplied accepted line, ...exf4 clears that square. Against a quiet decline with Black's pawn still on e5, the same advance is unavailable.",
+        "theme": "This is a calculated change in priorities, not a promise of a quick attack. Subsequent decisions must convert central tension into development, structural gains, or practical piece activity while accounting for White's reduced cover.",
+        "alternativeNote": "The supplied Nf3 develops without weakening the pawn cover and receives a slightly better bounded evaluation. Choosing f4 therefore accepts practical and strategic commitments for a distinctive repertoire; it does not establish that quieter development is inferior.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-23T23:52:18.112Z",
+        "lineOrigin": "vienna-1"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp 13 from side-to-move perspective",
+          "depth": 14,
+          "moves": "3.Nf3 3…Nc6 4.Bb5 4…Bb4 5.O-O 5…O-O 6.Bxc6 6…dxc6"
+        },
+        {
+          "score": "cp -3 from side-to-move perspective",
+          "depth": 14,
+          "moves": "3.Bc4 3…Nc6 4.Bb3 4…Bc5 5.Nf3 5…O-O 6.d3 6…a5"
+        },
+        {
+          "score": "cp -4 from side-to-move perspective",
+          "depth": 14,
+          "moves": "3.g3 3…d5 4.exd5 4…Nxd5 5.Nf3 5…Nxc3 6.bxc3 6…Bc5"
+        },
+        {
+          "score": "cp -11 from side-to-move perspective",
+          "depth": 14,
+          "moves": "3.f4 3…d5 4.fxe5 4…Nxe4 5.Nf3 5…Be7 6.d4 6…c5"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 11 from side-to-move perspective",
+          "depth": 13,
+          "moves": "3…d5 4.fxe5 4…Nxe4 5.Nf3 5…Be7 6.d4 6…c5 7.Bd3"
+        },
+        {
+          "score": "cp -42 from side-to-move perspective",
+          "depth": 13,
+          "moves": "3…exf4 4.e5 4…Ng8 5.Nf3 5…d6 6.d4 6…dxe5 7.Bb5+"
+        },
+        {
+          "score": "cp -54 from side-to-move perspective",
+          "depth": 13,
+          "moves": "3…d6 4.Nf3"
+        },
+        {
+          "score": "cp -160 from side-to-move perspective",
+          "depth": 12,
+          "moves": "3…Qe7 4.fxe5 4…Qxe5 5.Nf3 5…Qe6 6.Bd3 6…d6 7.O-O"
+        }
+      ]
+    },
+    {
+      "key": "rnbqkb1r/pppp1ppp/5n2/4p3/4PP2/2N5/PPPP2PP/R1BQKBNR b KQkq - 0 3 e5f4",
+      "ply": 6,
+      "moveNumber": 3,
+      "side": "Black",
+      "san": "exf4",
+      "uci": "e5f4",
+      "beforeFen": "rnbqkb1r/pppp1ppp/5n2/4p3/4PP2/2N5/PPPP2PP/R1BQKBNR b KQkq - 0 3",
+      "afterFen": "rnbqkb1r/pppp1ppp/5n2/8/4Pp2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 4",
+      "source": "sample-supported",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "rnbqkb1r/pppp1ppp/5n2/4p3/4PP2/2N5/PPPP2PP/R1BQKBNR b KQkq - 0 3 e5f4",
+        "title": "Accept Material but Release the Center",
+        "question": "What changes in the center when Black accepts White's pawn offer?",
+        "takeaway": "Black's ...exf4 wins a pawn but vacates e5, giving White a central advance that attacks the knight on f6. White should exploit that opportunity before making material recovery the sole priority. Black retains defensive resources and central breaks, so accepting the gambit creates a contest between material and activity rather than a forced loss of the knight.",
+        "intent": "Black removes White's f-pawn and acquires an extra pawn on f4. In return, the central blockade disappears and the developed knight becomes vulnerable to a pawn attack. The f-file is free of white pawns, but Black's pawn still obstructs it; it is not yet an open file.",
+        "plan": "The supplied e5 continuation can meet ...Ng8 with Nf3 and d4 while Black challenges through ...d5 or ...d6. This branch instead examines ...Qe7 before the retreat. White must distinguish that tactical defense from an immediate knight move, then invest the resulting time in central support and development.",
+        "tactic": "After the capture, e5 is available and would attack Nf6. That is a tempo opportunity, not proof that the knight is trapped. The supplied ...Ng8 saves it, while ...Qe7 introduces a pin that temporarily prevents White's pawn from capturing the knight.",
+        "theme": "The original pawn challenge has produced a specific central opportunity. White's compensation depends on exploiting the changed board and developing efficiently, not on assuming that taking an opening pawn must be wrong.",
+        "alternativeNote": "The supplied ...d5 scores better from Black's perspective and immediately contests the center. Its fxe5 and ...Nxe4 sequence changes both sides' central pawns. It is a principled alternative, not the same accepted-gambit structure with the moves rearranged.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-24T06:09:35.166Z",
+        "lineOrigin": "vienna-10"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp 11 from side-to-move perspective",
+          "depth": 13,
+          "moves": "3…d5 4.fxe5 4…Nxe4 5.Nf3 5…Be7 6.d4 6…c5 7.Bd3"
+        },
+        {
+          "score": "cp -42 from side-to-move perspective",
+          "depth": 13,
+          "moves": "3…exf4 4.e5 4…Ng8 5.Nf3 5…d6 6.d4 6…dxe5 7.Bb5+"
+        },
+        {
+          "score": "cp -54 from side-to-move perspective",
+          "depth": 13,
+          "moves": "3…d6 4.Nf3"
+        },
+        {
+          "score": "cp -160 from side-to-move perspective",
+          "depth": 12,
+          "moves": "3…Qe7 4.fxe5 4…Qxe5 5.Nf3 5…Qe6 6.Bd3 6…d6 7.O-O"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 43 from side-to-move perspective",
+          "depth": 12,
+          "moves": "4.e5 4…Ng8 5.Nf3 5…d5 6.d4 6…g5 7.h4 7…g4"
+        },
+        {
+          "score": "cp -28 from side-to-move perspective",
+          "depth": 12,
+          "moves": "4.Nf3 4…d5 5.exd5 5…Nxd5 6.Nxd5 6…Qxd5 7.d4 7…g5"
+        },
+        {
+          "score": "cp -47 from side-to-move perspective",
+          "depth": 12,
+          "moves": "4.Bc4 4…c6 5.d4 5…Bb4 6.Ne2 6…d5 7.exd5 7…cxd5"
+        },
+        {
+          "score": "cp -58 from side-to-move perspective",
+          "depth": 12,
+          "moves": "4.d4 4…Bb4"
+        }
+      ]
+    },
+    {
+      "key": "rnbqkb1r/pppp1ppp/5n2/8/4Pp2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 4 e4e5",
+      "ply": 7,
+      "moveNumber": 4,
+      "side": "White",
+      "san": "e5",
+      "uci": "e4e5",
+      "beforeFen": "rnbqkb1r/pppp1ppp/5n2/8/4Pp2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 4",
+      "afterFen": "rnbqkb1r/pppp1ppp/5n2/4P3/5p2/2N5/PPPP2PP/R1BQKBNR b KQkq - 0 4",
+      "source": "sample-supported",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "rnbqkb1r/pppp1ppp/5n2/8/4Pp2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 4 e4e5",
+        "title": "Gain Time Before Recovering Material",
+        "question": "Which priority should guide White while Black's extra pawn remains unrecovered?",
+        "takeaway": "White plays e5 to attack the developed knight and gain space before recovering f4. The advance uses the square Black's pawn just vacated and makes Black address a concrete threat. A retreat to g8 preserves the knight, so White's gain is time and space rather than a trapped piece. Those gains still need supporting development.",
+        "intent": "White interrupts Black's development while keeping the option of later material recovery. The pawn leaves Nc3's protection when it advances, so the new space is not self-supporting. White will need the queen, kingside knight, or d-pawn to reinforce the advanced pawn.",
+        "plan": "Against ...Ng8, the supplied continuations use Nf3 and d4, with Black challenging through ...d6 or ...d5. Against ...Qe7, White must first solve the resulting pin. Do not treat these replies as interchangeable: the queen intervention changes whether the pawn can legally carry out its threat.",
+        "tactic": "The pawn attacks f6, but Black has more than one legal response. The supplied ...Nd5 allows Nxd5 from c3, whereas ...Nc6 leaves the knight on f6 available to exf6. These examples support concrete comparisons without implying that every knight retreat loses material.",
+        "theme": "White uses the accepted gambit's central vacancy to gain a tempo. The next decision tests whether that tempo can survive a tactical defense, rather than simply whether White remembers a familiar knight chase.",
+        "alternativeNote": "The supplied Nf3 develops normally but allows ...d5 and central exchanges, with a less favorable assessment for White. The immediate e5 makes use of a temporary opportunity before Black reorganizes the center and reduces the value of the pawn advance.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-24T06:09:35.166Z",
+        "lineOrigin": "vienna-10"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp 43 from side-to-move perspective",
+          "depth": 12,
+          "moves": "4.e5 4…Ng8 5.Nf3 5…d5 6.d4 6…g5 7.h4 7…g4"
+        },
+        {
+          "score": "cp -28 from side-to-move perspective",
+          "depth": 12,
+          "moves": "4.Nf3 4…d5 5.exd5 5…Nxd5 6.Nxd5 6…Qxd5 7.d4 7…g5"
+        },
+        {
+          "score": "cp -47 from side-to-move perspective",
+          "depth": 12,
+          "moves": "4.Bc4 4…c6 5.d4 5…Bb4 6.Ne2 6…d5 7.exd5 7…cxd5"
+        },
+        {
+          "score": "cp -58 from side-to-move perspective",
+          "depth": 12,
+          "moves": "4.d4 4…Bb4"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -54 from side-to-move perspective",
+          "depth": 11,
+          "moves": "4…Ng8 5.Nf3 5…d6 6.d4 6…dxe5 7.Qe2 7…Be7 8.Qxe5"
+        },
+        {
+          "score": "cp -253 from side-to-move perspective",
+          "depth": 11,
+          "moves": "4…Qe7 5.Qe2 5…Ng8 6.d4 6…Nc6 7.Nf3 7…d5 8.Nxd5"
+        },
+        {
+          "score": "cp -346 from side-to-move perspective",
+          "depth": 11,
+          "moves": "4…Nc6 5.exf6 5…Qxf6 6.Qe2+ 6…Kd8 7.Kd1 7…Nd4 8.Qf2"
+        },
+        {
+          "score": "cp -390 from side-to-move perspective",
+          "depth": 11,
+          "moves": "4…Nd5 5.Nxd5"
+        }
+      ]
+    },
+    {
+      "key": "rnbqkb1r/pppp1ppp/5n2/4P3/5p2/2N5/PPPP2PP/R1BQKBNR b KQkq - 0 4 f6g8",
+      "ply": 8,
+      "moveNumber": 4,
+      "side": "Black",
+      "san": "Ng8",
+      "uci": "f6g8",
+      "beforeFen": "rnbqkb1r/pppp1ppp/5n2/4P3/5p2/2N5/PPPP2PP/R1BQKBNR b KQkq - 0 4",
+      "afterFen": "rnbqkbnr/pppp1ppp/8/4P3/5p2/2N5/PPPP2PP/R1BQKBNR w KQkq - 1 5",
+      "source": "sample-supported",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5 Ng8",
+      "needsAuthoring": true,
+      "existingAccepted": null,
+      "candidatesBefore": [
+        {
+          "score": "cp -54 from side-to-move perspective",
+          "depth": 11,
+          "moves": "4…Ng8 5.Nf3 5…d6 6.d4 6…dxe5 7.Qe2 7…Be7 8.Qxe5"
+        },
+        {
+          "score": "cp -253 from side-to-move perspective",
+          "depth": 11,
+          "moves": "4…Qe7 5.Qe2 5…Ng8 6.d4 6…Nc6 7.Nf3 7…d5 8.Nxd5"
+        },
+        {
+          "score": "cp -346 from side-to-move perspective",
+          "depth": 11,
+          "moves": "4…Nc6 5.exf6 5…Qxf6 6.Qe2+ 6…Kd8 7.Kd1 7…Nd4 8.Qf2"
+        },
+        {
+          "score": "cp -390 from side-to-move perspective",
+          "depth": 11,
+          "moves": "4…Nd5 5.Nxd5"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 50 from side-to-move perspective",
+          "depth": 12,
+          "moves": "5.Nf3 5…d6 6.d4 6…dxe5 7.Bb5+ 7…c6 8.Bc4 8…Be6"
+        },
+        {
+          "score": "cp 36 from side-to-move perspective",
+          "depth": 12,
+          "moves": "5.Qe2 5…Nc6 6.Nf3 6…g5 7.h3 7…Bg7 8.d4 8…Nge7"
+        },
+        {
+          "score": "cp 35 from side-to-move perspective",
+          "depth": 12,
+          "moves": "5.Qf3 5…Nc6 6.Qxf4 6…d6 7.d4 7…dxe5 8.dxe5 8…Qd4"
+        },
+        {
+          "score": "cp 33 from side-to-move perspective",
+          "depth": 12,
+          "moves": "5.Bc4 5…d6"
+        }
+      ]
+    },
+    {
+      "key": "rnbqkbnr/pppp1ppp/8/4P3/5p2/2N5/PPPP2PP/R1BQKBNR w KQkq - 1 5 g1f3",
+      "ply": 9,
+      "moveNumber": 5,
+      "side": "White",
+      "san": "Nf3",
+      "uci": "g1f3",
+      "beforeFen": "rnbqkbnr/pppp1ppp/8/4P3/5p2/2N5/PPPP2PP/R1BQKBNR w KQkq - 1 5",
+      "afterFen": "rnbqkbnr/pppp1ppp/8/4P3/5p2/2N2N2/PPPP2PP/R1BQKB1R b KQkq - 2 5",
+      "source": "sample-supported",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5 Ng8 Nf3",
+      "needsAuthoring": true,
+      "existingAccepted": null,
+      "candidatesBefore": [
+        {
+          "score": "cp 50 from side-to-move perspective",
+          "depth": 12,
+          "moves": "5.Nf3 5…d6 6.d4 6…dxe5 7.Bb5+ 7…c6 8.Bc4 8…Be6"
+        },
+        {
+          "score": "cp 36 from side-to-move perspective",
+          "depth": 12,
+          "moves": "5.Qe2 5…Nc6 6.Nf3 6…g5 7.h3 7…Bg7 8.d4 8…Nge7"
+        },
+        {
+          "score": "cp 35 from side-to-move perspective",
+          "depth": 12,
+          "moves": "5.Qf3 5…Nc6 6.Qxf4 6…d6 7.d4 7…dxe5 8.dxe5 8…Qd4"
+        },
+        {
+          "score": "cp 33 from side-to-move perspective",
+          "depth": 12,
+          "moves": "5.Bc4 5…d6"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -70 from side-to-move perspective",
+          "depth": 12,
+          "moves": "5…d6 6.d4 6…dxe5 7.Bb5+ 7…c6 8.Bc4 8…Bb4 9.O-O"
+        },
+        {
+          "score": "cp -87 from side-to-move perspective",
+          "depth": 12,
+          "moves": "5…g5 6.h4"
+        },
+        {
+          "score": "cp -103 from side-to-move perspective",
+          "depth": 11,
+          "moves": "5…d5 6.d4 6…g5 7.h4 7…g4 8.Ng1 8…a6 9.Bxf4"
+        },
+        {
+          "score": "cp -104 from side-to-move perspective",
+          "depth": 11,
+          "moves": "5…Be7 6.Bc4 6…d5 7.Bxd5 7…Bh4+ 8.g3 8…fxg3 9.O-O"
+        }
+      ]
+    },
+    {
+      "key": "rnbqkbnr/pppp1ppp/8/4P3/5p2/2N2N2/PPPP2PP/R1BQKB1R b KQkq - 2 5 d7d6",
+      "ply": 10,
+      "moveNumber": 5,
+      "side": "Black",
+      "san": "d6",
+      "uci": "d7d6",
+      "beforeFen": "rnbqkbnr/pppp1ppp/8/4P3/5p2/2N2N2/PPPP2PP/R1BQKB1R b KQkq - 2 5",
+      "afterFen": "rnbqkbnr/ppp2ppp/3p4/4P3/5p2/2N2N2/PPPP2PP/R1BQKB1R w KQkq - 0 6",
+      "source": "sample-supported",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5 Ng8 Nf3 d6",
+      "needsAuthoring": true,
+      "existingAccepted": null,
+      "candidatesBefore": [
+        {
+          "score": "cp -70 from side-to-move perspective",
+          "depth": 12,
+          "moves": "5…d6 6.d4 6…dxe5 7.Bb5+ 7…c6 8.Bc4 8…Bb4 9.O-O"
+        },
+        {
+          "score": "cp -87 from side-to-move perspective",
+          "depth": 12,
+          "moves": "5…g5 6.h4"
+        },
+        {
+          "score": "cp -103 from side-to-move perspective",
+          "depth": 11,
+          "moves": "5…d5 6.d4 6…g5 7.h4 7…g4 8.Ng1 8…a6 9.Bxf4"
+        },
+        {
+          "score": "cp -104 from side-to-move perspective",
+          "depth": 11,
+          "moves": "5…Be7 6.Bc4 6…d5 7.Bxd5 7…Bh4+ 8.g3 8…fxg3 9.O-O"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 59 from side-to-move perspective",
+          "depth": 12,
+          "moves": "6.Qe2 6…Be7 7.d4 7…dxe5 8.Qxe5 8…Nf6 9.Bxf4 9…c6"
+        },
+        {
+          "score": "cp 42 from side-to-move perspective",
+          "depth": 12,
+          "moves": "6.d4 6…dxe5 7.Qe2 7…Be7 8.Qxe5 8…Nf6 9.Bxf4 9…c6"
+        },
+        {
+          "score": "cp 24 from side-to-move perspective",
+          "depth": 12,
+          "moves": "6.Bc4 6…Nc6"
+        },
+        {
+          "score": "cp -7 from side-to-move perspective",
+          "depth": 11,
+          "moves": "6.Be2 6…dxe5 7.d4 7…Be6 8.d5 8…Bf5 9.Nxe5 9…Qh4+"
+        }
+      ]
+    },
+    {
+      "key": "rnbqkbnr/ppp2ppp/3p4/4P3/5p2/2N2N2/PPPP2PP/R1BQKB1R w KQkq - 0 6 d2d4",
+      "ply": 11,
+      "moveNumber": 6,
+      "side": "White",
+      "san": "d4",
+      "uci": "d2d4",
+      "beforeFen": "rnbqkbnr/ppp2ppp/3p4/4P3/5p2/2N2N2/PPPP2PP/R1BQKB1R w KQkq - 0 6",
+      "afterFen": "rnbqkbnr/ppp2ppp/3p4/4P3/3P1p2/2N2N2/PPP3PP/R1BQKB1R b KQkq - 0 6",
+      "source": "sample-supported",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5 Ng8 Nf3 d6 d4",
+      "needsAuthoring": true,
+      "existingAccepted": null,
+      "candidatesBefore": [
+        {
+          "score": "cp 59 from side-to-move perspective",
+          "depth": 12,
+          "moves": "6.Qe2 6…Be7 7.d4 7…dxe5 8.Qxe5 8…Nf6 9.Bxf4 9…c6"
+        },
+        {
+          "score": "cp 42 from side-to-move perspective",
+          "depth": 12,
+          "moves": "6.d4 6…dxe5 7.Qe2 7…Be7 8.Qxe5 8…Nf6 9.Bxf4 9…c6"
+        },
+        {
+          "score": "cp 24 from side-to-move perspective",
+          "depth": 12,
+          "moves": "6.Bc4 6…Nc6"
+        },
+        {
+          "score": "cp -7 from side-to-move perspective",
+          "depth": 11,
+          "moves": "6.Be2 6…dxe5 7.d4 7…Be6 8.d5 8…Bf5 9.Nxe5 9…Qh4+"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -46 from side-to-move perspective",
+          "depth": 13,
+          "moves": "6…dxe5 7.Qe2"
+        },
+        {
+          "score": "cp -122 from side-to-move perspective",
+          "depth": 12,
+          "moves": "6…Be7 7.Bxf4 7…dxe5 8.Nxe5 8…Nf6 9.Qf3"
+        },
+        {
+          "score": "cp -134 from side-to-move perspective",
+          "depth": 12,
+          "moves": "6…Ne7 7.Bxf4 7…Ng6 8.Qd2 8…Nc6 9.Bb5 9…a6 10.Bxc6+"
+        },
+        {
+          "score": "cp -154 from side-to-move perspective",
+          "depth": 12,
+          "moves": "6…Be6 7.d5 7…Bg4 8.Bb5+ 8…c6 9.dxc6 9…bxc6 10.Bxf4"
+        }
+      ]
+    },
+    {
+      "key": "rnbqkbnr/ppp2ppp/3p4/4P3/3P1p2/2N2N2/PPP3PP/R1BQKB1R b KQkq - 0 6 d6e5",
+      "ply": 12,
+      "moveNumber": 6,
+      "side": "Black",
+      "san": "dxe5",
+      "uci": "d6e5",
+      "beforeFen": "rnbqkbnr/ppp2ppp/3p4/4P3/3P1p2/2N2N2/PPP3PP/R1BQKB1R b KQkq - 0 6",
+      "afterFen": "rnbqkbnr/ppp2ppp/8/4p3/3P1p2/2N2N2/PPP3PP/R1BQKB1R w KQkq - 0 7",
+      "source": "sample-supported",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5 Ng8 Nf3 d6 d4 dxe5",
+      "needsAuthoring": true,
+      "existingAccepted": null,
+      "candidatesBefore": [
+        {
+          "score": "cp -46 from side-to-move perspective",
+          "depth": 13,
+          "moves": "6…dxe5 7.Qe2"
+        },
+        {
+          "score": "cp -122 from side-to-move perspective",
+          "depth": 12,
+          "moves": "6…Be7 7.Bxf4 7…dxe5 8.Nxe5 8…Nf6 9.Qf3"
+        },
+        {
+          "score": "cp -134 from side-to-move perspective",
+          "depth": 12,
+          "moves": "6…Ne7 7.Bxf4 7…Ng6 8.Qd2 8…Nc6 9.Bb5 9…a6 10.Bxc6+"
+        },
+        {
+          "score": "cp -154 from side-to-move perspective",
+          "depth": 12,
+          "moves": "6…Be6 7.d5 7…Bg4 8.Bb5+ 8…c6 9.dxc6 9…bxc6 10.Bxf4"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 63 from side-to-move perspective",
+          "depth": 11,
+          "moves": "7.Bb5+ 7…c6 8.Bc4 8…exd4 9.O-O 9…Be7 10.Ne4 10…Nf6"
+        },
+        {
+          "score": "cp 58 from side-to-move perspective",
+          "depth": 11,
+          "moves": "7.Qe2 7…Be7 8.Qxe5 8…Nf6 9.Bxf4 9…c6 10.O-O-O 10…Nbd7"
+        },
+        {
+          "score": "cp 0 from side-to-move perspective",
+          "depth": 11,
+          "moves": "7.dxe5 7…Qxd1+ 8.Kxd1 8…Bf5 9.Nb5 9…Na6 10.Bxf4 10…Ne7"
+        },
+        {
+          "score": "cp -2 from side-to-move perspective",
+          "depth": 11,
+          "moves": "7.Bd3 7…exd4"
+        }
+      ]
+    },
+    {
+      "key": "rnbqkbnr/ppp2ppp/8/4p3/3P1p2/2N2N2/PPP3PP/R1BQKB1R w KQkq - 0 7 f1b5",
+      "ply": 13,
+      "moveNumber": 7,
+      "side": "White",
+      "san": "Bb5+",
+      "uci": "f1b5",
+      "beforeFen": "rnbqkbnr/ppp2ppp/8/4p3/3P1p2/2N2N2/PPP3PP/R1BQKB1R w KQkq - 0 7",
+      "afterFen": "rnbqkbnr/ppp2ppp/8/1B2p3/3P1p2/2N2N2/PPP3PP/R1BQK2R b KQkq - 1 7",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5 Ng8 Nf3 d6 d4 dxe5 Bb5+",
+      "needsAuthoring": true,
+      "existingAccepted": null,
+      "candidatesBefore": [
+        {
+          "score": "cp 63 from side-to-move perspective",
+          "depth": 11,
+          "moves": "7.Bb5+ 7…c6 8.Bc4 8…exd4 9.O-O 9…Be7 10.Ne4 10…Nf6"
+        },
+        {
+          "score": "cp 58 from side-to-move perspective",
+          "depth": 11,
+          "moves": "7.Qe2 7…Be7 8.Qxe5 8…Nf6 9.Bxf4 9…c6 10.O-O-O 10…Nbd7"
+        },
+        {
+          "score": "cp 0 from side-to-move perspective",
+          "depth": 11,
+          "moves": "7.dxe5 7…Qxd1+ 8.Kxd1 8…Bf5 9.Nb5 9…Na6 10.Bxf4 10…Ne7"
+        },
+        {
+          "score": "cp -2 from side-to-move perspective",
+          "depth": 11,
+          "moves": "7.Bd3 7…exd4"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -55 from side-to-move perspective",
+          "depth": 13,
+          "moves": "7…c6 8.Bc4 8…exd4 9.O-O 9…Be7 10.Ne4 10…Nf6 11.Nfg5"
+        },
+        {
+          "score": "cp -70 from side-to-move perspective",
+          "depth": 13,
+          "moves": "7…Bd7 8.Qe2 8…Bb4 9.Bxf4 9…Ne7 10.dxe5 10…Bxc3+ 11.bxc3"
+        },
+        {
+          "score": "cp -142 from side-to-move perspective",
+          "depth": 13,
+          "moves": "7…Nd7 8.dxe5"
+        },
+        {
+          "score": "cp -218 from side-to-move perspective",
+          "depth": 12,
+          "moves": "7…Nc6 8.Nxe5 8…Qh4+ 9.Kf1 9…a6 10.Ba4 10…Ne7 11.Qf3"
+        }
+      ]
+    },
+    {
+      "key": "rnbqkbnr/ppp2ppp/8/1B2p3/3P1p2/2N2N2/PPP3PP/R1BQK2R b KQkq - 1 7 c7c6",
+      "ply": 14,
+      "moveNumber": 7,
+      "side": "Black",
+      "san": "c6",
+      "uci": "c7c6",
+      "beforeFen": "rnbqkbnr/ppp2ppp/8/1B2p3/3P1p2/2N2N2/PPP3PP/R1BQK2R b KQkq - 1 7",
+      "afterFen": "rnbqkbnr/pp3ppp/2p5/1B2p3/3P1p2/2N2N2/PPP3PP/R1BQK2R w KQkq - 0 8",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5 Ng8 Nf3 d6 d4 dxe5 Bb5+ c6",
+      "needsAuthoring": true,
+      "existingAccepted": null,
+      "candidatesBefore": [
+        {
+          "score": "cp -55 from side-to-move perspective",
+          "depth": 13,
+          "moves": "7…c6 8.Bc4 8…exd4 9.O-O 9…Be7 10.Ne4 10…Nf6 11.Nfg5"
+        },
+        {
+          "score": "cp -70 from side-to-move perspective",
+          "depth": 13,
+          "moves": "7…Bd7 8.Qe2 8…Bb4 9.Bxf4 9…Ne7 10.dxe5 10…Bxc3+ 11.bxc3"
+        },
+        {
+          "score": "cp -142 from side-to-move perspective",
+          "depth": 13,
+          "moves": "7…Nd7 8.dxe5"
+        },
+        {
+          "score": "cp -218 from side-to-move perspective",
+          "depth": 12,
+          "moves": "7…Nc6 8.Nxe5 8…Qh4+ 9.Kf1 9…a6 10.Ba4 10…Ne7 11.Qf3"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 49 from side-to-move perspective",
+          "depth": 14,
+          "moves": "8.Bc4 8…exd4 9.O-O 9…Be7 10.Ne4 10…Nf6 11.Nxf6+ 11…Bxf6"
+        },
+        {
+          "score": "cp -30 from side-to-move perspective",
+          "depth": 14,
+          "moves": "8.Bd3 8…exd4"
+        },
+        {
+          "score": "cp -90 from side-to-move perspective",
+          "depth": 13,
+          "moves": "8.Be2 8…exd4 9.Qxd4 9…Qxd4 10.Nxd4 10…Bd6 11.Rf1 11…Be5"
+        },
+        {
+          "score": "cp -146 from side-to-move perspective",
+          "depth": 13,
+          "moves": "8.Ba4 8…exd4 9.Qxd4 9…Qxd4 10.Nxd4 10…Bc5 11.Nf3 11…Bd6"
+        }
+      ]
+    },
+    {
+      "key": "rnbqkbnr/pp3ppp/2p5/1B2p3/3P1p2/2N2N2/PPP3PP/R1BQK2R w KQkq - 0 8 b5c4",
+      "ply": 15,
+      "moveNumber": 8,
+      "side": "White",
+      "san": "Bc4",
+      "uci": "b5c4",
+      "beforeFen": "rnbqkbnr/pp3ppp/2p5/1B2p3/3P1p2/2N2N2/PPP3PP/R1BQK2R w KQkq - 0 8",
+      "afterFen": "rnbqkbnr/pp3ppp/2p5/4p3/2BP1p2/2N2N2/PPP3PP/R1BQK2R b KQkq - 1 8",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5 Ng8 Nf3 d6 d4 dxe5 Bb5+ c6 Bc4",
+      "needsAuthoring": true,
+      "existingAccepted": null,
+      "candidatesBefore": [
+        {
+          "score": "cp 49 from side-to-move perspective",
+          "depth": 14,
+          "moves": "8.Bc4 8…exd4 9.O-O 9…Be7 10.Ne4 10…Nf6 11.Nxf6+ 11…Bxf6"
+        },
+        {
+          "score": "cp -30 from side-to-move perspective",
+          "depth": 14,
+          "moves": "8.Bd3 8…exd4"
+        },
+        {
+          "score": "cp -90 from side-to-move perspective",
+          "depth": 13,
+          "moves": "8.Be2 8…exd4 9.Qxd4 9…Qxd4 10.Nxd4 10…Bd6 11.Rf1 11…Be5"
+        },
+        {
+          "score": "cp -146 from side-to-move perspective",
+          "depth": 13,
+          "moves": "8.Ba4 8…exd4 9.Qxd4 9…Qxd4 10.Nxd4 10…Bc5 11.Nf3 11…Bd6"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -53 from side-to-move perspective",
+          "depth": 13,
+          "moves": "8…exd4 9.O-O 9…Be7 10.Ne4 10…Nf6 11.Nxf6+ 11…Bxf6 12.Re1+"
+        },
+        {
+          "score": "cp -61 from side-to-move perspective",
+          "depth": 13,
+          "moves": "8…Bb4 9.O-O"
+        },
+        {
+          "score": "cp -64 from side-to-move perspective",
+          "depth": 12,
+          "moves": "8…Nf6 9.Nxe5 9…Be6 10.Bxe6 10…fxe6 11.O-O 11…Nbd7 12.Bxf4"
+        },
+        {
+          "score": "cp -82 from side-to-move perspective",
+          "depth": 12,
+          "moves": "8…Be6 9.Bxe6 9…fxe6 10.Qe2 10…Nf6 11.Qxe5 11…Bd6 12.Qxe6+"
+        }
+      ]
+    },
+    {
+      "key": "rnbqkbnr/pp3ppp/2p5/4p3/2BP1p2/2N2N2/PPP3PP/R1BQK2R b KQkq - 1 8 e5d4",
+      "ply": 16,
+      "moveNumber": 8,
+      "side": "Black",
+      "san": "exd4",
+      "uci": "e5d4",
+      "beforeFen": "rnbqkbnr/pp3ppp/2p5/4p3/2BP1p2/2N2N2/PPP3PP/R1BQK2R b KQkq - 1 8",
+      "afterFen": "rnbqkbnr/pp3ppp/2p5/8/2Bp1p2/2N2N2/PPP3PP/R1BQK2R w KQkq - 0 9",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5 Ng8 Nf3 d6 d4 dxe5 Bb5+ c6 Bc4 exd4",
+      "needsAuthoring": true,
+      "existingAccepted": null,
+      "candidatesBefore": [
+        {
+          "score": "cp -53 from side-to-move perspective",
+          "depth": 13,
+          "moves": "8…exd4 9.O-O 9…Be7 10.Ne4 10…Nf6 11.Nxf6+ 11…Bxf6 12.Re1+"
+        },
+        {
+          "score": "cp -61 from side-to-move perspective",
+          "depth": 13,
+          "moves": "8…Bb4 9.O-O"
+        },
+        {
+          "score": "cp -64 from side-to-move perspective",
+          "depth": 12,
+          "moves": "8…Nf6 9.Nxe5 9…Be6 10.Bxe6 10…fxe6 11.O-O 11…Nbd7 12.Bxf4"
+        },
+        {
+          "score": "cp -82 from side-to-move perspective",
+          "depth": 12,
+          "moves": "8…Be6 9.Bxe6 9…fxe6 10.Qe2 10…Nf6 11.Qxe5 11…Bd6 12.Qxe6+"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 50 from side-to-move perspective",
+          "depth": 12,
+          "moves": "9.O-O 9…Be7"
+        },
+        {
+          "score": "cp 1 from side-to-move perspective",
+          "depth": 11,
+          "moves": "9.Bxf4 9…Nf6 10.Ng5 10…Qe7+ 11.Kf2 11…Ng4+ 12.Kg3 12…Ne3"
+        },
+        {
+          "score": "cp -11 from side-to-move perspective",
+          "depth": 11,
+          "moves": "9.Qe2+ 9…Be7 10.Ne4 10…Bf5 11.Bxf4 11…Bxe4 12.Qxe4 12…Nf6"
+        },
+        {
+          "score": "cp -47 from side-to-move perspective",
+          "depth": 11,
+          "moves": "9.Qxd4 9…Qxd4 10.Nxd4 10…Bc5 11.Nb3 11…Be3 12.Ne4 12…Nh6"
+        }
+      ]
+    },
+    {
+      "key": "rnbqkbnr/pp3ppp/2p5/8/2Bp1p2/2N2N2/PPP3PP/R1BQK2R w KQkq - 0 9 e1g1",
+      "ply": 17,
+      "moveNumber": 9,
+      "side": "White",
+      "san": "O-O",
+      "uci": "e1g1",
+      "beforeFen": "rnbqkbnr/pp3ppp/2p5/8/2Bp1p2/2N2N2/PPP3PP/R1BQK2R w KQkq - 0 9",
+      "afterFen": "rnbqkbnr/pp3ppp/2p5/8/2Bp1p2/2N2N2/PPP3PP/R1BQ1RK1 b kq - 1 9",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5 Ng8 Nf3 d6 d4 dxe5 Bb5+ c6 Bc4 exd4 O-O",
+      "needsAuthoring": true,
+      "existingAccepted": null,
+      "candidatesBefore": [
+        {
+          "score": "cp 50 from side-to-move perspective",
+          "depth": 12,
+          "moves": "9.O-O 9…Be7"
+        },
+        {
+          "score": "cp 1 from side-to-move perspective",
+          "depth": 11,
+          "moves": "9.Bxf4 9…Nf6 10.Ng5 10…Qe7+ 11.Kf2 11…Ng4+ 12.Kg3 12…Ne3"
+        },
+        {
+          "score": "cp -11 from side-to-move perspective",
+          "depth": 11,
+          "moves": "9.Qe2+ 9…Be7 10.Ne4 10…Bf5 11.Bxf4 11…Bxe4 12.Qxe4 12…Nf6"
+        },
+        {
+          "score": "cp -47 from side-to-move perspective",
+          "depth": 11,
+          "moves": "9.Qxd4 9…Qxd4 10.Nxd4 10…Bc5 11.Nb3 11…Be3 12.Ne4 12…Nh6"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -79 from side-to-move perspective",
+          "depth": 12,
+          "moves": "9…Be6 10.Bxe6 10…fxe6 11.Nxd4 11…Na6 12.Bxf4 12…Bc5 13.Kh1"
+        },
+        {
+          "score": "cp -81 from side-to-move perspective",
+          "depth": 12,
+          "moves": "9…Nf6 10.Ng5 10…Be6 11.Bxe6 11…fxe6 12.Nxe6 12…Qd7 13.Bxf4"
+        },
+        {
+          "score": "cp -92 from side-to-move perspective",
+          "depth": 12,
+          "moves": "9…Nd7 10.Bxf4"
+        },
+        {
+          "score": "cp -52 from side-to-move perspective",
+          "depth": 11,
+          "moves": "9…Be7 10.Ne4 10…Nf6 11.Nxf6+ 11…Bxf6 12.Re1+ 12…Be6 13.Bxe6"
+        }
+      ]
+    },
+    {
+      "key": "rnbqkbnr/pp3ppp/2p5/8/2Bp1p2/2N2N2/PPP3PP/R1BQ1RK1 b kq - 1 9 c8e6",
+      "ply": 18,
+      "moveNumber": 9,
+      "side": "Black",
+      "san": "Be6",
+      "uci": "c8e6",
+      "beforeFen": "rnbqkbnr/pp3ppp/2p5/8/2Bp1p2/2N2N2/PPP3PP/R1BQ1RK1 b kq - 1 9",
+      "afterFen": "rn1qkbnr/pp3ppp/2p1b3/8/2Bp1p2/2N2N2/PPP3PP/R1BQ1RK1 w kq - 2 10",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5 Ng8 Nf3 d6 d4 dxe5 Bb5+ c6 Bc4 exd4 O-O Be6",
+      "needsAuthoring": true,
+      "existingAccepted": null,
+      "candidatesBefore": [
+        {
+          "score": "cp -79 from side-to-move perspective",
+          "depth": 12,
+          "moves": "9…Be6 10.Bxe6 10…fxe6 11.Nxd4 11…Na6 12.Bxf4 12…Bc5 13.Kh1"
+        },
+        {
+          "score": "cp -81 from side-to-move perspective",
+          "depth": 12,
+          "moves": "9…Nf6 10.Ng5 10…Be6 11.Bxe6 11…fxe6 12.Nxe6 12…Qd7 13.Bxf4"
+        },
+        {
+          "score": "cp -92 from side-to-move perspective",
+          "depth": 12,
+          "moves": "9…Nd7 10.Bxf4"
+        },
+        {
+          "score": "cp -52 from side-to-move perspective",
+          "depth": 11,
+          "moves": "9…Be7 10.Ne4 10…Nf6 11.Nxf6+ 11…Bxf6 12.Re1+ 12…Be6 13.Bxe6"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 149 from side-to-move perspective",
+          "depth": 14,
+          "moves": "10.Bxe6 10…fxe6 11.Ne2 11…g5 12.Bxf4 12…gxf4 13.Nxf4"
+        },
+        {
+          "score": "cp -136 from side-to-move perspective",
+          "depth": 14,
+          "moves": "10.Qe2 10…dxc3"
+        },
+        {
+          "score": "cp -178 from side-to-move perspective",
+          "depth": 13,
+          "moves": "10.Qe1 10…dxc3 11.Bxe6 11…Bc5+ 12.Kh1 12…fxe6 13.Bxf4 13…Qe7"
+        },
+        {
+          "score": "cp -292 from side-to-move perspective",
+          "depth": 13,
+          "moves": "10.Bxf4 10…Bxc4 11.Re1+ 11…Be7 12.Nxd4 12…Qd7 13.b3 13…Bd5"
+        }
+      ]
+    },
+    {
+      "key": "rn1qkbnr/pp3ppp/2p1b3/8/2Bp1p2/2N2N2/PPP3PP/R1BQ1RK1 w kq - 2 10 c4e6",
+      "ply": 19,
+      "moveNumber": 10,
+      "side": "White",
+      "san": "Bxe6",
+      "uci": "c4e6",
+      "beforeFen": "rn1qkbnr/pp3ppp/2p1b3/8/2Bp1p2/2N2N2/PPP3PP/R1BQ1RK1 w kq - 2 10",
+      "afterFen": "rn1qkbnr/pp3ppp/2p1B3/8/3p1p2/2N2N2/PPP3PP/R1BQ1RK1 b kq - 0 10",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5 Ng8 Nf3 d6 d4 dxe5 Bb5+ c6 Bc4 exd4 O-O Be6 Bxe6",
+      "needsAuthoring": true,
+      "existingAccepted": null,
+      "candidatesBefore": [
+        {
+          "score": "cp 149 from side-to-move perspective",
+          "depth": 14,
+          "moves": "10.Bxe6 10…fxe6 11.Ne2 11…g5 12.Bxf4 12…gxf4 13.Nxf4"
+        },
+        {
+          "score": "cp -136 from side-to-move perspective",
+          "depth": 14,
+          "moves": "10.Qe2 10…dxc3"
+        },
+        {
+          "score": "cp -178 from side-to-move perspective",
+          "depth": 13,
+          "moves": "10.Qe1 10…dxc3 11.Bxe6 11…Bc5+ 12.Kh1 12…fxe6 13.Bxf4 13…Qe7"
+        },
+        {
+          "score": "cp -292 from side-to-move perspective",
+          "depth": 13,
+          "moves": "10.Bxf4 10…Bxc4 11.Re1+ 11…Be7 12.Nxd4 12…Qd7 13.b3 13…Bd5"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -195 from side-to-move perspective",
+          "depth": 13,
+          "moves": "10…fxe6 11.Ne2 11…Bd6 12.Nxf4 12…Bxf4 13.Bxf4 13…Nf6 14.Ng5"
+        },
+        {
+          "score": "cp -338 from side-to-move perspective",
+          "depth": 13,
+          "moves": "10…Be7 11.Nxd4 11…Bf6 12.Rxf4 12…fxe6 13.Qg4 13…Bxd4+ 14.Rxd4"
+        },
+        {
+          "score": "cp -344 from side-to-move perspective",
+          "depth": 13,
+          "moves": "10…Nf6 11.Ne2 11…fxe6 12.Nxf4 12…e5 13.Nxe5 13…Nbd7 14.Ne6"
+        },
+        {
+          "score": "cp -501 from side-to-move perspective",
+          "depth": 12,
+          "moves": "10…a5 11.Ne2 11…fxe6 12.Nxf4"
+        }
+      ]
+    },
+    {
+      "key": "rn1qkbnr/pp3ppp/2p1B3/8/3p1p2/2N2N2/PPP3PP/R1BQ1RK1 b kq - 0 10 f7e6",
+      "ply": 20,
+      "moveNumber": 10,
+      "side": "Black",
+      "san": "fxe6",
+      "uci": "f7e6",
+      "beforeFen": "rn1qkbnr/pp3ppp/2p1B3/8/3p1p2/2N2N2/PPP3PP/R1BQ1RK1 b kq - 0 10",
+      "afterFen": "rn1qkbnr/pp4pp/2p1p3/8/3p1p2/2N2N2/PPP3PP/R1BQ1RK1 w kq - 0 11",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5 Ng8 Nf3 d6 d4 dxe5 Bb5+ c6 Bc4 exd4 O-O Be6 Bxe6 fxe6",
+      "needsAuthoring": true,
+      "existingAccepted": null,
+      "candidatesBefore": [
+        {
+          "score": "cp -195 from side-to-move perspective",
+          "depth": 13,
+          "moves": "10…fxe6 11.Ne2 11…Bd6 12.Nxf4 12…Bxf4 13.Bxf4 13…Nf6 14.Ng5"
+        },
+        {
+          "score": "cp -338 from side-to-move perspective",
+          "depth": 13,
+          "moves": "10…Be7 11.Nxd4 11…Bf6 12.Rxf4 12…fxe6 13.Qg4 13…Bxd4+ 14.Rxd4"
+        },
+        {
+          "score": "cp -344 from side-to-move perspective",
+          "depth": 13,
+          "moves": "10…Nf6 11.Ne2 11…fxe6 12.Nxf4 12…e5 13.Nxe5 13…Nbd7 14.Ne6"
+        },
+        {
+          "score": "cp -501 from side-to-move perspective",
+          "depth": 12,
+          "moves": "10…a5 11.Ne2 11…fxe6 12.Nxf4"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 198 from side-to-move perspective",
+          "depth": 13,
+          "moves": "11.Ne2 11…Bd6 12.Nxf4 12…Bxf4 13.Bxf4 13…Nf6 14.Ng5 14…Qd7"
+        },
+        {
+          "score": "cp 123 from side-to-move perspective",
+          "depth": 13,
+          "moves": "11.Ne4 11…Qd5 12.Neg5 12…Be7 13.Bxf4 13…Nd7 14.Qe1 14…Bxg5"
+        },
+        {
+          "score": "cp 45 from side-to-move perspective",
+          "depth": 13,
+          "moves": "11.Nxd4 11…Nf6 12.Re1 12…Na6 13.Rxe6+ 13…Kf7 14.Ne4 14…Nc5"
+        },
+        {
+          "score": "cp 12 from side-to-move perspective",
+          "depth": 13,
+          "moves": "11.Na4 11…b5"
+        }
+      ]
+    },
+    {
+      "key": "rn1qkbnr/pp4pp/2p1p3/8/3p1p2/2N2N2/PPP3PP/R1BQ1RK1 w kq - 0 11 c3e2",
+      "ply": 21,
+      "moveNumber": 11,
+      "side": "White",
+      "san": "Ne2",
+      "uci": "c3e2",
+      "beforeFen": "rn1qkbnr/pp4pp/2p1p3/8/3p1p2/2N2N2/PPP3PP/R1BQ1RK1 w kq - 0 11",
+      "afterFen": "rn1qkbnr/pp4pp/2p1p3/8/3p1p2/5N2/PPP1N1PP/R1BQ1RK1 b kq - 1 11",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5 Ng8 Nf3 d6 d4 dxe5 Bb5+ c6 Bc4 exd4 O-O Be6 Bxe6 fxe6 Ne2",
+      "needsAuthoring": true,
+      "existingAccepted": null,
+      "candidatesBefore": [
+        {
+          "score": "cp 198 from side-to-move perspective",
+          "depth": 13,
+          "moves": "11.Ne2 11…Bd6 12.Nxf4 12…Bxf4 13.Bxf4 13…Nf6 14.Ng5 14…Qd7"
+        },
+        {
+          "score": "cp 123 from side-to-move perspective",
+          "depth": 13,
+          "moves": "11.Ne4 11…Qd5 12.Neg5 12…Be7 13.Bxf4 13…Nd7 14.Qe1 14…Bxg5"
+        },
+        {
+          "score": "cp 45 from side-to-move perspective",
+          "depth": 13,
+          "moves": "11.Nxd4 11…Nf6 12.Re1 12…Na6 13.Rxe6+ 13…Kf7 14.Ne4 14…Nc5"
+        },
+        {
+          "score": "cp 12 from side-to-move perspective",
+          "depth": 13,
+          "moves": "11.Na4 11…b5"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -194 from side-to-move perspective",
+          "depth": 12,
+          "moves": "11…Bd6 12.Nxf4 12…Bxf4 13.Bxf4 13…Nf6 14.Ng5 14…Qd7 15.Nxe6"
+        },
+        {
+          "score": "cp -222 from side-to-move perspective",
+          "depth": 12,
+          "moves": "11…Na6 12.Nxf4"
+        },
+        {
+          "score": "cp -259 from side-to-move perspective",
+          "depth": 11,
+          "moves": "11…g5 12.Bxf4 12…gxf4 13.Nxf4 13…Qd6 14.Nxe6 14…Nd7 15.Qe2"
+        },
+        {
+          "score": "cp -307 from side-to-move perspective",
+          "depth": 11,
+          "moves": "11…e5 12.Nxe5 12…Nd7 13.Nxf4 13…Ngf6 14.Ne6 14…Qe7 15.Re1"
+        }
+      ]
+    },
+    {
+      "key": "rn1qkbnr/pp4pp/2p1p3/8/3p1p2/5N2/PPP1N1PP/R1BQ1RK1 b kq - 1 11 f8d6",
+      "ply": 22,
+      "moveNumber": 11,
+      "side": "Black",
+      "san": "Bd6",
+      "uci": "f8d6",
+      "beforeFen": "rn1qkbnr/pp4pp/2p1p3/8/3p1p2/5N2/PPP1N1PP/R1BQ1RK1 b kq - 1 11",
+      "afterFen": "rn1qk1nr/pp4pp/2pbp3/8/3p1p2/5N2/PPP1N1PP/R1BQ1RK1 w kq - 2 12",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5 Ng8 Nf3 d6 d4 dxe5 Bb5+ c6 Bc4 exd4 O-O Be6 Bxe6 fxe6 Ne2 Bd6",
+      "needsAuthoring": true,
+      "existingAccepted": null,
+      "candidatesBefore": [
+        {
+          "score": "cp -194 from side-to-move perspective",
+          "depth": 12,
+          "moves": "11…Bd6 12.Nxf4 12…Bxf4 13.Bxf4 13…Nf6 14.Ng5 14…Qd7 15.Nxe6"
+        },
+        {
+          "score": "cp -222 from side-to-move perspective",
+          "depth": 12,
+          "moves": "11…Na6 12.Nxf4"
+        },
+        {
+          "score": "cp -259 from side-to-move perspective",
+          "depth": 11,
+          "moves": "11…g5 12.Bxf4 12…gxf4 13.Nxf4 13…Qd6 14.Nxe6 14…Nd7 15.Qe2"
+        },
+        {
+          "score": "cp -307 from side-to-move perspective",
+          "depth": 11,
+          "moves": "11…e5 12.Nxe5 12…Nd7 13.Nxf4 13…Ngf6 14.Ne6 14…Qe7 15.Re1"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 246 from side-to-move perspective",
+          "depth": 12,
+          "moves": "12.Nxf4 12…Bxf4 13.Bxf4 13…Nf6 14.Ng5 14…Qd7 15.Qe2 15…Na6"
+        },
+        {
+          "score": "cp 239 from side-to-move perspective",
+          "depth": 12,
+          "moves": "12.Nexd4 12…Bc5 13.Kh1 13…Bxd4 14.Nxd4 14…e5"
+        },
+        {
+          "score": "cp 176 from side-to-move perspective",
+          "depth": 11,
+          "moves": "12.Re1 12…Nf6 13.Nexd4 13…Bc5 14.Rxe6+ 14…Kf7 15.c3 15…Bxd4+"
+        },
+        {
+          "score": "cp 144 from side-to-move perspective",
+          "depth": 11,
+          "moves": "12.Bxf4 12…Nf6 13.Ng5 13…e5 14.Nxd4 14…O-O 15.Nde6"
+        }
+      ]
+    },
+    {
+      "key": "rn1qk1nr/pp4pp/2pbp3/8/3p1p2/5N2/PPP1N1PP/R1BQ1RK1 w kq - 2 12 e2f4",
+      "ply": 23,
+      "moveNumber": 12,
+      "side": "White",
+      "san": "Nxf4",
+      "uci": "e2f4",
+      "beforeFen": "rn1qk1nr/pp4pp/2pbp3/8/3p1p2/5N2/PPP1N1PP/R1BQ1RK1 w kq - 2 12",
+      "afterFen": "rn1qk1nr/pp4pp/2pbp3/8/3p1N2/5N2/PPP3PP/R1BQ1RK1 b kq - 0 12",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5 Ng8 Nf3 d6 d4 dxe5 Bb5+ c6 Bc4 exd4 O-O Be6 Bxe6 fxe6 Ne2 Bd6 Nxf4",
+      "needsAuthoring": true,
+      "existingAccepted": null,
+      "candidatesBefore": [
+        {
+          "score": "cp 246 from side-to-move perspective",
+          "depth": 12,
+          "moves": "12.Nxf4 12…Bxf4 13.Bxf4 13…Nf6 14.Ng5 14…Qd7 15.Qe2 15…Na6"
+        },
+        {
+          "score": "cp 239 from side-to-move perspective",
+          "depth": 12,
+          "moves": "12.Nexd4 12…Bc5 13.Kh1 13…Bxd4 14.Nxd4 14…e5"
+        },
+        {
+          "score": "cp 176 from side-to-move perspective",
+          "depth": 11,
+          "moves": "12.Re1 12…Nf6 13.Nexd4 13…Bc5 14.Rxe6+ 14…Kf7 15.c3 15…Bxd4+"
+        },
+        {
+          "score": "cp 144 from side-to-move perspective",
+          "depth": 11,
+          "moves": "12.Bxf4 12…Nf6 13.Ng5 13…e5 14.Nxd4 14…O-O 15.Nde6"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -308 from side-to-move perspective",
+          "depth": 12,
+          "moves": "12…Bxf4 13.Bxf4 13…Nf6 14.Ng5 14…Qd5 15.Re1 15…O-O 16.Nxe6"
+        },
+        {
+          "score": "cp -434 from side-to-move perspective",
+          "depth": 12,
+          "moves": "12…Nf6 13.Nxe6 13…Qd7 14.Nfxd4 14…Be5 15.Qe1 15…Bxd4+ 16.Nxd4+"
+        },
+        {
+          "score": "cp -435 from side-to-move perspective",
+          "depth": 12,
+          "moves": "12…Qd7 13.Nxe6 13…Nf6 14.Nfxd4 14…Be5 15.Qe2 15…Bxd4+ 16.Nxd4+"
+        },
+        {
+          "score": "cp -488 from side-to-move perspective",
+          "depth": 12,
+          "moves": "12…e5 13.Nxe5"
+        }
+      ]
+    },
+    {
+      "key": "rn1qk1nr/pp4pp/2pbp3/8/3p1N2/5N2/PPP3PP/R1BQ1RK1 b kq - 0 12 d6f4",
+      "ply": 24,
+      "moveNumber": 12,
+      "side": "Black",
+      "san": "Bxf4",
+      "uci": "d6f4",
+      "beforeFen": "rn1qk1nr/pp4pp/2pbp3/8/3p1N2/5N2/PPP3PP/R1BQ1RK1 b kq - 0 12",
+      "afterFen": "rn1qk1nr/pp4pp/2p1p3/8/3p1b2/5N2/PPP3PP/R1BQ1RK1 w kq - 0 13",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5 Ng8 Nf3 d6 d4 dxe5 Bb5+ c6 Bc4 exd4 O-O Be6 Bxe6 fxe6 Ne2 Bd6 Nxf4 Bxf4",
+      "needsAuthoring": true,
+      "existingAccepted": null,
+      "candidatesBefore": [
+        {
+          "score": "cp -308 from side-to-move perspective",
+          "depth": 12,
+          "moves": "12…Bxf4 13.Bxf4 13…Nf6 14.Ng5 14…Qd5 15.Re1 15…O-O 16.Nxe6"
+        },
+        {
+          "score": "cp -434 from side-to-move perspective",
+          "depth": 12,
+          "moves": "12…Nf6 13.Nxe6 13…Qd7 14.Nfxd4 14…Be5 15.Qe1 15…Bxd4+ 16.Nxd4+"
+        },
+        {
+          "score": "cp -435 from side-to-move perspective",
+          "depth": 12,
+          "moves": "12…Qd7 13.Nxe6 13…Nf6 14.Nfxd4 14…Be5 15.Qe2 15…Bxd4+ 16.Nxd4+"
+        },
+        {
+          "score": "cp -488 from side-to-move perspective",
+          "depth": 12,
+          "moves": "12…e5 13.Nxe5"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 283 from side-to-move perspective",
+          "depth": 13,
+          "moves": "13.Bxf4 13…Nf6 14.Ng5 14…Qd5 15.Re1 15…O-O 16.Nxe6 16…Rf7"
+        },
+        {
+          "score": "cp -139 from side-to-move perspective",
+          "depth": 13,
+          "moves": "13.Qe2 13…Bxc1 14.Raxc1 14…Nd7 15.Nxd4 15…e5 16.Ne6 16…Qe7"
+        },
+        {
+          "score": "cp -222 from side-to-move perspective",
+          "depth": 13,
+          "moves": "13.Nxd4 13…e5"
+        },
+        {
+          "score": "cp -165 from side-to-move perspective",
+          "depth": 12,
+          "moves": "13.Qe1 13…Bxc1 14.Rxc1 14…Qd5 15.c4 15…dxc3 16.Rd1 16…Qc5+"
+        }
+      ]
+    },
+    {
+      "key": "rn1qk1nr/pp4pp/2p1p3/8/3p1b2/5N2/PPP3PP/R1BQ1RK1 w kq - 0 13 c1f4",
+      "ply": 25,
+      "moveNumber": 13,
+      "side": "White",
+      "san": "Bxf4",
+      "uci": "c1f4",
+      "beforeFen": "rn1qk1nr/pp4pp/2p1p3/8/3p1b2/5N2/PPP3PP/R1BQ1RK1 w kq - 0 13",
+      "afterFen": "rn1qk1nr/pp4pp/2p1p3/8/3p1B2/5N2/PPP3PP/R2Q1RK1 b kq - 0 13",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5 Ng8 Nf3 d6 d4 dxe5 Bb5+ c6 Bc4 exd4 O-O Be6 Bxe6 fxe6 Ne2 Bd6 Nxf4 Bxf4 Bxf4",
+      "needsAuthoring": true,
+      "existingAccepted": null,
+      "candidatesBefore": [
+        {
+          "score": "cp 283 from side-to-move perspective",
+          "depth": 13,
+          "moves": "13.Bxf4 13…Nf6 14.Ng5 14…Qd5 15.Re1 15…O-O 16.Nxe6 16…Rf7"
+        },
+        {
+          "score": "cp -139 from side-to-move perspective",
+          "depth": 13,
+          "moves": "13.Qe2 13…Bxc1 14.Raxc1 14…Nd7 15.Nxd4 15…e5 16.Ne6 16…Qe7"
+        },
+        {
+          "score": "cp -222 from side-to-move perspective",
+          "depth": 13,
+          "moves": "13.Nxd4 13…e5"
+        },
+        {
+          "score": "cp -165 from side-to-move perspective",
+          "depth": 12,
+          "moves": "13.Qe1 13…Bxc1 14.Rxc1 14…Qd5 15.c4 15…dxc3 16.Rd1 16…Qc5+"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -244 from side-to-move perspective",
+          "depth": 12,
+          "moves": "13…Nd7 14.Ng5 14…e5 15.Ne6 15…Qf6 16.Nc7+ 16…Kd8 17.Bg3"
+        },
+        {
+          "score": "cp -271 from side-to-move perspective",
+          "depth": 12,
+          "moves": "13…Nf6 14.Ng5 14…Qd5 15.Re1 15…O-O 16.Nxe6 16…Rf7 17.Nc7"
+        },
+        {
+          "score": "cp -271 from side-to-move perspective",
+          "depth": 12,
+          "moves": "13…Qd5 14.Ng5 14…Nf6 15.Re1 15…O-O 16.Nxe6 16…Rf7 17.Nc7"
+        },
+        {
+          "score": "cp -494 from side-to-move perspective",
+          "depth": 12,
+          "moves": "13…Qe7 14.Nxd4"
+        }
+      ]
+    },
+    {
+      "key": "rn1qk1nr/pp4pp/2p1p3/8/3p1B2/5N2/PPP3PP/R2Q1RK1 b kq - 0 13 b8d7",
+      "ply": 26,
+      "moveNumber": 13,
+      "side": "Black",
+      "san": "Nd7",
+      "uci": "b8d7",
+      "beforeFen": "rn1qk1nr/pp4pp/2p1p3/8/3p1B2/5N2/PPP3PP/R2Q1RK1 b kq - 0 13",
+      "afterFen": "r2qk1nr/pp1n2pp/2p1p3/8/3p1B2/5N2/PPP3PP/R2Q1RK1 w kq - 1 14",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5 Ng8 Nf3 d6 d4 dxe5 Bb5+ c6 Bc4 exd4 O-O Be6 Bxe6 fxe6 Ne2 Bd6 Nxf4 Bxf4 Bxf4 Nd7",
+      "needsAuthoring": true,
+      "existingAccepted": null,
+      "candidatesBefore": [
+        {
+          "score": "cp -244 from side-to-move perspective",
+          "depth": 12,
+          "moves": "13…Nd7 14.Ng5 14…e5 15.Ne6 15…Qf6 16.Nc7+ 16…Kd8 17.Bg3"
+        },
+        {
+          "score": "cp -271 from side-to-move perspective",
+          "depth": 12,
+          "moves": "13…Nf6 14.Ng5 14…Qd5 15.Re1 15…O-O 16.Nxe6 16…Rf7 17.Nc7"
+        },
+        {
+          "score": "cp -271 from side-to-move perspective",
+          "depth": 12,
+          "moves": "13…Qd5 14.Ng5 14…Nf6 15.Re1 15…O-O 16.Nxe6 16…Rf7 17.Nc7"
+        },
+        {
+          "score": "cp -494 from side-to-move perspective",
+          "depth": 12,
+          "moves": "13…Qe7 14.Nxd4"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 375 from side-to-move perspective",
+          "depth": 13,
+          "moves": "14.Nxd4 14…Qb6 15.Kh1 15…e5 16.Ne6 16…exf4 17.Re1 17…Ndf6"
+        },
+        {
+          "score": "cp 313 from side-to-move perspective",
+          "depth": 13,
+          "moves": "14.Ng5 14…e5 15.Ne6 15…Qf6 16.Nc7+ 16…Kd8 17.Bg3 17…Kxc7"
+        },
+        {
+          "score": "cp 257 from side-to-move perspective",
+          "depth": 13,
+          "moves": "14.Qe1 14…Nf8 15.Rd1 15…Qe7 16.Rxd4 16…Rd8 17.Rxd8+ 17…Qxd8"
+        },
+        {
+          "score": "cp 263 from side-to-move perspective",
+          "depth": 12,
+          "moves": "14.Bd6 14…Qb6 15.Ng5 15…O-O-O 16.Nxe6 16…Re8 17.Nxg7 17…Re4"
+        }
+      ]
+    },
+    {
+      "key": "r2qk1nr/pp1n2pp/2p1p3/8/3p1B2/5N2/PPP3PP/R2Q1RK1 w kq - 1 14 f3d4",
+      "ply": 27,
+      "moveNumber": 14,
+      "side": "White",
+      "san": "Nxd4",
+      "uci": "f3d4",
+      "beforeFen": "r2qk1nr/pp1n2pp/2p1p3/8/3p1B2/5N2/PPP3PP/R2Q1RK1 w kq - 1 14",
+      "afterFen": "r2qk1nr/pp1n2pp/2p1p3/8/3N1B2/8/PPP3PP/R2Q1RK1 b kq - 0 14",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5 Ng8 Nf3 d6 d4 dxe5 Bb5+ c6 Bc4 exd4 O-O Be6 Bxe6 fxe6 Ne2 Bd6 Nxf4 Bxf4 Bxf4 Nd7 Nxd4",
+      "needsAuthoring": true,
+      "existingAccepted": null,
+      "candidatesBefore": [
+        {
+          "score": "cp 375 from side-to-move perspective",
+          "depth": 13,
+          "moves": "14.Nxd4 14…Qb6 15.Kh1 15…e5 16.Ne6 16…exf4 17.Re1 17…Ndf6"
+        },
+        {
+          "score": "cp 313 from side-to-move perspective",
+          "depth": 13,
+          "moves": "14.Ng5 14…e5 15.Ne6 15…Qf6 16.Nc7+ 16…Kd8 17.Bg3 17…Kxc7"
+        },
+        {
+          "score": "cp 257 from side-to-move perspective",
+          "depth": 13,
+          "moves": "14.Qe1 14…Nf8 15.Rd1 15…Qe7 16.Rxd4 16…Rd8 17.Rxd8+ 17…Qxd8"
+        },
+        {
+          "score": "cp 263 from side-to-move perspective",
+          "depth": 12,
+          "moves": "14.Bd6 14…Qb6 15.Ng5 15…O-O-O 16.Nxe6 16…Re8 17.Nxg7 17…Re4"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -389 from side-to-move perspective",
+          "depth": 13,
+          "moves": "14…e5 15.Ne6 15…Qb6+ 16.Kh1 16…exf4 17.Re1 17…Ngf6 18.Ng5+"
+        },
+        {
+          "score": "cp -361 from side-to-move perspective",
+          "depth": 12,
+          "moves": "14…Qb6 15.Kh1 15…e5 16.Ne6 16…exf4 17.Re1 17…Ndf6 18.Nc7+"
+        },
+        {
+          "score": "cp -460 from side-to-move perspective",
+          "depth": 12,
+          "moves": "14…Ndf6 15.Nxe6 15…Qxd1 16.Raxd1 16…Kf7 17.Nd8+ 17…Kg6 18.Nxb7"
+        },
+        {
+          "score": "cp -584 from side-to-move perspective",
+          "depth": 12,
+          "moves": "14…Nf8 15.Qh5+ 15…g6 16.Qe5 16…Qf6 17.c3 17…h5 18.Qc5"
+        }
+      ]
+    },
+    {
+      "key": "r2qk1nr/pp1n2pp/2p1p3/8/3N1B2/8/PPP3PP/R2Q1RK1 b kq - 0 14 e6e5",
+      "ply": 28,
+      "moveNumber": 14,
+      "side": "Black",
+      "san": "e5",
+      "uci": "e6e5",
+      "beforeFen": "r2qk1nr/pp1n2pp/2p1p3/8/3N1B2/8/PPP3PP/R2Q1RK1 b kq - 0 14",
+      "afterFen": "r2qk1nr/pp1n2pp/2p5/4p3/3N1B2/8/PPP3PP/R2Q1RK1 w kq - 0 15",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5 Ng8 Nf3 d6 d4 dxe5 Bb5+ c6 Bc4 exd4 O-O Be6 Bxe6 fxe6 Ne2 Bd6 Nxf4 Bxf4 Bxf4 Nd7 Nxd4 e5",
+      "needsAuthoring": true,
+      "existingAccepted": null,
+      "candidatesBefore": [
+        {
+          "score": "cp -389 from side-to-move perspective",
+          "depth": 13,
+          "moves": "14…e5 15.Ne6 15…Qb6+ 16.Kh1 16…exf4 17.Re1 17…Ngf6 18.Ng5+"
+        },
+        {
+          "score": "cp -361 from side-to-move perspective",
+          "depth": 12,
+          "moves": "14…Qb6 15.Kh1 15…e5 16.Ne6 16…exf4 17.Re1 17…Ndf6 18.Nc7+"
+        },
+        {
+          "score": "cp -460 from side-to-move perspective",
+          "depth": 12,
+          "moves": "14…Ndf6 15.Nxe6 15…Qxd1 16.Raxd1 16…Kf7 17.Nd8+ 17…Kg6 18.Nxb7"
+        },
+        {
+          "score": "cp -584 from side-to-move perspective",
+          "depth": 12,
+          "moves": "14…Nf8 15.Qh5+ 15…g6 16.Qe5 16…Qf6 17.c3 17…h5 18.Qc5"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 389 from side-to-move perspective",
+          "depth": 13,
+          "moves": "15.Ne6 15…Qb6+ 16.Kh1 16…exf4 17.Re1 17…Ndf6 18.Nc7+ 18…Kf7"
+        },
+        {
+          "score": "cp 355 from side-to-move perspective",
+          "depth": 13,
+          "moves": "15.Bg3 15…Qb6 16.Bf2 16…c5 17.Nf5 17…Ngf6 18.Nxg7+ 18…Kf7"
+        },
+        {
+          "score": "cp 339 from side-to-move perspective",
+          "depth": 13,
+          "moves": "15.Qe1 15…Qb6 16.Be3 16…c5 17.Nf5 17…O-O-O 18.Rd1 18…Ngf6"
+        },
+        {
+          "score": "cp 307 from side-to-move perspective",
+          "depth": 13,
+          "moves": "15.Bxe5"
+        }
+      ]
+    },
+    {
+      "key": "r2qk1nr/pp1n2pp/2p5/4p3/3N1B2/8/PPP3PP/R2Q1RK1 w kq - 0 15 d4e6",
+      "ply": 29,
+      "moveNumber": 15,
+      "side": "White",
+      "san": "Ne6",
+      "uci": "d4e6",
+      "beforeFen": "r2qk1nr/pp1n2pp/2p5/4p3/3N1B2/8/PPP3PP/R2Q1RK1 w kq - 0 15",
+      "afterFen": "r2qk1nr/pp1n2pp/2p1N3/4p3/5B2/8/PPP3PP/R2Q1RK1 b kq - 1 15",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5 Ng8 Nf3 d6 d4 dxe5 Bb5+ c6 Bc4 exd4 O-O Be6 Bxe6 fxe6 Ne2 Bd6 Nxf4 Bxf4 Bxf4 Nd7 Nxd4 e5 Ne6",
+      "needsAuthoring": true,
+      "existingAccepted": null,
+      "candidatesBefore": [
+        {
+          "score": "cp 389 from side-to-move perspective",
+          "depth": 13,
+          "moves": "15.Ne6 15…Qb6+ 16.Kh1 16…exf4 17.Re1 17…Ndf6 18.Nc7+ 18…Kf7"
+        },
+        {
+          "score": "cp 355 from side-to-move perspective",
+          "depth": 13,
+          "moves": "15.Bg3 15…Qb6 16.Bf2 16…c5 17.Nf5 17…Ngf6 18.Nxg7+ 18…Kf7"
+        },
+        {
+          "score": "cp 339 from side-to-move perspective",
+          "depth": 13,
+          "moves": "15.Qe1 15…Qb6 16.Be3 16…c5 17.Nf5 17…O-O-O 18.Rd1 18…Ngf6"
+        },
+        {
+          "score": "cp 307 from side-to-move perspective",
+          "depth": 13,
+          "moves": "15.Bxe5"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -362 from side-to-move perspective",
+          "depth": 12,
+          "moves": "15…Qb6+ 16.Kh1 16…exf4 17.Re1 17…Ngf6 18.Ng5+ 18…Kd8 19.Nf7+"
+        },
+        {
+          "score": "cp -556 from side-to-move perspective",
+          "depth": 12,
+          "moves": "15…Qf6 16.Nc7+"
+        },
+        {
+          "score": "cp -549 from side-to-move perspective",
+          "depth": 11,
+          "moves": "15…Qe7 16.Nc7+ 16…Kd8 17.Bg5 17…Nf6 18.Bxf6 18…gxf6 19.Nxa8"
+        },
+        {
+          "score": "cp -655 from side-to-move perspective",
+          "depth": 11,
+          "moves": "15…Qa5 16.Nxg7+ 16…Ke7 17.Nf5+ 17…Kd8 18.Bg5+ 18…Kc8 19.Qd6"
+        }
+      ]
+    },
+    {
+      "key": "r2qk1nr/pp1n2pp/2p1N3/4p3/5B2/8/PPP3PP/R2Q1RK1 b kq - 1 15 d8b6",
+      "ply": 30,
+      "moveNumber": 15,
+      "side": "Black",
+      "san": "Qb6+",
+      "uci": "d8b6",
+      "beforeFen": "r2qk1nr/pp1n2pp/2p1N3/4p3/5B2/8/PPP3PP/R2Q1RK1 b kq - 1 15",
+      "afterFen": "r3k1nr/pp1n2pp/1qp1N3/4p3/5B2/8/PPP3PP/R2Q1RK1 w kq - 2 16",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5 Ng8 Nf3 d6 d4 dxe5 Bb5+ c6 Bc4 exd4 O-O Be6 Bxe6 fxe6 Ne2 Bd6 Nxf4 Bxf4 Bxf4 Nd7 Nxd4 e5 Ne6 Qb6+",
+      "needsAuthoring": true,
+      "existingAccepted": null,
+      "candidatesBefore": [
+        {
+          "score": "cp -362 from side-to-move perspective",
+          "depth": 12,
+          "moves": "15…Qb6+ 16.Kh1 16…exf4 17.Re1 17…Ngf6 18.Ng5+ 18…Kd8 19.Nf7+"
+        },
+        {
+          "score": "cp -556 from side-to-move perspective",
+          "depth": 12,
+          "moves": "15…Qf6 16.Nc7+"
+        },
+        {
+          "score": "cp -549 from side-to-move perspective",
+          "depth": 11,
+          "moves": "15…Qe7 16.Nc7+ 16…Kd8 17.Bg5 17…Nf6 18.Bxf6 18…gxf6 19.Nxa8"
+        },
+        {
+          "score": "cp -655 from side-to-move perspective",
+          "depth": 11,
+          "moves": "15…Qa5 16.Nxg7+ 16…Ke7 17.Nf5+ 17…Kd8 18.Bg5+ 18…Kc8 19.Qd6"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 362 from side-to-move perspective",
+          "depth": 13,
+          "moves": "16.Kh1 16…exf4 17.Re1 17…Ngf6 18.Ng5+ 18…Kd8 19.Nf7+ 19…Kc8"
+        },
+        {
+          "score": "cp 324 from side-to-move perspective",
+          "depth": 13,
+          "moves": "16.Be3 16…Qxe3+ 17.Kh1 17…Qh6 18.Qd6 18…Ngf6 19.Nc7+ 19…Kd8"
+        },
+        {
+          "score": "cp 0 from side-to-move perspective",
+          "depth": 13,
+          "moves": "16.Rf2 16…exf4 17.Qg4 17…Ngf6 18.Qxf4 18…Kf7 19.Rd1 19…Kxe6"
+        },
+        {
+          "score": "cp -517 from side-to-move perspective",
+          "depth": 13,
+          "moves": "16.Nd4 16…Qxd4+ 17.Qxd4 17…exd4 18.Rae1+ 18…Kd8 19.Bd6 19…Ngf6"
+        }
+      ]
+    },
+    {
+      "key": "r3k1nr/pp1n2pp/1qp1N3/4p3/5B2/8/PPP3PP/R2Q1RK1 w kq - 2 16 g1h1",
+      "ply": 31,
+      "moveNumber": 16,
+      "side": "White",
+      "san": "Kh1",
+      "uci": "g1h1",
+      "beforeFen": "r3k1nr/pp1n2pp/1qp1N3/4p3/5B2/8/PPP3PP/R2Q1RK1 w kq - 2 16",
+      "afterFen": "r3k1nr/pp1n2pp/1qp1N3/4p3/5B2/8/PPP3PP/R2Q1R1K b kq - 3 16",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5 Ng8 Nf3 d6 d4 dxe5 Bb5+ c6 Bc4 exd4 O-O Be6 Bxe6 fxe6 Ne2 Bd6 Nxf4 Bxf4 Bxf4 Nd7 Nxd4 e5 Ne6 Qb6+ Kh1",
+      "needsAuthoring": true,
+      "existingAccepted": null,
+      "candidatesBefore": [
+        {
+          "score": "cp 362 from side-to-move perspective",
+          "depth": 13,
+          "moves": "16.Kh1 16…exf4 17.Re1 17…Ngf6 18.Ng5+ 18…Kd8 19.Nf7+ 19…Kc8"
+        },
+        {
+          "score": "cp 324 from side-to-move perspective",
+          "depth": 13,
+          "moves": "16.Be3 16…Qxe3+ 17.Kh1 17…Qh6 18.Qd6 18…Ngf6 19.Nc7+ 19…Kd8"
+        },
+        {
+          "score": "cp 0 from side-to-move perspective",
+          "depth": 13,
+          "moves": "16.Rf2 16…exf4 17.Qg4 17…Ngf6 18.Qxf4 18…Kf7 19.Rd1 19…Kxe6"
+        },
+        {
+          "score": "cp -517 from side-to-move perspective",
+          "depth": 13,
+          "moves": "16.Nd4 16…Qxd4+ 17.Qxd4 17…exd4 18.Rae1+ 18…Kd8 19.Bd6 19…Ngf6"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -400 from side-to-move perspective",
+          "depth": 14,
+          "moves": "16…exf4 17.Re1"
+        },
+        {
+          "score": "cp -590 from side-to-move perspective",
+          "depth": 13,
+          "moves": "16…Ngf6 17.Nxg7+ 17…Kf7 18.Be3 18…Qc7 19.Nf5 19…Ke8 20.Qf3"
+        },
+        {
+          "score": "cp -656 from side-to-move perspective",
+          "depth": 13,
+          "moves": "16…Ke7 17.Nxg7 17…Rf8 18.Bg5+ 18…Ngf6 19.Qd2 19…c5 20.Nh5"
+        },
+        {
+          "score": "cp -724 from side-to-move perspective",
+          "depth": 13,
+          "moves": "16…c5 17.Nxg7+ 17…Ke7 18.Bg5+ 18…Ngf6 19.Nh5 19…Raf8 20.Nxf6"
+        }
+      ]
+    },
+    {
+      "key": "r3k1nr/pp1n2pp/1qp1N3/4p3/5B2/8/PPP3PP/R2Q1R1K b kq - 3 16 e5f4",
+      "ply": 32,
+      "moveNumber": 16,
+      "side": "Black",
+      "san": "exf4",
+      "uci": "e5f4",
+      "beforeFen": "r3k1nr/pp1n2pp/1qp1N3/4p3/5B2/8/PPP3PP/R2Q1R1K b kq - 3 16",
+      "afterFen": "r3k1nr/pp1n2pp/1qp1N3/8/5p2/8/PPP3PP/R2Q1R1K w kq - 0 17",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5 Ng8 Nf3 d6 d4 dxe5 Bb5+ c6 Bc4 exd4 O-O Be6 Bxe6 fxe6 Ne2 Bd6 Nxf4 Bxf4 Bxf4 Nd7 Nxd4 e5 Ne6 Qb6+ Kh1 exf4",
+      "needsAuthoring": true,
+      "existingAccepted": null,
+      "candidatesBefore": [
+        {
+          "score": "cp -400 from side-to-move perspective",
+          "depth": 14,
+          "moves": "16…exf4 17.Re1"
+        },
+        {
+          "score": "cp -590 from side-to-move perspective",
+          "depth": 13,
+          "moves": "16…Ngf6 17.Nxg7+ 17…Kf7 18.Be3 18…Qc7 19.Nf5 19…Ke8 20.Qf3"
+        },
+        {
+          "score": "cp -656 from side-to-move perspective",
+          "depth": 13,
+          "moves": "16…Ke7 17.Nxg7 17…Rf8 18.Bg5+ 18…Ngf6 19.Qd2 19…c5 20.Nh5"
+        },
+        {
+          "score": "cp -724 from side-to-move perspective",
+          "depth": 13,
+          "moves": "16…c5 17.Nxg7+ 17…Ke7 18.Bg5+ 18…Ngf6 19.Nh5 19…Raf8 20.Nxf6"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 375 from side-to-move perspective",
+          "depth": 13,
+          "moves": "17.Re1 17…Ngf6 18.Ng5+ 18…Kd8 19.Nf7+ 19…Kc8 20.Nxh8 20…Kc7"
+        },
+        {
+          "score": "cp 304 from side-to-move perspective",
+          "depth": 12,
+          "moves": "17.Qg4 17…Ngf6 18.Qxf4 18…Kf7 19.Ng5+ 19…Kg8 20.Qc4+ 20…Nd5"
+        },
+        {
+          "score": "cp 256 from side-to-move perspective",
+          "depth": 12,
+          "moves": "17.Qh5+ 17…Ke7 18.Rfe1 18…Ngf6 19.Qg5 19…Rhg8 20.Rad1 20…Rad8"
+        },
+        {
+          "score": "cp 253 from side-to-move perspective",
+          "depth": 12,
+          "moves": "17.Rxf4 17…Qxb2 18.Nc7+ 18…Kd8 19.Ne6+ 19…Ke8 20.Rf1 20…Ngf6"
+        }
+      ]
+    },
+    {
+      "key": "r3k1nr/pp1n2pp/1qp1N3/8/5p2/8/PPP3PP/R2Q1R1K w kq - 0 17 f1e1",
+      "ply": 33,
+      "moveNumber": 17,
+      "side": "White",
+      "san": "Re1",
+      "uci": "f1e1",
+      "beforeFen": "r3k1nr/pp1n2pp/1qp1N3/8/5p2/8/PPP3PP/R2Q1R1K w kq - 0 17",
+      "afterFen": "r3k1nr/pp1n2pp/1qp1N3/8/5p2/8/PPP3PP/R2QR2K b kq - 1 17",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5 Ng8 Nf3 d6 d4 dxe5 Bb5+ c6 Bc4 exd4 O-O Be6 Bxe6 fxe6 Ne2 Bd6 Nxf4 Bxf4 Bxf4 Nd7 Nxd4 e5 Ne6 Qb6+ Kh1 exf4 Re1",
+      "needsAuthoring": true,
+      "existingAccepted": null,
+      "candidatesBefore": [
+        {
+          "score": "cp 375 from side-to-move perspective",
+          "depth": 13,
+          "moves": "17.Re1 17…Ngf6 18.Ng5+ 18…Kd8 19.Nf7+ 19…Kc8 20.Nxh8 20…Kc7"
+        },
+        {
+          "score": "cp 304 from side-to-move perspective",
+          "depth": 12,
+          "moves": "17.Qg4 17…Ngf6 18.Qxf4 18…Kf7 19.Ng5+ 19…Kg8 20.Qc4+ 20…Nd5"
+        },
+        {
+          "score": "cp 256 from side-to-move perspective",
+          "depth": 12,
+          "moves": "17.Qh5+ 17…Ke7 18.Rfe1 18…Ngf6 19.Qg5 19…Rhg8 20.Rad1 20…Rad8"
+        },
+        {
+          "score": "cp 253 from side-to-move perspective",
+          "depth": 12,
+          "moves": "17.Rxf4 17…Qxb2 18.Nc7+ 18…Kd8 19.Ne6+ 19…Ke8 20.Rf1 20…Ngf6"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -372 from side-to-move perspective",
+          "depth": 11,
+          "moves": "17…Ngf6 18.Ng5+ 18…Kd8 19.Nf7+ 19…Kc8 20.Nxh8 20…Qxb2 21.Nf7"
+        },
+        {
+          "score": "cp -398 from side-to-move perspective",
+          "depth": 11,
+          "moves": "17…Ndf6 18.Nc7+ 18…Kf7 19.Nxa8 19…Qf2 20.Re2 20…Qh4 21.Qd8"
+        },
+        {
+          "score": "cp -478 from side-to-move perspective",
+          "depth": 11,
+          "moves": "17…Nf8 18.Qh5+ 18…g6 19.Nxf4+ 19…Kf7 20.Qe5 20…Nf6"
+        },
+        {
+          "score": "cp -713 from side-to-move perspective",
+          "depth": 11,
+          "moves": "17…Qxb2 18.Nc5+ 18…Kf7 19.Qxd7+ 19…Kg6 20.Rab1 20…Qxa2 21.Qg4+"
+        }
+      ]
+    },
+    {
+      "key": "r3k1nr/pp1n2pp/1qp1N3/8/5p2/8/PPP3PP/R2QR2K b kq - 1 17 g8f6",
+      "ply": 34,
+      "moveNumber": 17,
+      "side": "Black",
+      "san": "Ngf6",
+      "uci": "g8f6",
+      "beforeFen": "r3k1nr/pp1n2pp/1qp1N3/8/5p2/8/PPP3PP/R2QR2K b kq - 1 17",
+      "afterFen": "r3k2r/pp1n2pp/1qp1Nn2/8/5p2/8/PPP3PP/R2QR2K w kq - 2 18",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5 Ng8 Nf3 d6 d4 dxe5 Bb5+ c6 Bc4 exd4 O-O Be6 Bxe6 fxe6 Ne2 Bd6 Nxf4 Bxf4 Bxf4 Nd7 Nxd4 e5 Ne6 Qb6+ Kh1 exf4 Re1 Ngf6",
+      "needsAuthoring": true,
+      "existingAccepted": null,
+      "candidatesBefore": [
+        {
+          "score": "cp -372 from side-to-move perspective",
+          "depth": 11,
+          "moves": "17…Ngf6 18.Ng5+ 18…Kd8 19.Nf7+ 19…Kc8 20.Nxh8 20…Qxb2 21.Nf7"
+        },
+        {
+          "score": "cp -398 from side-to-move perspective",
+          "depth": 11,
+          "moves": "17…Ndf6 18.Nc7+ 18…Kf7 19.Nxa8 19…Qf2 20.Re2 20…Qh4 21.Qd8"
+        },
+        {
+          "score": "cp -478 from side-to-move perspective",
+          "depth": 11,
+          "moves": "17…Nf8 18.Qh5+ 18…g6 19.Nxf4+ 19…Kf7 20.Qe5 20…Nf6"
+        },
+        {
+          "score": "cp -713 from side-to-move perspective",
+          "depth": 11,
+          "moves": "17…Qxb2 18.Nc5+ 18…Kf7 19.Qxd7+ 19…Kg6 20.Rab1 20…Qxa2 21.Qg4+"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 405 from side-to-move perspective",
+          "depth": 15,
+          "moves": "18.Ng5+ 18…Kd8 19.Nf7+ 19…Kc8 20.Nxh8 20…Qxb2 21.Nf7 21…Qc3"
+        },
+        {
+          "score": "cp 127 from side-to-move perspective",
+          "depth": 15,
+          "moves": "18.Qd3 18…Kf7"
+        },
+        {
+          "score": "cp 0 from side-to-move perspective",
+          "depth": 15,
+          "moves": "18.Nc5+ 18…Kd8 19.Nxd7 19…Nxd7 20.Qg4 20…Kc7 21.Qxf4+ 21…Kc8"
+        },
+        {
+          "score": "cp -66 from side-to-move perspective",
+          "depth": 14,
+          "moves": "18.Qd6 18…Kf7 19.Nxg7 19…Rhe8 20.Nxe8 20…Rxe8 21.Qxf4 21…Qxb2"
+        }
+      ]
+    },
+    {
+      "key": "r3k2r/pp1n2pp/1qp1Nn2/8/5p2/8/PPP3PP/R2QR2K w kq - 2 18 e6g5",
+      "ply": 35,
+      "moveNumber": 18,
+      "side": "White",
+      "san": "Ng5+",
+      "uci": "e6g5",
+      "beforeFen": "r3k2r/pp1n2pp/1qp1Nn2/8/5p2/8/PPP3PP/R2QR2K w kq - 2 18",
+      "afterFen": "r3k2r/pp1n2pp/1qp2n2/6N1/5p2/8/PPP3PP/R2QR2K b kq - 3 18",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5 Ng8 Nf3 d6 d4 dxe5 Bb5+ c6 Bc4 exd4 O-O Be6 Bxe6 fxe6 Ne2 Bd6 Nxf4 Bxf4 Bxf4 Nd7 Nxd4 e5 Ne6 Qb6+ Kh1 exf4 Re1 Ngf6 Ng5+",
+      "needsAuthoring": true,
+      "existingAccepted": null,
+      "candidatesBefore": [
+        {
+          "score": "cp 405 from side-to-move perspective",
+          "depth": 15,
+          "moves": "18.Ng5+ 18…Kd8 19.Nf7+ 19…Kc8 20.Nxh8 20…Qxb2 21.Nf7 21…Qc3"
+        },
+        {
+          "score": "cp 127 from side-to-move perspective",
+          "depth": 15,
+          "moves": "18.Qd3 18…Kf7"
+        },
+        {
+          "score": "cp 0 from side-to-move perspective",
+          "depth": 15,
+          "moves": "18.Nc5+ 18…Kd8 19.Nxd7 19…Nxd7 20.Qg4 20…Kc7 21.Qxf4+ 21…Kc8"
+        },
+        {
+          "score": "cp -66 from side-to-move perspective",
+          "depth": 14,
+          "moves": "18.Qd6 18…Kf7 19.Nxg7 19…Rhe8 20.Nxe8 20…Rxe8 21.Qxf4 21…Qxb2"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -424 from side-to-move perspective",
+          "depth": 14,
+          "moves": "18…Kd8 19.Nf7+ 19…Kc8 20.Nxh8 20…Qxb2 21.Nf7 21…Qc3 22.Qd6"
+        },
+        {
+          "score": "cp -694 from side-to-move perspective",
+          "depth": 14,
+          "moves": "18…Qe3 19.Qd6"
+        },
+        {
+          "score": "cp -896 from side-to-move perspective",
+          "depth": 13,
+          "moves": "18…Ne4 19.Rxe4+ 19…Kd8 20.Nf7+ 20…Kc8 21.Re7 21…Rd8 22.Nxd8"
+        },
+        {
+          "score": "mate -4 from side-to-move perspective",
+          "depth": 13,
+          "moves": "18…Ne5 19.Rxe5+ 19…Kf8 20.Qd6+ 20…Kg8 21.Qe6+ 21…Kf8 22.Qf7#"
+        }
+      ]
+    },
+    {
+      "key": "r3k2r/pp1n2pp/1qp2n2/6N1/5p2/8/PPP3PP/R2QR2K b kq - 3 18 e8d8",
+      "ply": 36,
+      "moveNumber": 18,
+      "side": "Black",
+      "san": "Kd8",
+      "uci": "e8d8",
+      "beforeFen": "r3k2r/pp1n2pp/1qp2n2/6N1/5p2/8/PPP3PP/R2QR2K b kq - 3 18",
+      "afterFen": "r2k3r/pp1n2pp/1qp2n2/6N1/5p2/8/PPP3PP/R2QR2K w - - 4 19",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5 Ng8 Nf3 d6 d4 dxe5 Bb5+ c6 Bc4 exd4 O-O Be6 Bxe6 fxe6 Ne2 Bd6 Nxf4 Bxf4 Bxf4 Nd7 Nxd4 e5 Ne6 Qb6+ Kh1 exf4 Re1 Ngf6 Ng5+ Kd8",
+      "needsAuthoring": true,
+      "existingAccepted": null,
+      "candidatesBefore": [
+        {
+          "score": "cp -424 from side-to-move perspective",
+          "depth": 14,
+          "moves": "18…Kd8 19.Nf7+ 19…Kc8 20.Nxh8 20…Qxb2 21.Nf7 21…Qc3 22.Qd6"
+        },
+        {
+          "score": "cp -694 from side-to-move perspective",
+          "depth": 14,
+          "moves": "18…Qe3 19.Qd6"
+        },
+        {
+          "score": "cp -896 from side-to-move perspective",
+          "depth": 13,
+          "moves": "18…Ne4 19.Rxe4+ 19…Kd8 20.Nf7+ 20…Kc8 21.Re7 21…Rd8 22.Nxd8"
+        },
+        {
+          "score": "mate -4 from side-to-move perspective",
+          "depth": 13,
+          "moves": "18…Ne5 19.Rxe5+ 19…Kf8 20.Qd6+ 20…Kg8 21.Qe6+ 21…Kf8 22.Qf7#"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 412 from side-to-move perspective",
+          "depth": 15,
+          "moves": "19.Nf7+ 19…Kc8 20.Nxh8 20…Qxb2 21.Nf7 21…Qc3 22.Re7 22…a5"
+        },
+        {
+          "score": "cp -253 from side-to-move perspective",
+          "depth": 15,
+          "moves": "19.Qf3 19…Kc8 20.Nf7 20…Rg8 21.Qxf4 21…Qc7 22.Qf5 22…a5"
+        },
+        {
+          "score": "cp -265 from side-to-move perspective",
+          "depth": 15,
+          "moves": "19.Qd6 19…Kc8 20.Rad1 20…Qc7 21.Qa3 21…a5 22.Re7 22…Nd5"
+        },
+        {
+          "score": "cp -279 from side-to-move perspective",
+          "depth": 15,
+          "moves": "19.Qd2 19…Kc8 20.Nf7 20…Rf8 21.Nd6+ 21…Kb8 22.Qxf4 22…Qc7"
+        }
+      ]
+    },
+    {
+      "key": "r2k3r/pp1n2pp/1qp2n2/6N1/5p2/8/PPP3PP/R2QR2K w - - 4 19 g5f7",
+      "ply": 37,
+      "moveNumber": 19,
+      "side": "White",
+      "san": "Nf7+",
+      "uci": "g5f7",
+      "beforeFen": "r2k3r/pp1n2pp/1qp2n2/6N1/5p2/8/PPP3PP/R2QR2K w - - 4 19",
+      "afterFen": "r2k3r/pp1n1Npp/1qp2n2/8/5p2/8/PPP3PP/R2QR2K b - - 5 19",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5 Ng8 Nf3 d6 d4 dxe5 Bb5+ c6 Bc4 exd4 O-O Be6 Bxe6 fxe6 Ne2 Bd6 Nxf4 Bxf4 Bxf4 Nd7 Nxd4 e5 Ne6 Qb6+ Kh1 exf4 Re1 Ngf6 Ng5+ Kd8 Nf7+",
+      "needsAuthoring": true,
+      "existingAccepted": null,
+      "candidatesBefore": [
+        {
+          "score": "cp 412 from side-to-move perspective",
+          "depth": 15,
+          "moves": "19.Nf7+ 19…Kc8 20.Nxh8 20…Qxb2 21.Nf7 21…Qc3 22.Re7 22…a5"
+        },
+        {
+          "score": "cp -253 from side-to-move perspective",
+          "depth": 15,
+          "moves": "19.Qf3 19…Kc8 20.Nf7 20…Rg8 21.Qxf4 21…Qc7 22.Qf5 22…a5"
+        },
+        {
+          "score": "cp -265 from side-to-move perspective",
+          "depth": 15,
+          "moves": "19.Qd6 19…Kc8 20.Rad1 20…Qc7 21.Qa3 21…a5 22.Re7 22…Nd5"
+        },
+        {
+          "score": "cp -279 from side-to-move perspective",
+          "depth": 15,
+          "moves": "19.Qd2 19…Kc8 20.Nf7 20…Rf8 21.Nd6+ 21…Kb8 22.Qxf4 22…Qc7"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -407 from side-to-move perspective",
+          "depth": 15,
+          "moves": "19…Kc8 20.Nxh8 20…Qxb2 21.Nf7 21…Qc3 22.Qd6 22…f3 23.Qf4"
+        },
+        {
+          "score": "cp -453 from side-to-move perspective",
+          "depth": 15,
+          "moves": "19…Kc7 20.Qd6+ 20…Kc8 21.Nxh8 21…Qc7 22.Qe7 22…Kb8 23.Re6"
+        }
+      ]
+    },
+    {
+      "key": "r2k3r/pp1n1Npp/1qp2n2/8/5p2/8/PPP3PP/R2QR2K b - - 5 19 d8c8",
+      "ply": 38,
+      "moveNumber": 19,
+      "side": "Black",
+      "san": "Kc8",
+      "uci": "d8c8",
+      "beforeFen": "r2k3r/pp1n1Npp/1qp2n2/8/5p2/8/PPP3PP/R2QR2K b - - 5 19",
+      "afterFen": "r1k4r/pp1n1Npp/1qp2n2/8/5p2/8/PPP3PP/R2QR2K w - - 6 20",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5 Ng8 Nf3 d6 d4 dxe5 Bb5+ c6 Bc4 exd4 O-O Be6 Bxe6 fxe6 Ne2 Bd6 Nxf4 Bxf4 Bxf4 Nd7 Nxd4 e5 Ne6 Qb6+ Kh1 exf4 Re1 Ngf6 Ng5+ Kd8 Nf7+ Kc8",
+      "needsAuthoring": true,
+      "existingAccepted": null,
+      "candidatesBefore": [
+        {
+          "score": "cp -407 from side-to-move perspective",
+          "depth": 15,
+          "moves": "19…Kc8 20.Nxh8 20…Qxb2 21.Nf7 21…Qc3 22.Qd6 22…f3 23.Qf4"
+        },
+        {
+          "score": "cp -453 from side-to-move perspective",
+          "depth": 15,
+          "moves": "19…Kc7 20.Qd6+ 20…Kc8 21.Nxh8 21…Qc7 22.Qe7 22…Kb8 23.Re6"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 408 from side-to-move perspective",
+          "depth": 15,
+          "moves": "20.Nxh8 20…Qxb2 21.Nf7 21…Qc3 22.Re7 22…b5 23.Qe1 23…Qxe1+"
+        },
+        {
+          "score": "cp -265 from side-to-move perspective",
+          "depth": 15,
+          "moves": "20.Qc1 20…Rf8"
+        },
+        {
+          "score": "cp -255 from side-to-move perspective",
+          "depth": 14,
+          "moves": "20.Qd2 20…Rg8 21.Qxf4 21…Qc7 22.Qf5 22…Kb8 23.Re7 23…a5"
+        },
+        {
+          "score": "cp -255 from side-to-move perspective",
+          "depth": 14,
+          "moves": "20.Qf3 20…Rf8 21.Nd6+ 21…Kb8 22.Qxf4 22…Qc7 23.Re7 23…a5"
+        }
+      ]
+    },
+    {
+      "key": "r1k4r/pp1n1Npp/1qp2n2/8/5p2/8/PPP3PP/R2QR2K w - - 6 20 f7h8",
+      "ply": 39,
+      "moveNumber": 20,
+      "side": "White",
+      "san": "Nxh8",
+      "uci": "f7h8",
+      "beforeFen": "r1k4r/pp1n1Npp/1qp2n2/8/5p2/8/PPP3PP/R2QR2K w - - 6 20",
+      "afterFen": "r1k4N/pp1n2pp/1qp2n2/8/5p2/8/PPP3PP/R2QR2K b - - 0 20",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5 Ng8 Nf3 d6 d4 dxe5 Bb5+ c6 Bc4 exd4 O-O Be6 Bxe6 fxe6 Ne2 Bd6 Nxf4 Bxf4 Bxf4 Nd7 Nxd4 e5 Ne6 Qb6+ Kh1 exf4 Re1 Ngf6 Ng5+ Kd8 Nf7+ Kc8 Nxh8",
+      "needsAuthoring": true,
+      "existingAccepted": null,
+      "candidatesBefore": [
+        {
+          "score": "cp 408 from side-to-move perspective",
+          "depth": 15,
+          "moves": "20.Nxh8 20…Qxb2 21.Nf7 21…Qc3 22.Re7 22…b5 23.Qe1 23…Qxe1+"
+        },
+        {
+          "score": "cp -265 from side-to-move perspective",
+          "depth": 15,
+          "moves": "20.Qc1 20…Rf8"
+        },
+        {
+          "score": "cp -255 from side-to-move perspective",
+          "depth": 14,
+          "moves": "20.Qd2 20…Rg8 21.Qxf4 21…Qc7 22.Qf5 22…Kb8 23.Re7 23…a5"
+        },
+        {
+          "score": "cp -255 from side-to-move perspective",
+          "depth": 14,
+          "moves": "20.Qf3 20…Rf8 21.Nd6+ 21…Kb8 22.Qxf4 22…Qc7 23.Re7 23…a5"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -404 from side-to-move perspective",
+          "depth": 14,
+          "moves": "20…Qxb2 21.Nf7 21…Qc3 22.Re7 22…Rb8 23.Qe1 23…Qxe1+ 24.Raxe1"
+        },
+        {
+          "score": "cp -416 from side-to-move perspective",
+          "depth": 14,
+          "moves": "20…a5 21.Nf7 21…Qc5 22.Qd2 22…g5 23.Rad1 23…Kc7 24.a3"
+        },
+        {
+          "score": "cp -413 from side-to-move perspective",
+          "depth": 13,
+          "moves": "20…Kc7 21.Nf7 21…Qc5 22.Qd2 22…g5 23.b4 23…Qd5 24.Qxd5"
+        },
+        {
+          "score": "cp -413 from side-to-move perspective",
+          "depth": 13,
+          "moves": "20…Qc5 21.Nf7 21…Kc7 22.Qd2 22…g5 23.b4 23…Qd5 24.Qxd5"
+        }
+      ]
+    },
+    {
+      "key": "r1k4N/pp1n2pp/1qp2n2/8/5p2/8/PPP3PP/R2QR2K b - - 0 20 b6b2",
+      "ply": 40,
+      "moveNumber": 20,
+      "side": "Black",
+      "san": "Qxb2",
+      "uci": "b6b2",
+      "beforeFen": "r1k4N/pp1n2pp/1qp2n2/8/5p2/8/PPP3PP/R2QR2K b - - 0 20",
+      "afterFen": "r1k4N/pp1n2pp/2p2n2/8/5p2/8/PqP3PP/R2QR2K w - - 0 21",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 e5 Nc3 Nf6 f4 exf4 e5 Ng8 Nf3 d6 d4 dxe5 Bb5+ c6 Bc4 exd4 O-O Be6 Bxe6 fxe6 Ne2 Bd6 Nxf4 Bxf4 Bxf4 Nd7 Nxd4 e5 Ne6 Qb6+ Kh1 exf4 Re1 Ngf6 Ng5+ Kd8 Nf7+ Kc8 Nxh8 Qxb2",
+      "needsAuthoring": true,
+      "existingAccepted": null,
+      "candidatesBefore": [
+        {
+          "score": "cp -404 from side-to-move perspective",
+          "depth": 14,
+          "moves": "20…Qxb2 21.Nf7 21…Qc3 22.Re7 22…Rb8 23.Qe1 23…Qxe1+ 24.Raxe1"
+        },
+        {
+          "score": "cp -416 from side-to-move perspective",
+          "depth": 14,
+          "moves": "20…a5 21.Nf7 21…Qc5 22.Qd2 22…g5 23.Rad1 23…Kc7 24.a3"
+        },
+        {
+          "score": "cp -413 from side-to-move perspective",
+          "depth": 13,
+          "moves": "20…Kc7 21.Nf7 21…Qc5 22.Qd2 22…g5 23.b4 23…Qd5 24.Qxd5"
+        },
+        {
+          "score": "cp -413 from side-to-move perspective",
+          "depth": 13,
+          "moves": "20…Qc5 21.Nf7 21…Kc7 22.Qd2 22…g5 23.b4 23…Qd5 24.Qxd5"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 397 from side-to-move perspective",
+          "depth": 13,
+          "moves": "21.Nf7 21…Qc3 22.Re7 22…b6 23.Qe1 23…Qc5 24.Qe6 24…Qd5"
+        },
+        {
+          "score": "cp 361 from side-to-move perspective",
+          "depth": 13,
+          "moves": "21.c4 21…Kc7 22.Nf7 22…Rf8 23.Ng5 23…Kc8 24.Ne6 24…Rf7"
+        },
+        {
+          "score": "cp 323 from side-to-move perspective",
+          "depth": 12,
+          "moves": "21.Qf3 21…Nd5 22.Nf7 22…Qf6 23.Nd6+ 23…Kc7 24.Nb5+ 24…Kd8"
+        },
+        {
+          "score": "cp 313 from side-to-move perspective",
+          "depth": 12,
+          "moves": "21.h3 21…b5 22.Nf7 22…Qc3 23.a4 23…b4 24.a5 24…f3"
+        }
+      ]
+    }
+  ]
+}

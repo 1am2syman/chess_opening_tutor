@@ -1,0 +1,22 @@
+TOTAL_STAGES=1
+umask 077
+cd "$(dirname "$0")/.."
+ENV_FILE=".env.local"
+banner "Lichess opening-data access"
+stage "Create and save a local token"
+say "The token is only for local collection. Never paste it into chat."
+open_url "https://lichess.org/account/oauth/token/create"
+step "Sign in to Lichess and create a personal access token named Openboard local data."
+step "Use minimum permissions. The explorer specification lists OAuth without a required scope; leave permission checkboxes off if the page permits it."
+note "Do not grant write/game/account permissions merely for opening statistics."
+step "Copy the generated token, then return to this terminal."
+ask_secret LICHESS_TOKEN "Paste the token here (input is hidden):"
+if [[ ! "$LICHESS_TOKEN" =~ ^[A-Za-z0-9_-]+$ ]]; then
+  warn "Empty or unexpected token format. Nothing was saved."
+  exit 1
+fi
+write_env LICHESS_TOKEN "$LICHESS_TOKEN"
+chmod 600 "$ENV_FILE"
+unset LICHESS_TOKEN
+finish
+note "Tell the assistant: token saved. The collection script will verify access without printing the token."

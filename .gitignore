@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local secrets — never distribute with the HTML
+.env
+.env.*
+!.env.example
+
+# Local build tooling and dependency caches
+node_modules/
+.tools/
+artifacts/

@@ -1,0 +1,101 @@
+{
+  "lineId": "caro-18",
+  "model": "cliproxyapi/gpt-6-astra",
+  "effort": "high",
+  "lessons": [
+    {
+      "key": "rnbqkbnr/pp2pppp/2p5/8/3Pp3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4 f1c4",
+      "title": "Development Instead of Immediate Recovery",
+      "question": "What problem does White pose by developing while Black's advanced pawn remains on the board?",
+      "takeaway": "White leaves the pawn on e4 and develops the bishop toward f7. This changes the character of the Classical position: Black is no longer facing an immediate knight recapture, but an offer to trade material recovery for faster activity. Take the development seriously without treating it as a forced attack. Black can develop a knight while adding protection to the extra pawn.",
+      "intent": "The bishop has a clear diagonal toward f7 through d5 and e6. White already has a knight developed and wants to bring more pieces into play before recovering material. Black must balance maintaining the extra pawn with preventing that development lead from becoming pressure against the uncastled king.",
+      "plan": "The repertoire continues ...Nf6, supporting e4 while developing. White then plays f3, offering a pawn exchange that will accelerate the other knight's arrival. The supplied Nge2 continuation instead prepares Ng3 against e4. Recognize which method White chooses: direct pawn contact and a knight maneuver give Black different decisions about when to release the advanced pawn.",
+      "tactic": "The bishop's line to f7 is currently open, but one bishop attack does not win a pawn defended by the king. Meanwhile, the e4 pawn is attacked by the c3 knight and is not yet defended. Developing ...Nf6 changes that capture calculation by supplying a knight recapture on e4.",
+      "theme": "The shared opening has offered White a straightforward central recapture. This branch declines it, beginning a development race in which Black's material advantage must be accompanied by timely piece activity and attention to king safety.",
+      "alternativeNote": "The supplied Nxe4 immediately restores material and continues ...Nf6 Nxf6+ exf6. Bc4 keeps Black's extra pawn on the board instead. That is a real commitment to activity, not simply another move order leading automatically to the same central exchange."
+    },
+    {
+      "key": "rnbqkbnr/pp2pppp/2p5/8/2BPp3/2N5/PPP2PPP/R1BQK1NR b KQkq - 1 4 g8f6",
+      "title": "Support the Pawn Through Development",
+      "question": "How can Black respond to White's development lead while deciding what to do with the advanced central pawn?",
+      "takeaway": "Black develops a knight and protects e4 in the same move. This avoids choosing between defending the extra pawn and joining the development race. It does not solve king safety by itself: White's bishop still looks toward f7, and both black bishops remain at home. The point is to make useful progress without spending a separate pawn move to hold the material.",
+      "intent": "The knight gives e4 a defender and controls d5, while clearing g8 for eventual castling. White can no longer evaluate the central capture as an unopposed recovery. Black is still behind in development, so preserving the extra pawn must remain compatible with releasing the bishops and securing the king.",
+      "plan": "Against the line's f3, Black can exchange on f3 and meet the knight recapture with bishop development. If White chooses Nge2 instead, the supplied ...Bg4 continuation develops with pressure along the diagonal toward the queen. These are different responses to different setups; do not force the same bishop placement before seeing White's choice.",
+      "tactic": "The f6 knight defends e4 directly. A white knight capture there would therefore allow ...Nxe4; the bishop on c4 does not protect e4. This is why White's next pawn challenge matters. It creates a way to dislodge the advanced pawn without simply allowing the c3 knight to be captured for it.",
+      "theme": "Black's first developing move also explains why White needs a more committed recovery plan. The position moves from an undefended extra pawn toward a gambit structure, with each side trying to make its next tempo serve two purposes.",
+      "alternativeNote": "The supplied ...b5 attacks the c4 bishop and continues Bb3 Nf6. That gains space and seeks a tempo but commits another pawn before developing a piece. The played knight move supports e4 immediately and keeps the queenside pawn structure unchanged."
+    },
+    {
+      "key": "rnbqkb1r/pp2pppp/2p2n2/8/2BPp3/2N5/PPP2PPP/R1BQK1NR w KQkq - 2 5 f2f3",
+      "title": "Offer Material to Accelerate the Pieces",
+      "question": "How can White challenge the defended extra pawn while creating a useful developing recapture?",
+      "takeaway": "White attacks e4 with the f-pawn, inviting Black to capture and help the g1 knight develop. This is not a plan to restore equal material: after ...exf3 Nxf3, White has lost both the e-pawn and f-pawn for Black's original d-pawn. The compensation is quicker development and a cleared f-file for a future rook, although Black's f-pawn will still obstruct that file.",
+      "intent": "White turns the struggle over e4 into a deliberate pawn investment. Moving the f-pawn also loosens the king's original shelter, so rapid development becomes more important. Black should accept that the resulting position has practical attacking resources without confusing those resources with a guaranteed recovery of the pawn.",
+      "plan": "The main line answers ...exf3, followed by Nxf3 and ...Bf5. White can then castle quickly, while Black needs to release the other bishop and prepare king safety. The supplied ...b5 alternative first makes White decide where the c4 bishop belongs; immediate capture instead defines the material and development imbalance straight away.",
+      "tactic": "The new pawn attacks e4, and the e4 pawn can capture it on f3. White's g1 knight can then recapture in one developing move. Count the whole exchange: Black's original d-pawn has taken two white pawns before disappearing, so the natural knight recapture still leaves Black a pawn ahead.",
+      "theme": "The delayed recovery becomes a genuine gambit. White is buying time and potential file activity; Black's task is to use the extra material responsibly, developing before White can bring every attacking piece into contact.",
+      "alternativeNote": "The supplied Nge2 develops without moving the f-pawn and continues ...Bg4 h3 Bxe2 Bxe2. That route keeps a different king shelter and resolves a minor-piece relationship. The played f3 more directly challenges e4 but accepts an enduring pawn deficit after the expected exchange."
+    },
+    {
+      "key": "rnbqkb1r/pp2pppp/2p2n2/8/2BPp3/2N2P2/PPP3PP/R1BQK1NR b KQkq - 0 5 e4f3",
+      "title": "Accept the Pawn Without Clinging to It",
+      "question": "How should Black resolve White's pawn challenge while accounting for the development White hopes to gain?",
+      "takeaway": "Black captures on f3, accepting the pawn investment rather than trying to maintain a permanent foothold on e4. White will gain a natural developing recapture, so this is not free material without consequences. The bargain is clear: Black keeps one extra pawn after the exchange, while White brings another piece into play and prepares to use the file vacated by the f-pawn.",
+      "intent": "The advanced pawn has completed its material task and can now be returned. Black should not measure success by how long that pawn survives on f3. The lasting imbalance is an extra pawn against White's faster mobilization, with Black still needing both bishop development and a safe king.",
+      "plan": "Expect Nxf3 and develop ...Bf5, making progress before closing the bishop's diagonal with ...e6. White can castle or pursue more immediate piece activity. The supplied alternatives to the knight recapture are less economical, but Black must still examine which piece recaptures before choosing a development plan or considering another pawn capture.",
+      "tactic": "The supplied Qxf3 continuation allows ...Qxd4. White's queen has left d1, removing its protection of d4, and Black's queen has a clear path down the d-file. Nxf3 avoids that particular concession because the queen stays home. The identity of the recapturing piece therefore affects central safety as well as development.",
+      "theme": "Black releases the advanced pawn at the moment it can leave behind a lasting material gain. The lesson now turns from holding a pawn to neutralizing the activity White receives for allowing that gain.",
+      "alternativeNote": "The supplied ...Bf5 keeps the tension and allows fxe4 Nxe4 Nxe4 Bxe4, followed by Qe2. Immediate capture on f3 defines the imbalance more simply. Bishop development remains part of the plan, but follows the pawn exchange rather than becoming entangled in captures on e4."
+    },
+    {
+      "key": "rnbqkb1r/pp2pppp/2p2n2/8/2BP4/2N2p2/PPP3PP/R1BQK1NR w KQkq - 0 6 g1f3",
+      "title": "Recover With the Undeveloped Knight",
+      "question": "Which kind of recapture gives White the most useful activity for the material already invested?",
+      "takeaway": "White recaptures with the knight, removing Black's advanced pawn while clearing the last piece from the kingside castling route. The queen keeps defending d4, and the g-pawn remains part of the king's shelter. Black is still a pawn ahead, but White now has three minor pieces developed against one. That development gap makes another useful black developing move more urgent than further pawn hunting.",
+      "intent": "The knight joins the center with influence over e5 and d4. White has spent material to reach this active setup, not to obtain an immediate forcing win. Black must respect possible knight advances and rapid castling while using the still-open c8 diagonal to bring another defender into the game.",
+      "plan": "Black develops ...Bf5 before ...e6. White's main-line castling will put a rook behind the f3 knight, creating latent file pressure rather than an immediate rook attack. The supplied Ne5 branch instead advances the knight before castling. Black should distinguish that direct piece initiative from the quieter preparation of bringing the king and rook into position.",
+      "tactic": "Only the g1 knight can make this knight recapture; the c3 knight does not reach f3. Once the recapture is complete, e1, f1, and g1 have the arrangement needed for White to consider kingside castling, subject to attacks. The recapture develops a piece and clears a route, but does not itself activate a rook.",
+      "theme": "White obtains the development promised by the gambit, and Black must now answer with mobilization rather than another material calculation alone. The f3 knight will later move again, revealing why the rook's future placement matters.",
+      "alternativeNote": "The supplied gxf3 also removes the pawn, but changes the kingside pawn structure and leaves the g1 knight undeveloped. Nxf3 preserves the g-pawn and advances castling preparation. The distinction is not material recovery, which both achieve, but how much coordination White obtains from that recovery."
+    },
+    {
+      "key": "rnbqkb1r/pp2pppp/2p2n2/8/2BP4/2N2N2/PPP3PP/R1BQK2R b KQkq - 0 6 c8f5",
+      "title": "Develop Before Closing the Diagonal",
+      "question": "White has three minor pieces active; how can Black reduce the development gap without neglecting the coming central setup?",
+      "takeaway": "Black brings the c8 bishop into play while its diagonal is clear. This makes the later ...e6 more useful, because that pawn move can release the other bishop without imprisoning this one. The bishop's forward post is not invulnerable: White can challenge it with a bishop or pawn, and a future rook on the f-file may also affect its placement.",
+      "intent": "The bishop influences e4 and d3, giving Black more say over White's central development. Black is using the extra pawn as a basis for normal mobilization, not as a reason to sit still. The bishop must remain flexible because White has enough active pieces to question its first square.",
+      "plan": "Against White's castling in the repertoire, follow with ...e6 and prepare the remaining bishop's development. If White plays the supplied Bd3 instead, ...Bxd3 Qxd3 exchanges the newly challenged bishop before further development. Black's next decision should respond to the actual contact White creates rather than insist that the bishop remain on f5 indefinitely.",
+      "tactic": "The supplied Bd3 line illustrates the immediate geometry: the bishops meet along d3-e4-f5, and ...Bxd3 can be answered by Qxd3. This is an exchange, not a bishop win. In the main line, castling alone will not attack f5 with the rook, because White's own knight still occupies f3.",
+      "theme": "Black starts converting the material advantage into a workable army. This bishop will later retreat into a defensive role, so its development is best understood as gaining options rather than securing a permanent attacking post.",
+      "alternativeNote": "The supplied immediate ...e6 continues Qe2 Be7 and leaves the c8 bishop behind the e-pawn. That setup is legal, but has different development demands. Playing ...Bf5 first uses the open diagonal now, accepting that the exposed bishop may later need another move."
+    },
+    {
+      "key": "rn1qkb1r/pp2pppp/2p2n2/5b2/2BP4/2N2N2/PPP3PP/R1BQK2R w KQkq - 1 7 e1g1",
+      "title": "Place the Rook Behind Future Pressure",
+      "question": "How can White improve king safety while preparing to make the missing f-pawn useful?",
+      "takeaway": "White castles, moving the king away from the center and bringing a rook to the file vacated by the sacrificed f-pawn. The rook is not attacking Black's bishop yet, because the f3 knight stands in the way. Black has time to strengthen the position, but should anticipate that a knight move can uncover pressure while adding threats of its own.",
+      "intent": "White combines a necessary king move with preparation for activity. The missing f-pawn gives the rook a potential working file, although several pieces and Black's f7 pawn still obstruct it. Black needs development that anticipates those changing lines rather than simply counting the current number of attacks on the king.",
+      "plan": "Black answers ...e6, opening the remaining bishop's route and reinforcing the developed bishop. White then plays Ng5, uncovering the rook and increasing kingside pressure. The ensuing ...Bg6 and ...Bd6 setup addresses that pressure through relocation and development. This is the transition into the accepted continuation, where Black prepares to exchange the second arriving knight.",
+      "tactic": "After castling, trace the f-file from White's rook: the first occupied square is f3, containing White's own knight. When that knight leaves, the rook can reach the bishop on f5. Black's response must therefore account for a discovered line of attack, not an immediate threat already present after castling.",
+      "theme": "White's pawn investment begins to influence rook placement, but still needs another tempo to create contact. Black can use that interval to coordinate the bishops before the attack becomes more forcing.",
+      "alternativeNote": "The supplied Bd3 offers an immediate bishop exchange and continues ...Bxd3 Qxd3 e6 Bd2 Nbd7 O-O-O. Castling kingside instead commits the king now and prepares f-file activity. Those plans involve different rook placements, so Black should not assume identical defensive arrangements against both."
+    },
+    {
+      "key": "rn1qkb1r/pp2pppp/2p2n2/5b2/2BP4/2N2N2/PPP3PP/R1BQ1RK1 b kq - 2 7 e7e6",
+      "title": "Build Support While Releasing the Bishop",
+      "question": "With White castled and ahead in development, how can Black improve coordination before the next attacking tempo?",
+      "takeaway": "Black advances the e-pawn one square, protecting the bishop on f5 and opening a route for the bishop on f8. The pawn also interrupts White's c4 bishop's diagonal toward f7. These are useful defensive gains, but they do not eliminate White's initiative: Ng5 can still uncover the rook and attack e6. Black needs a coordinated follow-up, not just a solid-looking pawn move.",
+      "intent": "The pawn supports d5 and f5 while serving as a barrier on White's bishop diagonal. Black has developed the c8 bishop before making this commitment, so it remains outside the newly restricted diagonal. The remaining bishop can now join the defense, bringing Black closer to completing kingside development.",
+      "plan": "After Ng5, retreat the challenged bishop with ...Bg6. White's Ne2 prepares Nf4, and ...Bd6 then prepares to exchange that arriving knight before castling. This sequence uses development to reduce pressure rather than chasing every attacker with pawns. White can instead choose Bd3, when the supplied bishop exchange leads to a quieter development problem.",
+      "tactic": "Ng5 will attack e6 and f7 with the knight while uncovering the rook against f5. The e6 pawn supports the bishop on f5, but White's c4 bishop is now blocked by that pawn and does not directly defend f7. Keeping those attack paths separate prevents an exaggerated assessment of White's apparent concentration against the king.",
+      "theme": "The new lessons finish at the defensive framework used by the accepted continuation: reinforce, relocate the challenged bishop, and develop against the next attacker. Black has accepted the gambit but still must earn time to castle through accurate coordination.",
+      "alternativeNote": "The supplied immediate ...Bg6 anticipates pressure on the bishop and continues Ne2. The played ...e6 first protects that bishop and releases the other one. It does not avoid a later retreat; it makes the surrounding position better prepared when that retreat becomes necessary."
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "positionsReviewed": 8,
+    "issues": [],
+    "notes": "Authored all eight needsAuthoring positions, covering 4.Bc4 through 7...e6. Board relationships and supplied continuations were examined, and the sequence connects to the accepted shared lessons beginning with 8.Ng5. Independent editorial review remains the next pipeline stage."
+  }
+}

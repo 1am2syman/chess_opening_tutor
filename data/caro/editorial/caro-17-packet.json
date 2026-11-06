@@ -1,0 +1,2914 @@
+{
+  "openingId": "caro",
+  "repertoireColor": "Black",
+  "rootUCI": [
+    "e2e4",
+    "c7c6"
+  ],
+  "lineId": "caro-17",
+  "rank": 17,
+  "family": "Classical Nc3",
+  "completeSequence": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nf6 5.Nxf6+ exf6 6.Bc4 Bd6 7.Qe2+ Be7 8.Nf3 Na6 9.O-O O-O 10.Re1 Re8 11.Bxa6 bxa6 12.Bd2 a5 13.b3 Bf5 14.Qc4 Rc8 15.Rac1 h5 16.Qa4 Qd7 17.Bxa5 Bg4 18.Nd2 Bd6 19.Nf1 Be2 20.Bd2 h4",
+  "positions": [
+    {
+      "key": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 e2e4",
+      "ply": 1,
+      "moveNumber": 1,
+      "side": "White",
+      "san": "e4",
+      "uci": "e2e4",
+      "beforeFen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "afterFen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+      "source": "opening-prefix",
+      "playedPrefix": "e4",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 e2e4",
+        "title": "Meet Space With a Central Policy",
+        "question": "What central commitment can White make before Black has chosen a defensive setup?",
+        "takeaway": "White claims space and opens lines for the queen and king's bishop. Black's problem is not an immediate threat, but White's ability to add another central pawn and develop behind it. Our repertoire accepts that space initially, then challenges it with supported pawn contact rather than trying to prevent every white advance.",
+        "intent": "The pawn controls d5 and f5, making White's central presence felt immediately. It also releases the bishop on f1. Black needs a response that challenges this space while leaving a workable development scheme; simply matching White's pawn moves is not the only way to do that.",
+        "plan": "The repertoire answers with ...c6 and meets d4 with ...d5. White can then advance, defend, or exchange the e-pawn. This line follows the exchange, but Black should first understand the common central challenge: the later bishop and knight placements depend on which pawn structure White chooses.",
+        "tactic": "After the planned ...c6 and ...d5, exd5 can be answered by a pawn recapture. That is the concrete mechanism behind Black's setup, not an immediate threat after e4. Before committing to a central challenge, identify both the opponent's possible capture and your intended recapturing piece.",
+        "theme": "White starts by claiming space; Black will answer by questioning its support. The later exchanges and open-file play grow from that central policy rather than from a permanently defensive formation.",
+        "alternativeNote": "The supplied 1.d4 continuation builds a queen's-pawn center with c4 and ...e6. That is a different initial problem. Here e4 releases the king's bishop immediately and allows Black to choose the specific ...c6 and ...d5 framework studied in this line.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-08T22:11:29.003Z",
+        "lineOrigin": "caro-1"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp 32 from side-to-move perspective",
+          "depth": 14,
+          "moves": "1.e4 1…e5 2.Nf3 2…Nf6 3.Nxe5 3…Nxe4 4.d4 4…d5"
+        },
+        {
+          "score": "cp 25 from side-to-move perspective",
+          "depth": 14,
+          "moves": "1.d4 1…d5 2.c4 2…e6 3.Nc3 3…Nf6 4.Nf3 4…Nbd7"
+        },
+        {
+          "score": "cp 22 from side-to-move perspective",
+          "depth": 14,
+          "moves": "1.Nf3 1…d5 2.d4 2…Nf6 3.c4 3…e6 4.Nc3 4…Nbd7"
+        },
+        {
+          "score": "cp 9 from side-to-move perspective",
+          "depth": 14,
+          "moves": "1.c4 1…e5 2.Nc3 2…Nf6 3.g3 3…Bb4 4.Bg2 4…O-O"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -31 from side-to-move perspective",
+          "depth": 14,
+          "moves": "1…e5 2.Nf3 2…d6 3.Nc3 3…c5 4.Bb5+ 4…Bd7 5.Bxd7+"
+        },
+        {
+          "score": "cp -34 from side-to-move perspective",
+          "depth": 14,
+          "moves": "1…e6"
+        },
+        {
+          "score": "cp -29 from side-to-move perspective",
+          "depth": 13,
+          "moves": "1…c5 2.Nf3 2…Nc6 3.Nc3 3…d6 4.d4 4…cxd4 5.Nxd4"
+        },
+        {
+          "score": "cp -35 from side-to-move perspective",
+          "depth": 13,
+          "moves": "1…d6 2.d4 2…e5 3.Nc3 3…exd4 4.Qxd4 4…Nc6 5.Bb5"
+        }
+      ]
+    },
+    {
+      "key": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1 c7c6",
+      "ply": 2,
+      "moveNumber": 1,
+      "side": "Black",
+      "san": "c6",
+      "uci": "c7c6",
+      "beforeFen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+      "afterFen": "rnbqkbnr/pp1ppppp/2p5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+      "source": "opening-prefix",
+      "playedPrefix": "e4 c6",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1 c7c6",
+        "title": "Prepare Contact Before Developing Pieces",
+        "question": "How should Black balance challenging White's space with preserving flexible piece development?",
+        "takeaway": "Black prepares ...d5 with a pawn that can recapture there. This is an investment, not a developing move or an immediate attack on e4. Its value is that the coming central confrontation need not expose the queen, while the e-pawn remains at home and the c8 bishop's eventual route stays undecided.",
+        "intent": "The c-pawn supports d5 without occupying the c8 bishop's diagonal. There is a development cost: c6 is temporarily unavailable to the b8 knight. Black therefore needs to use the prepared central challenge, rather than spend further moves building a shelter without contesting White's space.",
+        "plan": "Meet the line's d4 with ...d5, then adapt to White's response. The supplied Nc3 continuation instead reaches ...dxe4 and ...Bf5. That bishop placement belongs to a particular structure; it is not a commitment made by ...c6 itself. Our Exchange line will require a different development sequence.",
+        "tactic": "The intended recapture matters after ...d5 and exd5: ...cxd5 restores material while keeping the queen out of attack. Until Black actually plays ...d5, however, e4 is not challenged. White is free to reinforce the center or develop rather than react to an imagined immediate threat.",
+        "theme": "Black exchanges a little development time for a reliable central mechanism. In this line, using that mechanism will also clear c6 for a knight and leave the c-file available for later rook activity.",
+        "alternativeNote": "The supplied ...c5 continuation challenges White through a different pawn structure, followed by ...Nc6 and ...d6. Our ...c6 instead supports ...d5. The useful comparison is the intended pawn contact and resulting development, not a claim that one opening name guarantees greater solidity.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-08T22:11:29.003Z",
+        "lineOrigin": "caro-1"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp -31 from side-to-move perspective",
+          "depth": 14,
+          "moves": "1…e5 2.Nf3 2…d6 3.Nc3 3…c5 4.Bb5+ 4…Bd7 5.Bxd7+"
+        },
+        {
+          "score": "cp -34 from side-to-move perspective",
+          "depth": 14,
+          "moves": "1…e6"
+        },
+        {
+          "score": "cp -29 from side-to-move perspective",
+          "depth": 13,
+          "moves": "1…c5 2.Nf3 2…Nc6 3.Nc3 3…d6 4.d4 4…cxd4 5.Nxd4"
+        },
+        {
+          "score": "cp -35 from side-to-move perspective",
+          "depth": 13,
+          "moves": "1…d6 2.d4 2…e5 3.Nc3 3…exd4 4.Qxd4 4…Nc6 5.Bb5"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 39 from side-to-move perspective",
+          "depth": 14,
+          "moves": "2.d4 2…d5"
+        },
+        {
+          "score": "cp 32 from side-to-move perspective",
+          "depth": 14,
+          "moves": "2.c3 2…d5 3.e5 3…Bf5 4.Nf3 4…e6 5.Be2 5…c5"
+        },
+        {
+          "score": "cp 30 from side-to-move perspective",
+          "depth": 14,
+          "moves": "2.Nc3 2…d5 3.d4 3…dxe4 4.Nxe4 4…Bf5 5.Ng3 5…Bg6"
+        },
+        {
+          "score": "cp 21 from side-to-move perspective",
+          "depth": 14,
+          "moves": "2.Nf3 2…d5 3.exd5 3…cxd5 4.d4 4…Nc6"
+        }
+      ]
+    },
+    {
+      "key": "rnbqkbnr/pp1ppppp/2p5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2 d2d4",
+      "ply": 3,
+      "moveNumber": 2,
+      "side": "White",
+      "san": "d4",
+      "uci": "d2d4",
+      "beforeFen": "rnbqkbnr/pp1ppppp/2p5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+      "afterFen": "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+      "source": "sample-supported",
+      "playedPrefix": "e4 c6 d4",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "rnbqkbnr/pp1ppppp/2p5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2 d2d4",
+        "title": "White Builds the Full Pawn Center",
+        "question": "How can White use Black's preparatory tempo to strengthen the central position?",
+        "takeaway": "White establishes two central pawns and gives both bishops routes into play. This is a substantial use of the first-move initiative, not an overextension that Black can automatically punish. Black should nevertheless remain consistent: the previous move prepared a supported central challenge, and White's larger center makes carrying out that challenge more relevant.",
+        "intent": "The d-pawn controls c5 and e5, complementing the e-pawn's influence over d5 and f5. White has gained space without developing a piece yet. Black can contest the center before that space becomes the base for a fully coordinated army.",
+        "plan": "Continue with ...d5. White can then retain space through e5 or exchange on d5, as in our line. In the supplied ...d6 alternative, White keeps both pawns while developing Nf3 and Nbd2. That illustrates the difference between immediately challenging a center and preparing to contain it.",
+        "tactic": "After ...d5, White's e-pawn will be attacked even though White has two pawns in the center. Side-by-side pawns do not protect each other. Capturing on d5 is possible, but the c6 pawn supplies Black's recapture, so the contact is not an offer of a free pawn.",
+        "theme": "The position presents the problem Black's first move anticipated. Rather than retreating from White's space, Black will use the prepared support to make White choose the central structure.",
+        "alternativeNote": "The supplied 2.Nc3 can also support a broad center, but ...d5 3.d4 ...dxe4 leads to a knight recapture. Playing d4 first leaves that knight uncommitted and keeps the Exchange option available without first choosing its development square.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-08T22:11:29.003Z",
+        "lineOrigin": "caro-1"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp 39 from side-to-move perspective",
+          "depth": 14,
+          "moves": "2.d4 2…d5"
+        },
+        {
+          "score": "cp 32 from side-to-move perspective",
+          "depth": 14,
+          "moves": "2.c3 2…d5 3.e5 3…Bf5 4.Nf3 4…e6 5.Be2 5…c5"
+        },
+        {
+          "score": "cp 30 from side-to-move perspective",
+          "depth": 14,
+          "moves": "2.Nc3 2…d5 3.d4 3…dxe4 4.Nxe4 4…Bf5 5.Ng3 5…Bg6"
+        },
+        {
+          "score": "cp 21 from side-to-move perspective",
+          "depth": 14,
+          "moves": "2.Nf3 2…d5 3.exd5 3…cxd5 4.d4 4…Nc6"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -35 from side-to-move perspective",
+          "depth": 14,
+          "moves": "2…d5 3.e5"
+        },
+        {
+          "score": "cp -68 from side-to-move perspective",
+          "depth": 13,
+          "moves": "2…d6 3.Nf3 3…Nf6 4.Nbd2 4…g6 5.Bd3 5…Qc7"
+        },
+        {
+          "score": "cp -69 from side-to-move perspective",
+          "depth": 13,
+          "moves": "2…g6 3.Bd3 3…Bg7 4.Nf3 4…d6 5.O-O 5…Nf6 6.Re1"
+        },
+        {
+          "score": "cp -76 from side-to-move perspective",
+          "depth": 13,
+          "moves": "2…a6 3.Nd2 3…d5 4.e5 4…c5 5.dxc5 5…e6 6.Ngf3"
+        }
+      ]
+    },
+    {
+      "key": "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2 d7d5",
+      "ply": 4,
+      "moveNumber": 2,
+      "side": "Black",
+      "san": "d5",
+      "uci": "d7d5",
+      "beforeFen": "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+      "afterFen": "rnbqkbnr/pp2pppp/2p5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
+      "source": "sample-supported",
+      "playedPrefix": "e4 c6 d4 d5",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2 d7d5",
+        "title": "Turn Preparation Into Central Contact",
+        "question": "White has occupied the center with two pawns; how should Black make the previous tempo count?",
+        "takeaway": "Black attacks e4 and makes White choose how to handle the center. The c6 pawn provides a natural recapture if White exchanges, so the challenge does not depend on early queen activity. Black also opens a route for the c8 bishop, although its best destination still depends on White's reply.",
+        "intent": "The new pawn attacks e4 and controls c4, supported by both c6 and the queen. Black has established contact, not an advantage. White retains several sound ways to define the structure, and Black must recognize the different development tasks those choices create.",
+        "plan": "Answer this line's exd5 with ...cxd5. Against e5, the supplied branch instead develops ...Bf5 before ...e6; against Nc3 or Nd2, the candidates exchange on e4. Learn these as different structural responses rather than assuming every Caro–Kann position calls for the same bishop maneuver.",
+        "tactic": "After exd5, Black can legally recapture with either pawn or queen. Compare what White can attack next: ...cxd5 retains a central pawn, whereas an exposed queen can become a target for developing moves. The identity of the recapturing piece determines more than material balance.",
+        "theme": "Black's opening moves now form a complete idea: prepare the confrontation, then create it. White's next decision will select the Exchange structure and replace general opening principles with more specific plans.",
+        "alternativeNote": "The supplied ...d6 setup continues with ...Nf6 and ...g6, containing rather than immediately challenging White's center. It is a different plan, but makes less direct use of c6's support and gives White more time with both central pawns intact.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-08T22:11:29.003Z",
+        "lineOrigin": "caro-1"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp -35 from side-to-move perspective",
+          "depth": 14,
+          "moves": "2…d5 3.e5"
+        },
+        {
+          "score": "cp -68 from side-to-move perspective",
+          "depth": 13,
+          "moves": "2…d6 3.Nf3 3…Nf6 4.Nbd2 4…g6 5.Bd3 5…Qc7"
+        },
+        {
+          "score": "cp -69 from side-to-move perspective",
+          "depth": 13,
+          "moves": "2…g6 3.Bd3 3…Bg7 4.Nf3 4…d6 5.O-O 5…Nf6 6.Re1"
+        },
+        {
+          "score": "cp -76 from side-to-move perspective",
+          "depth": 13,
+          "moves": "2…a6 3.Nd2 3…d5 4.e5 4…c5 5.dxc5 5…e6 6.Ngf3"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 34 from side-to-move perspective",
+          "depth": 15,
+          "moves": "3.e5 3…Bf5 4.Nf3 4…e6 5.Be2 5…c5 6.Be3 6…Ne7"
+        },
+        {
+          "score": "cp 26 from side-to-move perspective",
+          "depth": 15,
+          "moves": "3.Nd2 3…dxe4 4.Nxe4 4…Nf6 5.Nxf6+ 5…exf6 6.c3 6…Bd6"
+        },
+        {
+          "score": "cp 26 from side-to-move perspective",
+          "depth": 15,
+          "moves": "3.Nc3 3…dxe4 4.Nxe4 4…Nf6 5.Nxf6+ 5…exf6 6.c3 6…Bd6"
+        },
+        {
+          "score": "cp 20 from side-to-move perspective",
+          "depth": 15,
+          "moves": "3.exd5 3…cxd5 4.c3 4…Nc6 5.Bf4 5…e6 6.Nf3 6…Bd6"
+        }
+      ]
+    },
+    {
+      "key": "rnbqkbnr/pp2pppp/2p5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3 b1c3",
+      "ply": 5,
+      "moveNumber": 3,
+      "side": "White",
+      "san": "Nc3",
+      "uci": "b1c3",
+      "beforeFen": "rnbqkbnr/pp2pppp/2p5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
+      "afterFen": "rnbqkbnr/pp2pppp/2p5/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq - 1 3",
+      "source": "sample-supported",
+      "playedPrefix": "e4 c6 d4 d5 Nc3",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "rnbqkbnr/pp2pppp/2p5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3 b1c3",
+        "title": "Defend the Center Through Development",
+        "question": "How can White maintain central tension while bringing a piece into play?",
+        "takeaway": "White develops a knight and supplies a recapture on e4 rather than resolving the pawn tension immediately. This is the Classical Nc3 branch: White has not exchanged on d5 or advanced the e-pawn. Black can now exchange on e4, but must account for the active knight that will replace White's pawn in the center.",
+        "intent": "The knight supports e4 and influences d5, combining development with central defense. White retains both central pawns for the moment. Black can exchange the d-pawn for White's e-pawn, but must accept that the recapturing knight will occupy an active square.",
+        "plan": "Black answers with ...dxe4 and expects Nxe4. The next decision is how to challenge that knight while developing. Our line chooses ...Nf6 and accepts an exchange on f6; White can then build around the remaining d-pawn while Black develops behind a different, doubled-pawn structure.",
+        "tactic": "The e4 pawn is defended by the knight, but that does not prohibit ...dxe4. The intended sequence is a pawn exchange followed by Nxe4, not a pawn win. Identify the recapture before deciding whether a defended central pawn can usefully be taken.",
+        "theme": "White maintains tension with a developing move. This branch will center on an active white knight and Black's willingness to accept a less tidy pawn formation in return for straightforward development and usable central lines.",
+        "alternativeNote": "The supplied Nd2 continuation reaches the same position after ...dxe4 Nxe4. Before that exchange, the knight placements have different effects: Nc3 leaves the c1 bishop's diagonal clear but blocks the c-pawn. The eventual transposition does not erase those initial move-order differences.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T09:46:36.425Z",
+        "lineOrigin": "caro-5"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp 34 from side-to-move perspective",
+          "depth": 15,
+          "moves": "3.e5 3…Bf5 4.Nf3 4…e6 5.Be2 5…c5 6.Be3 6…Ne7"
+        },
+        {
+          "score": "cp 26 from side-to-move perspective",
+          "depth": 15,
+          "moves": "3.Nd2 3…dxe4 4.Nxe4 4…Nf6 5.Nxf6+ 5…exf6 6.c3 6…Bd6"
+        },
+        {
+          "score": "cp 26 from side-to-move perspective",
+          "depth": 15,
+          "moves": "3.Nc3 3…dxe4 4.Nxe4 4…Nf6 5.Nxf6+ 5…exf6 6.c3 6…Bd6"
+        },
+        {
+          "score": "cp 20 from side-to-move perspective",
+          "depth": 15,
+          "moves": "3.exd5 3…cxd5 4.c3 4…Nc6 5.Bf4 5…e6 6.Nf3 6…Bd6"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -21 from side-to-move perspective",
+          "depth": 14,
+          "moves": "3…dxe4 4.Nxe4"
+        },
+        {
+          "score": "cp -66 from side-to-move perspective",
+          "depth": 14,
+          "moves": "3…a6 4.Bd3 4…dxe4 5.Nxe4 5…Nf6 6.Nf3 6…Nxe4 7.Bxe4"
+        },
+        {
+          "score": "cp -66 from side-to-move perspective",
+          "depth": 14,
+          "moves": "3…h6 4.e5 4…Bf5 5.g4 5…Bg6 6.h4 6…e6 7.h5"
+        },
+        {
+          "score": "cp -76 from side-to-move perspective",
+          "depth": 14,
+          "moves": "3…e6 4.Bd3 4…dxe4 5.Nxe4 5…Qxd4 6.Nf3 6…Qd8 7.Qe2"
+        }
+      ]
+    },
+    {
+      "key": "rnbqkbnr/pp2pppp/2p5/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq - 1 3 d5e4",
+      "ply": 6,
+      "moveNumber": 3,
+      "side": "Black",
+      "san": "dxe4",
+      "uci": "d5e4",
+      "beforeFen": "rnbqkbnr/pp2pppp/2p5/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq - 1 3",
+      "afterFen": "rnbqkbnr/pp2pppp/2p5/8/3Pp3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4",
+      "source": "sample-supported",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "rnbqkbnr/pp2pppp/2p5/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq - 1 3 d5e4",
+        "title": "Exchange Space for a Clear Target",
+        "question": "How should Black resolve the central tension now that White has developed behind it?",
+        "takeaway": "Black exchanges the d-pawn for White's e-pawn, reducing White's broad center to a single central pawn. The cost is an active white knight after the natural recapture. That is a manageable problem: rather than facing two advancing central pawns, Black can develop with a direct challenge to the knight on e4.",
+        "intent": "This capture changes the central balance without moving the c6 pawn. Black does not gain lasting material against the natural recapture, and c6 remains unavailable to the queenside knight. The benefit is a clearer development task against White's central piece.",
+        "plan": "After Nxe4, use ...Nf6 to contest the knight and prepare kingside development. White can choose an immediate exchange or keep more pieces in play. The supplied continuation takes on f6, so Black should already consider the resulting pawn structure rather than evaluate this capture in isolation.",
+        "tactic": "White can recover the pawn immediately with the c3 knight. If White delays, the position must be recalculated: the supplied Nge2 continuation allows Black to develop before White eventually captures. Do not assume every developing reply restores material as simply as Nxe4 does.",
+        "theme": "Black's supported central challenge has achieved contact and now releases the tension. The next phase will justify that exchange through development, not through an attempt to preserve the advanced pawn indefinitely.",
+        "alternativeNote": "The supplied ...a6 continuation also exchanges on e4, but only after White adds Bd3. Our capture defines the center immediately. The comparison is about timing and useful development, not a claim that every waiting move loses by force.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T09:46:36.425Z",
+        "lineOrigin": "caro-5"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp -21 from side-to-move perspective",
+          "depth": 14,
+          "moves": "3…dxe4 4.Nxe4"
+        },
+        {
+          "score": "cp -66 from side-to-move perspective",
+          "depth": 14,
+          "moves": "3…a6 4.Bd3 4…dxe4 5.Nxe4 5…Nf6 6.Nf3 6…Nxe4 7.Bxe4"
+        },
+        {
+          "score": "cp -66 from side-to-move perspective",
+          "depth": 14,
+          "moves": "3…h6 4.e5 4…Bf5 5.g4 5…Bg6 6.h4 6…e6 7.h5"
+        },
+        {
+          "score": "cp -76 from side-to-move perspective",
+          "depth": 14,
+          "moves": "3…e6 4.Bd3 4…dxe4 5.Nxe4 5…Qxd4 6.Nf3 6…Qd8 7.Qe2"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 26 from side-to-move perspective",
+          "depth": 13,
+          "moves": "4.Nxe4 4…Nf6 5.Nxf6+ 5…exf6 6.Bc4 6…Nd7 7.Bd3 7…Bd6"
+        },
+        {
+          "score": "cp 0 from side-to-move perspective",
+          "depth": 13,
+          "moves": "4.Nge2 4…Nf6 5.Ng3 5…Bg4 6.Qd2 6…g6 7.Ncxe4 7…Nxe4"
+        },
+        {
+          "score": "cp -38 from side-to-move perspective",
+          "depth": 13,
+          "moves": "4.h3 4…f5"
+        },
+        {
+          "score": "cp -49 from side-to-move perspective",
+          "depth": 12,
+          "moves": "4.Bc4 4…Nf6 5.Nge2 5…Bf5 6.Ng3 6…e6"
+        }
+      ]
+    },
+    {
+      "key": "rnbqkbnr/pp2pppp/2p5/8/3Pp3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4 c3e4",
+      "ply": 7,
+      "moveNumber": 4,
+      "side": "White",
+      "san": "Nxe4",
+      "uci": "c3e4",
+      "beforeFen": "rnbqkbnr/pp2pppp/2p5/8/3Pp3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4",
+      "afterFen": "rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+      "source": "sample-supported",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "rnbqkbnr/pp2pppp/2p5/8/3Pp3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4 c3e4",
+        "title": "Recover Material With Central Presence",
+        "question": "What does White gain by resolving the pawn exchange before developing another piece?",
+        "takeaway": "White restores material and places the knight in the center, where it influences useful squares on both sides. Black should neither panic about that activity nor ignore it. The knight has moved twice, and Black can now develop while attacking it, turning White's central occupation into a concrete choice about exchanges.",
+        "intent": "The recapture removes Black's advanced pawn and leaves White with a d4 pawn against Black's c6 and e7 pawns. This is not the Exchange structure with a black pawn on d5. Black's next development should be chosen for the board actually present.",
+        "plan": "Our response is ...Nf6, inviting Nxf6+ and a pawn recapture. The supplied ...Bf5 alternative challenges the same knight with a bishop instead. White can support, exchange, or relocate the knight; Black's aim is to make that decision coincide with useful development rather than chase the piece aimlessly.",
+        "tactic": "The knight on e4 attacks f6, so developing a black knight there immediately permits an exchange with check. Black must decide the recapture before inviting that sequence. The check is real, but it does not make the developing move unsound by itself.",
+        "theme": "White has converted pawn space into piece activity. Black's answer will accept a structural change rather than chase the knight repeatedly, setting up the distinctive doubled-f-pawn middlegame studied throughout this line.",
+        "alternativeNote": "The supplied Nge2 delays the recapture and continues with Ng3 before recovering on e4. Nxe4 is more direct: material is restored now, but Black receives an immediate target for development. Both choices must be judged through their follow-up positions.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T09:46:36.425Z",
+        "lineOrigin": "caro-5"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp 26 from side-to-move perspective",
+          "depth": 13,
+          "moves": "4.Nxe4 4…Nf6 5.Nxf6+ 5…exf6 6.Bc4 6…Nd7 7.Bd3 7…Bd6"
+        },
+        {
+          "score": "cp 0 from side-to-move perspective",
+          "depth": 13,
+          "moves": "4.Nge2 4…Nf6 5.Ng3 5…Bg4 6.Qd2 6…g6 7.Ncxe4 7…Nxe4"
+        },
+        {
+          "score": "cp -38 from side-to-move perspective",
+          "depth": 13,
+          "moves": "4.h3 4…f5"
+        },
+        {
+          "score": "cp -49 from side-to-move perspective",
+          "depth": 12,
+          "moves": "4.Bc4 4…Nf6 5.Nge2 5…Bf5 6.Ng3 6…e6"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -23 from side-to-move perspective",
+          "depth": 14,
+          "moves": "4…Nf6 5.Nxf6+ 5…exf6 6.Nf3 6…Bd6 7.Bd3 7…O-O 8.O-O"
+        },
+        {
+          "score": "cp -29 from side-to-move perspective",
+          "depth": 14,
+          "moves": "4…Bf5 5.Ng3"
+        },
+        {
+          "score": "cp -41 from side-to-move perspective",
+          "depth": 13,
+          "moves": "4…Nd7 5.c3 5…Ngf6 6.Nxf6+ 6…exf6 7.Bd3 7…Bd6 8.Qc2"
+        },
+        {
+          "score": "cp -61 from side-to-move perspective",
+          "depth": 13,
+          "moves": "4…h6 5.Nf3 5…Bf5 6.Bd3 6…e6 7.O-O 7…Nf6 8.Nxf6+"
+        }
+      ]
+    },
+    {
+      "key": "rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b KQkq - 0 4 g8f6",
+      "ply": 8,
+      "moveNumber": 4,
+      "side": "Black",
+      "san": "Nf6",
+      "uci": "g8f6",
+      "beforeFen": "rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+      "afterFen": "rnbqkb1r/pp2pppp/2p2n2/8/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+      "source": "sample-supported",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b KQkq - 0 4 g8f6",
+        "title": "Challenge Activity Before Fixing the Structure",
+        "question": "How can Black contest White's central piece without losing sight of development and king safety?",
+        "takeaway": "Black develops with an attack on the e4 knight, deliberately allowing White to exchange with check. This is a structural bargain, not an oversight. After the intended e-pawn recapture, Black will have doubled f-pawns but an open e-file and easy bishop development. The position asks for active coordination rather than a cosmetically perfect pawn formation.",
+        "intent": "The knight challenges e4 and clears a kingside castling square. White can exchange it before it does more work, so Black is not relying on keeping this piece. The compensation for the resulting pawn damage lies in development routes and open lines.",
+        "plan": "Meet Nxf6+ with ...exf6, then develop the bishop toward d6 and castle. White can instead support the knight or retreat it, and those choices require a fresh assessment. The supplied Qd3 branch, for example, produces queen activity after ...Nxe4 rather than the structure followed here.",
+        "tactic": "Calculate Nxf6+ as a checking capture, then identify both legal pawn recaptures. The e-pawn recapture opens the f8 bishop's diagonal while preserving the g-pawn. A decision based only on avoiding doubled pawns would miss why Black willingly enters this sequence.",
+        "theme": "Black answers central activity with development and accepts an asymmetry that will guide later choices. The eventual open-file play and struggle over e5 begin with this willingness to let White change the pawn structure.",
+        "alternativeNote": "The supplied ...Bf5 challenges e4 without offering this knight exchange, and White answers Ng3. Our move develops the kingside first and invites a different structural bargain. The bounded candidates support both ideas; they do not establish one universal Caro–Kann setup.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T09:46:36.425Z",
+        "lineOrigin": "caro-5"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp -23 from side-to-move perspective",
+          "depth": 14,
+          "moves": "4…Nf6 5.Nxf6+ 5…exf6 6.Nf3 6…Bd6 7.Bd3 7…O-O 8.O-O"
+        },
+        {
+          "score": "cp -29 from side-to-move perspective",
+          "depth": 14,
+          "moves": "4…Bf5 5.Ng3"
+        },
+        {
+          "score": "cp -41 from side-to-move perspective",
+          "depth": 13,
+          "moves": "4…Nd7 5.c3 5…Ngf6 6.Nxf6+ 6…exf6 7.Bd3 7…Bd6 8.Qc2"
+        },
+        {
+          "score": "cp -61 from side-to-move perspective",
+          "depth": 13,
+          "moves": "4…h6 5.Nf3 5…Bf5 6.Bd3 6…e6 7.O-O 7…Nf6 8.Nxf6+"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 21 from side-to-move perspective",
+          "depth": 13,
+          "moves": "5.Nxf6+ 5…exf6 6.c3 6…Bd6 7.Bd3 7…O-O 8.Qc2 8…g6"
+        },
+        {
+          "score": "cp 19 from side-to-move perspective",
+          "depth": 12,
+          "moves": "5.Qd3 5…Nxe4 6.Qxe4 6…Qd5 7.Qe3 7…Bf5 8.c4 8…Qe4"
+        },
+        {
+          "score": "cp 11 from side-to-move perspective",
+          "depth": 12,
+          "moves": "5.Bd3 5…Qxd4 6.Nf3 6…Qb6 7.Be3 7…Qc7 8.Nxf6+ 8…gxf6"
+        },
+        {
+          "score": "cp -1 from side-to-move perspective",
+          "depth": 12,
+          "moves": "5.Ng3 5…h5 6.h4 6…c5 7.Nf3 7…Nc6 8.Be3 8…cxd4"
+        }
+      ]
+    },
+    {
+      "key": "rnbqkb1r/pp2pppp/2p2n2/8/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5 e4f6",
+      "ply": 9,
+      "moveNumber": 5,
+      "side": "White",
+      "san": "Nxf6+",
+      "uci": "e4f6",
+      "beforeFen": "rnbqkb1r/pp2pppp/2p2n2/8/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+      "afterFen": "rnbqkb1r/pp2pppp/2p2N2/8/3P4/8/PPP2PPP/R1BQKBNR b KQkq - 0 5",
+      "source": "sample-supported",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "rnbqkb1r/pp2pppp/2p2n2/8/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5 e4f6",
+        "title": "Trade a Central Knight for Structure",
+        "question": "How can White turn the attacked knight into a lasting change in Black's position?",
+        "takeaway": "White exchanges the active knight with check and makes Black choose a pawn recapture. This removes a developed black piece and creates doubled f-pawns, but White also gives up the knight that occupied the center. Black should acknowledge the structural concession while noticing that the intended recapture opens development routes rather than leaving a purely passive position.",
+        "intent": "White resolves the knight confrontation instead of spending another move supporting or retreating the e4 knight. The check demands an immediate response. Black's choice of recapturing pawn will determine which file opens and how comfortable kingside castling can remain afterward.",
+        "plan": "Black uses ...exf6 and then aims for ...Bd6 and castling. White has several sensible development orders, including c3 or Nf3. Our line develops the knight first, so Black can later consider pressure against it rather than assume White has already reinforced d4 with a pawn.",
+        "tactic": "The knight on f6 checks the king on e8. Both the e7 and g7 pawns can capture it, ending that check and restoring material. The task is therefore not to find a unique legal reply, but to compare two materially equal structures.",
+        "theme": "The first central confrontation ends with a lasting structural decision. White gains something tangible, but Black gains clearer development; the rest of the lesson tests how those benefits hold up once both sides coordinate.",
+        "alternativeNote": "The supplied Qd3 preserves the central knight initially, but ...Nxe4 Qxe4 ...Qd5 leads to early queen maneuvering. Nxf6+ chooses a pawn-structure imbalance instead. Neither continuation should be described as winning material merely because it starts with an exchange.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T09:46:36.425Z",
+        "lineOrigin": "caro-5"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp 21 from side-to-move perspective",
+          "depth": 13,
+          "moves": "5.Nxf6+ 5…exf6 6.c3 6…Bd6 7.Bd3 7…O-O 8.Qc2 8…g6"
+        },
+        {
+          "score": "cp 19 from side-to-move perspective",
+          "depth": 12,
+          "moves": "5.Qd3 5…Nxe4 6.Qxe4 6…Qd5 7.Qe3 7…Bf5 8.c4 8…Qe4"
+        },
+        {
+          "score": "cp 11 from side-to-move perspective",
+          "depth": 12,
+          "moves": "5.Bd3 5…Qxd4 6.Nf3 6…Qb6 7.Be3 7…Qc7 8.Nxf6+ 8…gxf6"
+        },
+        {
+          "score": "cp -1 from side-to-move perspective",
+          "depth": 12,
+          "moves": "5.Ng3 5…h5 6.h4 6…c5 7.Nf3 7…Nc6 8.Be3 8…cxd4"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -26 from side-to-move perspective",
+          "depth": 16,
+          "moves": "5…exf6 6.c3"
+        },
+        {
+          "score": "cp -92 from side-to-move perspective",
+          "depth": 16,
+          "moves": "5…gxf6 6.Nf3 6…Bf5 7.Be2 7…e6 8.O-O 8…Nd7 9.a4"
+        }
+      ]
+    },
+    {
+      "key": "rnbqkb1r/pp2pppp/2p2N2/8/3P4/8/PPP2PPP/R1BQKBNR b KQkq - 0 5 e7f6",
+      "ply": 10,
+      "moveNumber": 5,
+      "side": "Black",
+      "san": "exf6",
+      "uci": "e7f6",
+      "beforeFen": "rnbqkb1r/pp2pppp/2p2N2/8/3P4/8/PPP2PPP/R1BQKBNR b KQkq - 0 5",
+      "afterFen": "rnbqkb1r/pp3ppp/2p2p2/8/3P4/8/PPP2PPP/R1BQKBNR w KQkq - 0 6",
+      "source": "sample-supported",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "rnbqkb1r/pp2pppp/2p2N2/8/3P4/8/PPP2PPP/R1BQKBNR b KQkq - 0 5 e7f6",
+        "title": "Keep the King Shelter Intact",
+        "question": "Which structural priorities should guide Black's response to the checking capture?",
+        "takeaway": "Black recaptures with the e-pawn, keeping the g-pawn in front of the future castled king. The doubled f-pawns are a real concession, but the front pawn controls e5 and the e-file is now open. Both bishops have development routes, so Black can meet White's cleaner structure with timely activity rather than immediate pawn repair.",
+        "intent": "The capture restores material and removes the check while changing the e-pawn into an f6 pawn. Black retains the original f7 pawn behind it. That rear pawn is blocked, yet the front pawn's control of e5 will matter when White later seeks a central knight post.",
+        "plan": "Develop the kingside bishop and castle before spending time on elaborate maneuvers. White can reinforce d4 with c3 or develop Nf3, as our line does. Black should later coordinate on the open e-file, while remembering that White can also use that file once the king is safe.",
+        "tactic": "Vacating e7 opens the f8 bishop's route through e7 to d6. It also removes every pawn from the e-file, but that does not mean a rook can immediately exploit it without development. Connect the structural change to the pieces that can actually use it.",
+        "theme": "This is the line's defining bargain: doubled f-pawns, preserved kingside shelter, and available central lines. Later exchanges will remove the front f-pawn, so its present control should be valued without being treated as permanent.",
+        "alternativeNote": "The supplied ...gxf6 also restores material, but opens the g-file and leaves the e-pawn at home. Its continuation develops ...Bf5 and ...e6. Our recapture preserves the g-pawn and immediately releases the other bishop, leading to a different king-safety arrangement.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T09:46:36.425Z",
+        "lineOrigin": "caro-5"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp -26 from side-to-move perspective",
+          "depth": 16,
+          "moves": "5…exf6 6.c3"
+        },
+        {
+          "score": "cp -92 from side-to-move perspective",
+          "depth": 16,
+          "moves": "5…gxf6 6.Nf3 6…Bf5 7.Be2 7…e6 8.O-O 8…Nd7 9.a4"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 32 from side-to-move perspective",
+          "depth": 15,
+          "moves": "6.c3 6…Bd6 7.Bd3 7…O-O 8.Ne2 8…c5 9.Be3 9…Qc7"
+        },
+        {
+          "score": "cp 18 from side-to-move perspective",
+          "depth": 15,
+          "moves": "6.Bc4 6…Bd6"
+        },
+        {
+          "score": "cp 15 from side-to-move perspective",
+          "depth": 14,
+          "moves": "6.Nf3 6…Bd6 7.Bd3 7…O-O 8.O-O 8…Bg4 9.h3 9…Bh5"
+        },
+        {
+          "score": "cp 15 from side-to-move perspective",
+          "depth": 14,
+          "moves": "6.Be2 6…Bd6 7.Nf3 7…O-O 8.Be3 8…Nd7 9.O-O 9…Re8"
+        }
+      ]
+    },
+    {
+      "key": "rnbqkb1r/pp3ppp/2p2p2/8/3P4/8/PPP2PPP/R1BQKBNR w KQkq - 0 6 f1c4",
+      "ply": 11,
+      "moveNumber": 6,
+      "side": "White",
+      "san": "Bc4",
+      "uci": "f1c4",
+      "beforeFen": "rnbqkb1r/pp3ppp/2p2p2/8/3P4/8/PPP2PPP/R1BQKBNR w KQkq - 0 6",
+      "afterFen": "rnbqkb1r/pp3ppp/2p2p2/8/2BP4/8/PPP2PPP/R1BQK1NR b KQkq - 1 6",
+      "source": "sample-supported",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 Bc4",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "rnbqkb1r/pp3ppp/2p2p2/8/3P4/8/PPP2PPP/R1BQKBNR w KQkq - 0 6 f1c4",
+        "title": "Combine Bishop Activity With Checking Ideas",
+        "question": "What active development can White choose against Black's newly altered pawn structure?",
+        "takeaway": "White develops the bishop toward f7, asking Black to finish development with the central king in mind. The bishop does not win f7 by itself, because the king defends that pawn. Its placement also matters when White checks on the open e-file: the bishop can challenge some of Black's possible interpositions.",
+        "intent": "White chooses the c4–f7 diagonal rather than the quieter development seen in the supplied c3 and Bd3 setup. The f6 pawn does not obstruct that diagonal. Black should develop efficiently while checking the available forcing moves, not automatically make another defensive pawn move.",
+        "plan": "Black plays ...Bd6, after which the supplied line uses Qe2+ and ...Be7. White can then develop Nf3 and castle. Black should anticipate that checking resource before choosing the bishop square, accepting that an active initial placement may need adjustment to preserve castling rights.",
+        "tactic": "Qe2 will check along a pawn-free file if Black leaves it unobstructed. The c4 bishop also attacks e6: in the supplied later ...Be6 interposition, White can answer Bxe6. Meanwhile, Bxf7+ is not a free pawn because the king protects f7. Examine the interpositions rather than assuming every active diagonal threatens material.",
+        "theme": "White tests the open lines Black accepted with ...exf6. The same structural change that releases Black's bishops also lets White influence their development order through a forcing queen check.",
+        "alternativeNote": "The supplied c3 reinforces d4 before developing the bishop, with ...Bd6 and Bd3 following. Bc4 instead prioritizes an active diagonal and the checking queen move. Black must respond to this move order rather than assume White has already secured the center with a pawn.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T10:10:51.598Z",
+        "lineOrigin": "caro-6"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp 32 from side-to-move perspective",
+          "depth": 15,
+          "moves": "6.c3 6…Bd6 7.Bd3 7…O-O 8.Ne2 8…c5 9.Be3 9…Qc7"
+        },
+        {
+          "score": "cp 18 from side-to-move perspective",
+          "depth": 15,
+          "moves": "6.Bc4 6…Bd6"
+        },
+        {
+          "score": "cp 15 from side-to-move perspective",
+          "depth": 14,
+          "moves": "6.Nf3 6…Bd6 7.Bd3 7…O-O 8.O-O 8…Bg4 9.h3 9…Bh5"
+        },
+        {
+          "score": "cp 15 from side-to-move perspective",
+          "depth": 14,
+          "moves": "6.Be2 6…Bd6 7.Nf3 7…O-O 8.Be3 8…Nd7 9.O-O 9…Re8"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -17 from side-to-move perspective",
+          "depth": 14,
+          "moves": "6…Bd6 7.Qe2+ 7…Be7 8.Nf3 8…O-O 9.O-O 9…Re8 10.Re1"
+        },
+        {
+          "score": "cp -21 from side-to-move perspective",
+          "depth": 14,
+          "moves": "6…Qe7+ 7.Qe2 7…Bg4 8.Qxe7+ 8…Bxe7 9.Ne2 9…Nd7 10.Bd3"
+        },
+        {
+          "score": "cp -19 from side-to-move perspective",
+          "depth": 13,
+          "moves": "6…Nd7 7.Bd3 7…Be7 8.c3 8…O-O 9.Ne2 9…Re8 10.O-O"
+        },
+        {
+          "score": "cp -23 from side-to-move perspective",
+          "depth": 13,
+          "moves": "6…Na6 7.c3 7…Bd6 8.Qe2+ 8…Qe7 9.Qxe7+ 9…Bxe7 10.Ne2"
+        }
+      ]
+    },
+    {
+      "key": "rnbqkb1r/pp3ppp/2p2p2/8/2BP4/8/PPP2PPP/R1BQK1NR b KQkq - 1 6 f8d6",
+      "ply": 12,
+      "moveNumber": 6,
+      "side": "Black",
+      "san": "Bd6",
+      "uci": "f8d6",
+      "beforeFen": "rnbqkb1r/pp3ppp/2p2p2/8/2BP4/8/PPP2PPP/R1BQK1NR b KQkq - 1 6",
+      "afterFen": "rnbqk2r/pp3ppp/2pb1p2/8/2BP4/8/PPP2PPP/R1BQK1NR w KQkq - 2 7",
+      "source": "sample-supported",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 Bc4 Bd6",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "rnbqkb1r/pp3ppp/2p2p2/8/2BP4/8/PPP2PPP/R1BQK1NR b KQkq - 1 6 f8d6",
+        "title": "Develop Actively With a Defensive Reservation",
+        "question": "How can Black develop efficiently while accounting for White's access to the open central file?",
+        "takeaway": "Black brings the bishop to d6, where it looks toward h2 and clears the way for castling. This is active development, but not a permanent claim to the square. White can check on the e-file, and Black must be willing to retreat the bishop rather than damage king safety merely to avoid moving a piece twice.",
+        "intent": "The bishop uses the route opened by ...exf6 and points toward White's prospective kingside shelter. Black has not yet solved the king's exposure on e8. The move combines useful development with a known defensive obligation if White chooses the forcing queen check.",
+        "plan": "After Qe2+, use ...Be7 and continue development before castling. If White instead plays Ne2, the supplied branch permits ...O-O followed by ...Re8. The bishop's future depends on White's reply: do not memorize d6 as an untouchable destination when the open e-file gives White a tempo.",
+        "tactic": "The diagonal from d6 reaches h2 through e5, f4, and g3, but the h1 rook presently defends h2. There is no established winning sacrifice there. The urgent calculation is Qe2+, which Black must answer legally before castling; an intended king move cannot be played through check.",
+        "theme": "Black's compensation for doubled pawns begins with accessible development squares, not a ready-made attack. This bishop's first journey shows why king safety can take priority over retaining an attractive diagonal.",
+        "alternativeNote": "The supplied ...Qe7+ offers a different simplification: Qe2 ...Bg4 Qxe7+ ...Bxe7. Our bishop development keeps queens on initially, but allows White to choose the e-file check. Both approaches require attention to the resulting recapture and castling prospects.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T10:10:51.598Z",
+        "lineOrigin": "caro-6"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp -17 from side-to-move perspective",
+          "depth": 14,
+          "moves": "6…Bd6 7.Qe2+ 7…Be7 8.Nf3 8…O-O 9.O-O 9…Re8 10.Re1"
+        },
+        {
+          "score": "cp -21 from side-to-move perspective",
+          "depth": 14,
+          "moves": "6…Qe7+ 7.Qe2 7…Bg4 8.Qxe7+ 8…Bxe7 9.Ne2 9…Nd7 10.Bd3"
+        },
+        {
+          "score": "cp -19 from side-to-move perspective",
+          "depth": 13,
+          "moves": "6…Nd7 7.Bd3 7…Be7 8.c3 8…O-O 9.Ne2 9…Re8 10.O-O"
+        },
+        {
+          "score": "cp -23 from side-to-move perspective",
+          "depth": 13,
+          "moves": "6…Na6 7.c3 7…Bd6 8.Qe2+ 8…Qe7 9.Qxe7+ 9…Bxe7 10.Ne2"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 17 from side-to-move perspective",
+          "depth": 14,
+          "moves": "7.Qe2+ 7…Be7 8.Nf3 8…O-O 9.O-O 9…Re8 10.Re1 10…Nd7"
+        },
+        {
+          "score": "cp 6 from side-to-move perspective",
+          "depth": 14,
+          "moves": "7.Ne2 7…O-O 8.O-O 8…Re8 9.Ng3 9…a5 10.Be3 10…f5"
+        },
+        {
+          "score": "cp -2 from side-to-move perspective",
+          "depth": 14,
+          "moves": "7.c3 7…O-O"
+        },
+        {
+          "score": "cp 8 from side-to-move perspective",
+          "depth": 13,
+          "moves": "7.Qf3 7…O-O 8.Ne2 8…c5 9.Be3 9…Qc7 10.dxc5 10…Bxc5"
+        }
+      ]
+    },
+    {
+      "key": "rnbqk2r/pp3ppp/2pb1p2/8/2BP4/8/PPP2PPP/R1BQK1NR w KQkq - 2 7 d1e2",
+      "ply": 13,
+      "moveNumber": 7,
+      "side": "White",
+      "san": "Qe2+",
+      "uci": "d1e2",
+      "beforeFen": "rnbqk2r/pp3ppp/2pb1p2/8/2BP4/8/PPP2PPP/R1BQK1NR w KQkq - 2 7",
+      "afterFen": "rnbqk2r/pp3ppp/2pb1p2/8/2BP4/8/PPP1QPPP/R1B1K1NR b KQkq - 3 7",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 Bc4 Bd6 Qe2+",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "rnbqk2r/pp3ppp/2pb1p2/8/2BP4/8/PPP2PPP/R1BQK1NR w KQkq - 2 7 d1e2",
+        "title": "Use the Open File With Tempo",
+        "question": "How can White make Black address king safety before continuing routine development?",
+        "takeaway": "White checks along the pawn-free e-file and asks Black how the king will be sheltered. The move influences Black's development order rather than winning material by itself. Black's repertoire answer is to interpose the bishop, accepting a retreat so that castling remains available. White still needs to follow this forcing move with normal development.",
+        "intent": "The queen turns the absence of e-file pawns into an immediate resource. Its check obliges Black to address king safety now. White also chooses a central queen square, but that queen will later stand in front of a rook seeking access to the same file.",
+        "plan": "Black answers ...Be7, and White follows with Nf3. Both sides can then castle and arrange rooks on the e-file. A queen interposition is also supplied: after ...Qe7 Qxe7+, that continuation selects a king recapture, creating a different development problem without castling rights.",
+        "tactic": "After ...Qe7 Qxe7+, both the king and the d6 bishop can legally recapture on e7; the supplied ...Kxe7 is not forced. Another interposition, ...Be6, permits Bxe6 ...fxe6 Qxe6+, costing a pawn. Comparing the actual capture orders is more useful than treating all ways to block the check as equivalent.",
+        "theme": "The file opened by Black's structural decision helps White force a concession in development. Black can accept that concession without abandoning activity, provided the response preserves a workable route to king safety.",
+        "alternativeNote": "The supplied Ne2 lets Black castle immediately and then contest the e-file with ...Re8. Qe2+ instead interrupts that schedule. It is a concrete move-order choice, not evidence that developing the queen early is generally superior to developing a knight.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T10:10:51.598Z",
+        "lineOrigin": "caro-6"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp 17 from side-to-move perspective",
+          "depth": 14,
+          "moves": "7.Qe2+ 7…Be7 8.Nf3 8…O-O 9.O-O 9…Re8 10.Re1 10…Nd7"
+        },
+        {
+          "score": "cp 6 from side-to-move perspective",
+          "depth": 14,
+          "moves": "7.Ne2 7…O-O 8.O-O 8…Re8 9.Ng3 9…a5 10.Be3 10…f5"
+        },
+        {
+          "score": "cp -2 from side-to-move perspective",
+          "depth": 14,
+          "moves": "7.c3 7…O-O"
+        },
+        {
+          "score": "cp 8 from side-to-move perspective",
+          "depth": 13,
+          "moves": "7.Qf3 7…O-O 8.Ne2 8…c5 9.Be3 9…Qc7 10.dxc5 10…Bxc5"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -15 from side-to-move perspective",
+          "depth": 15,
+          "moves": "7…Be7 8.Nf3 8…O-O 9.O-O 9…Nd7 10.a4 10…Nb6 11.Bd3"
+        },
+        {
+          "score": "cp -22 from side-to-move perspective",
+          "depth": 14,
+          "moves": "7…Qe7 8.Qxe7+ 8…Kxe7 9.Bd3 9…c5 10.Ne2 10…Nc6 11.Be3"
+        },
+        {
+          "score": "cp -69 from side-to-move perspective",
+          "depth": 14,
+          "moves": "7…Kf8 8.Qh5 8…g6 9.Bh6+ 9…Kg8 10.Qh4 10…Nd7 11.Ne2"
+        },
+        {
+          "score": "cp -154 from side-to-move perspective",
+          "depth": 14,
+          "moves": "7…Be6 8.Bxe6 8…fxe6 9.Qxe6+ 9…Qe7 10.Qxe7+ 10…Kxe7 11.Ne2"
+        }
+      ]
+    },
+    {
+      "key": "rnbqk2r/pp3ppp/2pb1p2/8/2BP4/8/PPP1QPPP/R1B1K1NR b KQkq - 3 7 d6e7",
+      "ply": 14,
+      "moveNumber": 7,
+      "side": "Black",
+      "san": "Be7",
+      "uci": "d6e7",
+      "beforeFen": "rnbqk2r/pp3ppp/2pb1p2/8/2BP4/8/PPP1QPPP/R1B1K1NR b KQkq - 3 7",
+      "afterFen": "rnbqk2r/pp2bppp/2p2p2/8/2BP4/8/PPP1QPPP/R1B1K1NR w KQkq - 4 8",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 Bc4 Bd6 Qe2+ Be7",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "rnbqk2r/pp3ppp/2pb1p2/8/2BP4/8/PPP1QPPP/R1B1K1NR b KQkq - 3 7 d6e7",
+        "title": "Preserve Castling Despite the Lost Tempo",
+        "question": "Which response to the check best balances king safety with the cost of reorganizing development?",
+        "takeaway": "Black blocks the check with the bishop and keeps the king unmoved. Returning from d6 is a genuine loss of activity, but it avoids making king safety harder simply to defend a previous decision. The bishop still clears f8 for castling, and Black can later improve it once the king and rooks are coordinated.",
+        "intent": "The bishop becomes a shield on the e-file rather than an attacker toward h2. Both the king and queen protect it in the current position. Black accepts a restrained square to retain straightforward castling and the subsequent use of a rook in the center.",
+        "plan": "White develops Nf3 next. The candidates include immediate ...O-O, while this repertoire develops the queenside knight first and then castles. Whichever order is chosen, Black should avoid treating the retreat as the end of development: the c8 bishop and queenside knight still need useful roles.",
+        "tactic": "Interposing on e7 ends the check without moving the king. The bishop is now absolutely pinned along the e-file and cannot simply return to d6 while the alignment remains. Castling will remove that restriction. The bishop is nevertheless defended, so the pin alone does not win it.",
+        "theme": "Black protects the foundation of future activity before seeking more of it. The bishop can revisit an attacking diagonal after the king leaves the file and the rooks are ready to support central play.",
+        "alternativeNote": "The supplied ...Qe7 continuation chooses Qxe7+ ...Kxe7, exchanging queens but surrendering castling rights. ...Be7 retains both queens and castling rights. Compare those resulting arrangements; the candidate's king recapture should not be mistaken for the only legal recapture.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T10:10:51.598Z",
+        "lineOrigin": "caro-6"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp -15 from side-to-move perspective",
+          "depth": 15,
+          "moves": "7…Be7 8.Nf3 8…O-O 9.O-O 9…Nd7 10.a4 10…Nb6 11.Bd3"
+        },
+        {
+          "score": "cp -22 from side-to-move perspective",
+          "depth": 14,
+          "moves": "7…Qe7 8.Qxe7+ 8…Kxe7 9.Bd3 9…c5 10.Ne2 10…Nc6 11.Be3"
+        },
+        {
+          "score": "cp -69 from side-to-move perspective",
+          "depth": 14,
+          "moves": "7…Kf8 8.Qh5 8…g6 9.Bh6+ 9…Kg8 10.Qh4 10…Nd7 11.Ne2"
+        },
+        {
+          "score": "cp -154 from side-to-move perspective",
+          "depth": 14,
+          "moves": "7…Be6 8.Bxe6 8…fxe6 9.Qxe6+ 9…Qe7 10.Qxe7+ 10…Kxe7 11.Ne2"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 22 from side-to-move perspective",
+          "depth": 14,
+          "moves": "8.Nf3 8…O-O 9.O-O 9…Nd7 10.Bb3 10…a5 11.a4 11…Nb6"
+        },
+        {
+          "score": "cp 14 from side-to-move perspective",
+          "depth": 14,
+          "moves": "8.c3 8…O-O 9.Be3 9…Bf5 10.Nf3 10…Re8 11.O-O 11…Bf8"
+        },
+        {
+          "score": "cp 12 from side-to-move perspective",
+          "depth": 14,
+          "moves": "8.Be3 8…Nd7 9.Bd3 9…O-O 10.O-O-O 10…Re8 11.c4 11…c5"
+        },
+        {
+          "score": "cp 11 from side-to-move perspective",
+          "depth": 13,
+          "moves": "8.Bd2 8…O-O 9.Nf3 9…Re8 10.O-O 10…Nd7 11.Rfe1 11…Nf8"
+        }
+      ]
+    },
+    {
+      "key": "rnbqk2r/pp2bppp/2p2p2/8/2BP4/8/PPP1QPPP/R1B1K1NR w KQkq - 4 8 g1f3",
+      "ply": 15,
+      "moveNumber": 8,
+      "side": "White",
+      "san": "Nf3",
+      "uci": "g1f3",
+      "beforeFen": "rnbqk2r/pp2bppp/2p2p2/8/2BP4/8/PPP1QPPP/R1B1K1NR w KQkq - 4 8",
+      "afterFen": "rnbqk2r/pp2bppp/2p2p2/8/2BP4/5N2/PPP1QPPP/R1B1K2R b KQkq - 5 8",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 Bc4 Bd6 Qe2+ Be7 Nf3",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "rnbqk2r/pp2bppp/2p2p2/8/2BP4/8/PPP1QPPP/R1B1K1NR w KQkq - 4 8 g1f3",
+        "title": "Complete Development Behind the Active Queen",
+        "question": "How should White support the center after the forcing queen check has been answered?",
+        "takeaway": "White develops the remaining knight, reinforces d4, and clears the last square needed for kingside castling. The queen check has influenced Black's setup, but White must now attend to ordinary development. Black has a choice about the queenside knight's route, and should make it with both king safety and White's active bishop in mind.",
+        "intent": "The knight supports d4 and controls e5, but Black's f6 pawn also controls e5. White has improved coordination without securing a permanent central outpost. That pawn remains on f6 throughout this line, so Black should include its influence when assessing the knight's prospects.",
+        "plan": "The repertoire chooses ...Na6, inviting a structural exchange, and White castles. The supplied alternatives include ...O-O and ...Nd7, both followed by further development. Black's choice should account for the bishop on c4, which can capture a knight placed on a6 along the clear diagonal.",
+        "tactic": "The path from c4 through b5 to a6 is unobstructed. Consequently, ...Na6 allows Bxa6 and a b-pawn recapture. This does not win a piece for White, but changes Black's queenside pawns and minor-piece balance. Recognize the exchange before selecting that development square.",
+        "theme": "The forcing queen check gives way to development and longer-term choices. White prepares castling, while Black's next move offers a second structural concession alongside the doubled f-pawns already on the board.",
+        "alternativeNote": "The supplied c3 supports d4 with a pawn and continues ...O-O Be3 ...Bf5 before Nf3. Developing the knight first prepares castling sooner but leaves the c-pawn uncommitted. Black must assess this actual position rather than import the pawn support from that alternative.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T10:10:51.598Z",
+        "lineOrigin": "caro-6"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp 22 from side-to-move perspective",
+          "depth": 14,
+          "moves": "8.Nf3 8…O-O 9.O-O 9…Nd7 10.Bb3 10…a5 11.a4 11…Nb6"
+        },
+        {
+          "score": "cp 14 from side-to-move perspective",
+          "depth": 14,
+          "moves": "8.c3 8…O-O 9.Be3 9…Bf5 10.Nf3 10…Re8 11.O-O 11…Bf8"
+        },
+        {
+          "score": "cp 12 from side-to-move perspective",
+          "depth": 14,
+          "moves": "8.Be3 8…Nd7 9.Bd3 9…O-O 10.O-O-O 10…Re8 11.c4 11…c5"
+        },
+        {
+          "score": "cp 11 from side-to-move perspective",
+          "depth": 13,
+          "moves": "8.Bd2 8…O-O 9.Nf3 9…Re8 10.O-O 10…Nd7 11.Rfe1 11…Nf8"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -18 from side-to-move perspective",
+          "depth": 13,
+          "moves": "8…Na6 9.O-O 9…O-O 10.Bxa6 10…bxa6 11.Qe4 11…Bd7 12.Bd2"
+        },
+        {
+          "score": "cp -22 from side-to-move perspective",
+          "depth": 13,
+          "moves": "8…O-O 9.O-O 9…Re8 10.Qd3 10…b5 11.Bb3 11…a5 12.a4"
+        },
+        {
+          "score": "cp -26 from side-to-move perspective",
+          "depth": 13,
+          "moves": "8…Nd7 9.O-O 9…O-O 10.Bb3 10…Nb6 11.Re1 11…Re8 12.h3"
+        },
+        {
+          "score": "cp -42 from side-to-move perspective",
+          "depth": 13,
+          "moves": "8…a5 9.Bf4"
+        }
+      ]
+    },
+    {
+      "key": "rnbqk2r/pp2bppp/2p2p2/8/2BP4/5N2/PPP1QPPP/R1B1K2R b KQkq - 5 8 b8a6",
+      "ply": 16,
+      "moveNumber": 8,
+      "side": "Black",
+      "san": "Na6",
+      "uci": "b8a6",
+      "beforeFen": "rnbqk2r/pp2bppp/2p2p2/8/2BP4/5N2/PPP1QPPP/R1B1K2R b KQkq - 5 8",
+      "afterFen": "r1bqk2r/pp2bppp/n1p2p2/8/2BP4/5N2/PPP1QPPP/R1B1K2R w KQkq - 6 9",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 Bc4 Bd6 Qe2+ Be7 Nf3 Na6",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "rnbqk2r/pp2bppp/2p2p2/8/2BP4/5N2/PPP1QPPP/R1B1K2R b KQkq - 5 8 b8a6",
+        "title": "Offer Structure for the Bishop Pair",
+        "question": "How should Black weigh queenside development against the exchanges White can choose?",
+        "takeaway": "Black develops the knight on the rim with a possible route through c7, but allows White to exchange the c4 bishop for it. That offer is deliberate and costly: after ...bxa6, Black will have doubled a-pawns as well as doubled f-pawns. The useful return is the bishop pair, not a repaired structure or a forced initiative.",
+        "intent": "The c6 pawn occupies a natural knight-development square, while a6 leaves the c8 bishop's diagonal unobstructed. White can prevent the maneuver through c7 by capturing. Black must therefore be comfortable playing two bishops against bishop and knight, with vulnerable queenside pawns behind the activity.",
+        "plan": "White may castle or capture immediately. Against Bxa6, recapture with ...bxa6 and complete king safety. If White declines the exchange, the supplied ...Nc7 continuation brings the knight closer to the center and allows ...Be6. Do not assume the knight will reach c7 before White can decide.",
+        "tactic": "The c4 bishop attacks a6, and b7 is the pawn that can recapture there. The a7 pawn cannot capture straight ahead. The resulting a6 and a7 pawns have no black b-pawn beside them, making them isolated as well as doubled. Material equality does not remove that weakness.",
+        "theme": "Black offers White a clear structural target in return for retaining both bishops. Their later activity is a task to accomplish, not a benefit that automatically outweighs the damaged pawns on the move of the exchange.",
+        "alternativeNote": "The supplied ...Nd7 develops without offering this particular bishop exchange and later heads toward b6. ...Na6 leaves the c8 bishop's diagonal unobstructed but exposes the knight to capture. The close bounded candidates do not establish either scheme as compulsory.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T10:10:51.598Z",
+        "lineOrigin": "caro-6"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp -18 from side-to-move perspective",
+          "depth": 13,
+          "moves": "8…Na6 9.O-O 9…O-O 10.Bxa6 10…bxa6 11.Qe4 11…Bd7 12.Bd2"
+        },
+        {
+          "score": "cp -22 from side-to-move perspective",
+          "depth": 13,
+          "moves": "8…O-O 9.O-O 9…Re8 10.Qd3 10…b5 11.Bb3 11…a5 12.a4"
+        },
+        {
+          "score": "cp -26 from side-to-move perspective",
+          "depth": 13,
+          "moves": "8…Nd7 9.O-O 9…O-O 10.Bb3 10…Nb6 11.Re1 11…Re8 12.h3"
+        },
+        {
+          "score": "cp -42 from side-to-move perspective",
+          "depth": 13,
+          "moves": "8…a5 9.Bf4"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 24 from side-to-move perspective",
+          "depth": 13,
+          "moves": "9.O-O 9…Nc7 10.Re1 10…Be6 11.Bd3 11…O-O 12.h3 12…Re8"
+        },
+        {
+          "score": "cp 23 from side-to-move perspective",
+          "depth": 13,
+          "moves": "9.Bxa6 9…bxa6 10.O-O 10…O-O 11.Re1 11…Re8 12.Bd2 12…Qb6"
+        },
+        {
+          "score": "cp 10 from side-to-move perspective",
+          "depth": 13,
+          "moves": "9.Bf4 9…O-O"
+        },
+        {
+          "score": "cp 10 from side-to-move perspective",
+          "depth": 13,
+          "moves": "9.Bd2 9…Nc7 10.O-O 10…O-O 11.Rfe1 11…Bd6 12.Bb3 12…Re8"
+        }
+      ]
+    },
+    {
+      "key": "r1bqk2r/pp2bppp/n1p2p2/8/2BP4/5N2/PPP1QPPP/R1B1K2R w KQkq - 6 9 e1g1",
+      "ply": 17,
+      "moveNumber": 9,
+      "side": "White",
+      "san": "O-O",
+      "uci": "e1g1",
+      "beforeFen": "r1bqk2r/pp2bppp/n1p2p2/8/2BP4/5N2/PPP1QPPP/R1B1K2R w KQkq - 6 9",
+      "afterFen": "r1bqk2r/pp2bppp/n1p2p2/8/2BP4/5N2/PPP1QPPP/R1B2RK1 b kq - 7 9",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 Bc4 Bd6 Qe2+ Be7 Nf3 Na6 O-O",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "r1bqk2r/pp2bppp/n1p2p2/8/2BP4/5N2/PPP1QPPP/R1B1K2R w KQkq - 6 9 e1g1",
+        "title": "Secure the King Before Choosing Exchanges",
+        "question": "Should White settle the queenside exchange immediately or first improve king safety?",
+        "takeaway": "White castles before deciding whether to take the knight on a6. This brings the king away from the central file and makes the rook available for e1. Black should notice that the exchange has been postponed, not ruled out, while recognizing that ...Nc7 could remove the opportunity if Black chooses that move order.",
+        "intent": "White improves the king and rook together while retaining the bishop on its active diagonal. The c1 bishop still interrupts the connection between the rooks. Black now has to balance completing king safety against relocating the queenside knight before White chooses to capture it.",
+        "plan": "The repertoire castles as well, leaving Bxa6 available. White then plays Re1 before making the exchange. The supplied ...Nc7 alternative instead moves the knight out of capture and leaves Black to complete development after Re1. That choice changes the structure White can impose, not just the sequence of routine moves.",
+        "tactic": "Castling leaves the c4–b5–a6 diagonal clear. If Black also castles, Bxa6 and ...bxa6 remain available. If Black plays ...Nc7, there is no knight left on a6 to capture. Track which opportunities survive a quiet move rather than assuming every positional threat remains indefinitely.",
+        "theme": "White prioritizes coordination over an immediate structural gain. Both players are approaching the moment when the e-file matters to rooks, making king safety part of the central struggle rather than a separate opening ritual.",
+        "alternativeNote": "The supplied immediate Bxa6 fixes the pawn structure before either king castles, with ...bxa6 and O-O following. Castling first preserves White's bishop choice but lets Black choose ...Nc7. The comparison concerns who controls the structural decision, not immediate material gain.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T10:10:51.598Z",
+        "lineOrigin": "caro-6"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp 24 from side-to-move perspective",
+          "depth": 13,
+          "moves": "9.O-O 9…Nc7 10.Re1 10…Be6 11.Bd3 11…O-O 12.h3 12…Re8"
+        },
+        {
+          "score": "cp 23 from side-to-move perspective",
+          "depth": 13,
+          "moves": "9.Bxa6 9…bxa6 10.O-O 10…O-O 11.Re1 11…Re8 12.Bd2 12…Qb6"
+        },
+        {
+          "score": "cp 10 from side-to-move perspective",
+          "depth": 13,
+          "moves": "9.Bf4 9…O-O"
+        },
+        {
+          "score": "cp 10 from side-to-move perspective",
+          "depth": 13,
+          "moves": "9.Bd2 9…Nc7 10.O-O 10…O-O 11.Rfe1 11…Bd6 12.Bb3 12…Re8"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -18 from side-to-move perspective",
+          "depth": 13,
+          "moves": "9…O-O 10.Bxa6 10…bxa6 11.Re1 11…Re8 12.Bd2 12…Qb6 13.b3"
+        },
+        {
+          "score": "cp -37 from side-to-move perspective",
+          "depth": 13,
+          "moves": "9…Nc7 10.Re1"
+        },
+        {
+          "score": "cp -79 from side-to-move perspective",
+          "depth": 12,
+          "moves": "9…b5 10.Bb3 10…O-O 11.a4 11…Nc7 12.axb5 12…cxb5 13.d5"
+        },
+        {
+          "score": "cp -107 from side-to-move perspective",
+          "depth": 12,
+          "moves": "9…h5 10.Re1 10…Nc7 11.Bf4 11…Nd5 12.Bg3 12…a5 13.a3"
+        }
+      ]
+    },
+    {
+      "key": "r1bqk2r/pp2bppp/n1p2p2/8/2BP4/5N2/PPP1QPPP/R1B2RK1 b kq - 7 9 e8g8",
+      "ply": 18,
+      "moveNumber": 9,
+      "side": "Black",
+      "san": "O-O",
+      "uci": "e8g8",
+      "beforeFen": "r1bqk2r/pp2bppp/n1p2p2/8/2BP4/5N2/PPP1QPPP/R1B2RK1 b kq - 7 9",
+      "afterFen": "r1bq1rk1/pp2bppp/n1p2p2/8/2BP4/5N2/PPP1QPPP/R1B2RK1 w - - 8 10",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 Bc4 Bd6 Qe2+ Be7 Nf3 Na6 O-O O-O",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "r1bqk2r/pp2bppp/n1p2p2/8/2BP4/5N2/PPP1QPPP/R1B2RK1 b kq - 7 9 e8g8",
+        "title": "Release the King From Central Duties",
+        "question": "Which unfinished task matters most now that White can coordinate a rook on the central file?",
+        "takeaway": "Black castles rather than relocating the knight or starting a pawn advance. The king leaves the e-file, the bishop loses its absolute pin, and the rook becomes available for central work. Black still accepts Bxa6 and the resulting doubled a-pawns. The move improves king safety and coordination; it does not erase the structural concession.",
+        "intent": "The king moves behind the preserved kingside pawns, while the rook enters f8. This makes use of the earlier e-pawn recapture and bishop retreat. Black can now address the remaining development tasks without the central king making every queen move along the e-file a check.",
+        "plan": "Meet Re1 with ...Re8, reinforcing the bishop and preparing to contest the file. White may capture on a6 before or after placing the rook. Once ...bxa6 occurs, Black should develop the c8 bishop and coordinate the heavy pieces rather than attempt to defend every weak pawn passively.",
+        "tactic": "After castling, the bishop on e7 is no longer pinned to the king. White's queen still attacks it, and Black's queen on d8 still protects it diagonally. Removing the pin does not remove that defender. This distinction lets Black assess future bishop moves without inventing a lost piece.",
+        "theme": "The defensive bishop retreat has achieved its immediate purpose: Black has castled and can mobilize a rook. Any subsequent pawn damage can now be handled through middlegame coordination instead of emergency king defense.",
+        "alternativeNote": "The supplied ...Nc7 avoids the bishop-for-knight exchange but leaves castling for later, with Re1 following. Our move addresses king safety immediately and accepts the potential pawn damage. Neither move should be described as gaining a tempo against the c4 bishop.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T10:10:51.598Z",
+        "lineOrigin": "caro-6"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp -18 from side-to-move perspective",
+          "depth": 13,
+          "moves": "9…O-O 10.Bxa6 10…bxa6 11.Re1 11…Re8 12.Bd2 12…Qb6 13.b3"
+        },
+        {
+          "score": "cp -37 from side-to-move perspective",
+          "depth": 13,
+          "moves": "9…Nc7 10.Re1"
+        },
+        {
+          "score": "cp -79 from side-to-move perspective",
+          "depth": 12,
+          "moves": "9…b5 10.Bb3 10…O-O 11.a4 11…Nc7 12.axb5 12…cxb5 13.d5"
+        },
+        {
+          "score": "cp -107 from side-to-move perspective",
+          "depth": 12,
+          "moves": "9…h5 10.Re1 10…Nc7 11.Bf4 11…Nd5 12.Bg3 12…a5 13.a3"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 18 from side-to-move perspective",
+          "depth": 15,
+          "moves": "10.Re1 10…Re8"
+        },
+        {
+          "score": "cp 19 from side-to-move perspective",
+          "depth": 14,
+          "moves": "10.Bxa6 10…bxa6 11.Rd1 11…Re8 12.Be3 12…Bd6 13.c4 13…Bg4"
+        },
+        {
+          "score": "cp 19 from side-to-move perspective",
+          "depth": 14,
+          "moves": "10.h3 10…Re8 11.Bxa6 11…Bd6 12.Qd3 12…bxa6 13.Re1 13…Rxe1+"
+        },
+        {
+          "score": "cp 18 from side-to-move perspective",
+          "depth": 14,
+          "moves": "10.Rd1 10…Nc7 11.Bd3 11…Re8 12.c4 12…Bg4 13.h3 13…Bf8"
+        }
+      ]
+    },
+    {
+      "key": "r1bq1rk1/pp2bppp/n1p2p2/8/2BP4/5N2/PPP1QPPP/R1B2RK1 w - - 8 10 f1e1",
+      "ply": 19,
+      "moveNumber": 10,
+      "side": "White",
+      "san": "Re1",
+      "uci": "f1e1",
+      "beforeFen": "r1bq1rk1/pp2bppp/n1p2p2/8/2BP4/5N2/PPP1QPPP/R1B2RK1 w - - 8 10",
+      "afterFen": "r1bq1rk1/pp2bppp/n1p2p2/8/2BP4/5N2/PPP1QPPP/R1B1R1K1 b - - 9 10",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 Bc4 Bd6 Qe2+ Be7 Nf3 Na6 O-O O-O Re1",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "r1bq1rk1/pp2bppp/n1p2p2/8/2BP4/5N2/PPP1QPPP/R1B2RK1 w - - 8 10 f1e1",
+        "title": "Build Pressure Behind the Queen",
+        "question": "How can White bring the newly activated rook into the central struggle?",
+        "takeaway": "White places the rook behind the queen on the pawn-free e-file, improving coordination before deciding the queenside exchange. The rook is not yet directly attacking the bishop on e7 because White's own queen stands on e2. Black should answer the buildup seriously, but distinguish potential pressure from an immediate increase in attackers on the bishop.",
+        "intent": "White prepares to use the e-file once the queen moves and gives that queen a supporting rook. Black's e7 bishop is the first black piece on the file. Reinforcing it while developing the f8 rook offers a coordinated response to the buildup.",
+        "plan": "Black responds ...Re8, and White then chooses Bxa6. After ...bxa6, White can develop the c1 bishop and free the a1 rook. Black should continue developing rather than assume the rook placement alone solves the lasting problems of vulnerable queenside pawns and the undeveloped c8 bishop.",
+        "tactic": "The queen on e2 interrupts the rook's line toward e7. The queen attacks the bishop, while the rook supports the queen from behind. When the queen leaves the file, the rook will inherit the attack. Recalculate that change instead of counting queen and rook as two simultaneous direct attackers now.",
+        "theme": "The open file attracts heavy pieces from both camps. What began as a checking avenue becomes a coordination contest, with White's queen and Black's bishop temporarily preventing direct contact between the rooks.",
+        "alternativeNote": "The supplied Rd1 instead places a rook behind the d4 pawn and continues ...Nc7 Bd3 ...Re8 c4. Re1 chooses the pawn-free file, although the queen still obstructs it. Compare the intended pawn play and piece traffic, not just the label of an open file.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T10:10:51.598Z",
+        "lineOrigin": "caro-6"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp 18 from side-to-move perspective",
+          "depth": 15,
+          "moves": "10.Re1 10…Re8"
+        },
+        {
+          "score": "cp 19 from side-to-move perspective",
+          "depth": 14,
+          "moves": "10.Bxa6 10…bxa6 11.Rd1 11…Re8 12.Be3 12…Bd6 13.c4 13…Bg4"
+        },
+        {
+          "score": "cp 19 from side-to-move perspective",
+          "depth": 14,
+          "moves": "10.h3 10…Re8 11.Bxa6 11…Bd6 12.Qd3 12…bxa6 13.Re1 13…Rxe1+"
+        },
+        {
+          "score": "cp 18 from side-to-move perspective",
+          "depth": 14,
+          "moves": "10.Rd1 10…Nc7 11.Bd3 11…Re8 12.c4 12…Bg4 13.h3 13…Bf8"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -21 from side-to-move perspective",
+          "depth": 13,
+          "moves": "10…Re8 11.Bxa6 11…bxa6 12.h3 12…a5 13.c4 13…Be6 14.Qc2"
+        },
+        {
+          "score": "cp -29 from side-to-move perspective",
+          "depth": 13,
+          "moves": "10…Bd6"
+        },
+        {
+          "score": "cp -39 from side-to-move perspective",
+          "depth": 12,
+          "moves": "10…Bb4 11.c3 11…Bd6 12.Bxa6 12…bxa6 13.Nd2 13…a5 14.Qf3"
+        },
+        {
+          "score": "cp -180 from side-to-move perspective",
+          "depth": 12,
+          "moves": "10…b5 11.Bd3 11…Be6 12.a4 12…Nb4 13.axb5 13…Nxd3 14.Qxd3"
+        }
+      ]
+    },
+    {
+      "key": "r1bq1rk1/pp2bppp/n1p2p2/8/2BP4/5N2/PPP1QPPP/R1B1R1K1 b - - 9 10 f8e8",
+      "ply": 20,
+      "moveNumber": 10,
+      "side": "Black",
+      "san": "Re8",
+      "uci": "f8e8",
+      "beforeFen": "r1bq1rk1/pp2bppp/n1p2p2/8/2BP4/5N2/PPP1QPPP/R1B1R1K1 b - - 9 10",
+      "afterFen": "r1bqr1k1/pp2bppp/n1p2p2/8/2BP4/5N2/PPP1QPPP/R1B1R1K1 w - - 10 11",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 Bc4 Bd6 Qe2+ Be7 Nf3 Na6 O-O O-O Re1 Re8",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "r1bq1rk1/pp2bppp/n1p2p2/8/2BP4/5N2/PPP1QPPP/R1B1R1K1 b - - 9 10 f8e8",
+        "title": "Reinforce Before Opening Rook Contact",
+        "question": "How can Black meet White's central buildup while improving the coordination of its own pieces?",
+        "takeaway": "Black brings the rook to e8 behind the bishop, reinforcing the central file rather than yielding it to White. The bishop still blocks the rook's line, so this is preparation rather than an immediate attack. Its value becomes clearer when White's queen leaves e2 and Black eventually moves the bishop away from e7.",
+        "intent": "The rook adds protection to e7 and occupies the pawn-free central file. Black still needs to develop the c8 bishop and decide the future of the a6 knight. Supporting the center makes those tasks easier, but does not make either one disappear.",
+        "plan": "After Bxa6, use ...bxa6 and work toward active bishop development. White's supplied alternatives include c3 and Bf4, allowing ...Nc7 instead. Keep that distinction in mind: the rook supports the center, but White still chooses whether Black retains the knight or obtains the bishop pair.",
+        "tactic": "The e7 bishop stands between Black's rook and White's queen. A later bishop move can uncover an attack along the file if the queen is still there. If the queen has already moved, the same bishop move may instead expose rook-to-rook contact. The blockers determine the tactical meaning.",
+        "theme": "Black has established the king-and-rook arrangement made possible by the earlier retreat. The next phase tests whether this central coordination can support the bishops well enough to offset the weaknesses White can create.",
+        "alternativeNote": "The supplied ...Bd6 improves the bishop immediately instead of reinforcing it with the rook. ...Re8 emphasizes support first. The bishop no longer shields the king after castling, so its present role is central occupation; compare how each move changes the traffic on the e-file.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T10:10:51.598Z",
+        "lineOrigin": "caro-6"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp -21 from side-to-move perspective",
+          "depth": 13,
+          "moves": "10…Re8 11.Bxa6 11…bxa6 12.h3 12…a5 13.c4 13…Be6 14.Qc2"
+        },
+        {
+          "score": "cp -29 from side-to-move perspective",
+          "depth": 13,
+          "moves": "10…Bd6"
+        },
+        {
+          "score": "cp -39 from side-to-move perspective",
+          "depth": 12,
+          "moves": "10…Bb4 11.c3 11…Bd6 12.Bxa6 12…bxa6 13.Nd2 13…a5 14.Qf3"
+        },
+        {
+          "score": "cp -180 from side-to-move perspective",
+          "depth": 12,
+          "moves": "10…b5 11.Bd3 11…Be6 12.a4 12…Nb4 13.axb5 13…Nxd3 14.Qxd3"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 15 from side-to-move perspective",
+          "depth": 12,
+          "moves": "11.Bxa6 11…bxa6 12.Bf4 12…h5 13.c3 13…Qb6 14.Qc2 14…a5"
+        },
+        {
+          "score": "cp 4 from side-to-move perspective",
+          "depth": 12,
+          "moves": "11.c3 11…Nc7 12.Qc2 12…a5 13.h3 13…a4 14.Bd3 14…g6"
+        },
+        {
+          "score": "cp -4 from side-to-move perspective",
+          "depth": 12,
+          "moves": "11.Qd3 11…b5"
+        },
+        {
+          "score": "cp -5 from side-to-move perspective",
+          "depth": 12,
+          "moves": "11.Bf4 11…Nc7 12.Qd3 12…Nd5 13.Bg3 13…a5 14.a4 14…Be6"
+        }
+      ]
+    },
+    {
+      "key": "r1bqr1k1/pp2bppp/n1p2p2/8/2BP4/5N2/PPP1QPPP/R1B1R1K1 w - - 10 11 c4a6",
+      "ply": 21,
+      "moveNumber": 11,
+      "side": "White",
+      "san": "Bxa6",
+      "uci": "c4a6",
+      "beforeFen": "r1bqr1k1/pp2bppp/n1p2p2/8/2BP4/5N2/PPP1QPPP/R1B1R1K1 w - - 10 11",
+      "afterFen": "r1bqr1k1/pp2bppp/B1p2p2/8/3P4/5N2/PPP1QPPP/R1B1R1K1 b - - 0 11",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 Bc4 Bd6 Qe2+ Be7 Nf3 Na6 O-O O-O Re1 Re8 Bxa6",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "r1bqr1k1/pp2bppp/n1p2p2/8/2BP4/5N2/PPP1QPPP/R1B1R1K1 w - - 10 11 c4a6",
+        "title": "Exchange Activity for a Lasting Target",
+        "question": "How can White turn the exposed queenside knight into a structural concession?",
+        "takeaway": "White gives up the active light-squared bishop to eliminate Black's last knight and create damaged queenside pawns after the recapture. This is not a free structural gain: Black keeps both bishops. White chooses clear pawn targets over retaining the attacking bishop, while Black must make the surviving bishop pair useful rather than merely admire it.",
+        "intent": "The capture removes the knight's possible route through c7 and leaves a bishop on a6 that Black must address. After ...bxa6, White will have bishop and knight against two bishops. The pawn weaknesses and the minor-piece imbalance should therefore be evaluated together.",
+        "plan": "Black should recapture promptly and then develop the c8 bishop. White can complete development with Bd2 or Bf4 and bring the remaining rook into play. The supplied continuations also move the front a-pawn forward, so White should not expect every target to stay on its original square.",
+        "tactic": "Ignoring the capture leaves Black a piece down unless there is a concrete recovery. The supplied ...Qa5 alternative allows Bd3, saving the white bishop. By contrast, ...bxa6 restores material immediately. A general wish for activity is not sufficient reason to postpone this recapture.",
+        "theme": "White exercises the option created by ...Na6. Black's task changes from developing a knight to coordinating two bishops in a position with separate sets of doubled pawns on the a-file and f-file.",
+        "alternativeNote": "The supplied c3 keeps the light-squared bishop and allows ...Nc7, followed by queen and pawn maneuvering. Bxa6 fixes a different balance immediately. Retaining the bishop preserves its attacking potential, while exchanging it creates structural targets at the cost of that piece's reach.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T10:10:51.598Z",
+        "lineOrigin": "caro-6"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp 15 from side-to-move perspective",
+          "depth": 12,
+          "moves": "11.Bxa6 11…bxa6 12.Bf4 12…h5 13.c3 13…Qb6 14.Qc2 14…a5"
+        },
+        {
+          "score": "cp 4 from side-to-move perspective",
+          "depth": 12,
+          "moves": "11.c3 11…Nc7 12.Qc2 12…a5 13.h3 13…a4 14.Bd3 14…g6"
+        },
+        {
+          "score": "cp -4 from side-to-move perspective",
+          "depth": 12,
+          "moves": "11.Qd3 11…b5"
+        },
+        {
+          "score": "cp -5 from side-to-move perspective",
+          "depth": 12,
+          "moves": "11.Bf4 11…Nc7 12.Qd3 12…Nd5 13.Bg3 13…a5 14.a4 14…Be6"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -22 from side-to-move perspective",
+          "depth": 16,
+          "moves": "11…bxa6 12.Qd3"
+        },
+        {
+          "score": "cp -618 from side-to-move perspective",
+          "depth": 15,
+          "moves": "11…Bd7 12.Bd3 12…Bb4 13.Be3 13…Bxe1 14.Rxe1 14…Bg4 15.Qd2"
+        },
+        {
+          "score": "cp -661 from side-to-move perspective",
+          "depth": 15,
+          "moves": "11…Qa5 12.Bd3 12…Bg4 13.Bf4 13…Qh5 14.Bg3 14…Bf8 15.Qf1"
+        },
+        {
+          "score": "cp -680 from side-to-move perspective",
+          "depth": 15,
+          "moves": "11…Bg4 12.Bxb7 12…Bd6 13.Qxe8+ 13…Qxe8 14.Rxe8+ 14…Rxe8 15.Bxc6"
+        }
+      ]
+    },
+    {
+      "key": "r1bqr1k1/pp2bppp/B1p2p2/8/3P4/5N2/PPP1QPPP/R1B1R1K1 b - - 0 11 b7a6",
+      "ply": 22,
+      "moveNumber": 11,
+      "side": "Black",
+      "san": "bxa6",
+      "uci": "b7a6",
+      "beforeFen": "r1bqr1k1/pp2bppp/B1p2p2/8/3P4/5N2/PPP1QPPP/R1B1R1K1 b - - 0 11",
+      "afterFen": "r1bqr1k1/p3bppp/p1p2p2/8/3P4/5N2/PPP1QPPP/R1B1R1K1 w - - 0 12",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 Bc4 Bd6 Qe2+ Be7 Nf3 Na6 O-O O-O Re1 Re8 Bxa6 bxa6",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "r1bqr1k1/pp2bppp/B1p2p2/8/3P4/5N2/PPP1QPPP/R1B1R1K1 b - - 0 11 b7a6",
+        "title": "Accept the Damage and Keep Both Bishops",
+        "question": "What matters most when restoring material after White's queenside exchange?",
+        "takeaway": "Black recaptures and accepts isolated doubled a-pawns. There is no hidden structural repair; the immediate job is to restore material. The positive feature is the bishop pair, with the king already castled and a rook in the center. Black must make those pieces useful before White coordinates against the pawns, including the newly exposed one on a6.",
+        "intent": "The former b-pawn lands on a6 in front of the original a7 pawn, leaving no black b-pawn to support either. Black also gains a half-open b-file. That is a possible resource, not automatic compensation or an instruction to place a rook there immediately.",
+        "plan": "White develops Bd2 in the line, and Black advances the front a-pawn. Other supplied continuations use ...Bg4 to influence White's knight and d4 pawn. Black can consider counterpressure rather than defend every pawn in place, but should identify what White can capture before choosing that approach.",
+        "tactic": "White's queen on e2 attacks a6 through d3, c4, and b5, all empty. The recapture therefore creates an immediately exposed pawn, not merely a distant endgame weakness. White chooses development next, giving Black an opportunity to address the target; that opportunity is not forced by the position.",
+        "theme": "The second structural bargain is now on the board. Black has surrendered its remaining knight for White's light-squared bishop, and the usefulness of the two surviving bishops must be weighed against genuinely vulnerable pawns.",
+        "alternativeNote": "The supplied ...Bg4 postpones recapturing and allows Bxb7, followed by further material gains for White in the continuation. This is not comparable to developing the bishop after ...bxa6. Restore material first rather than use the word activity to excuse an uncalculated missing piece.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T10:10:51.598Z",
+        "lineOrigin": "caro-6"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp -22 from side-to-move perspective",
+          "depth": 16,
+          "moves": "11…bxa6 12.Qd3"
+        },
+        {
+          "score": "cp -618 from side-to-move perspective",
+          "depth": 15,
+          "moves": "11…Bd7 12.Bd3 12…Bb4 13.Be3 13…Bxe1 14.Rxe1 14…Bg4 15.Qd2"
+        },
+        {
+          "score": "cp -661 from side-to-move perspective",
+          "depth": 15,
+          "moves": "11…Qa5 12.Bd3 12…Bg4 13.Bf4 13…Qh5 14.Bg3 14…Bf8 15.Qf1"
+        },
+        {
+          "score": "cp -680 from side-to-move perspective",
+          "depth": 15,
+          "moves": "11…Bg4 12.Bxb7 12…Bd6 13.Qxe8+ 13…Qxe8 14.Rxe8+ 14…Rxe8 15.Bxc6"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 32 from side-to-move perspective",
+          "depth": 14,
+          "moves": "12.Bd2 12…Bg4 13.Qd3 13…Qd7 14.h3 14…Bf5 15.Qxa6 15…Bxc2"
+        },
+        {
+          "score": "cp 26 from side-to-move perspective",
+          "depth": 14,
+          "moves": "12.Qd3 12…a5 13.c4 13…Be6 14.Bd2 14…Bd6 15.Re3 15…Bc7"
+        },
+        {
+          "score": "cp 23 from side-to-move perspective",
+          "depth": 14,
+          "moves": "12.h3 12…a5 13.c4 13…Be6 14.Bd2 14…a4 15.Bc3 15…Bd6"
+        },
+        {
+          "score": "cp 19 from side-to-move perspective",
+          "depth": 14,
+          "moves": "12.c4 12…Bg4 13.h3 13…Be6 14.Be3 14…a5 15.Nd2 15…Bb4"
+        }
+      ]
+    },
+    {
+      "key": "r1bqr1k1/p3bppp/p1p2p2/8/3P4/5N2/PPP1QPPP/R1B1R1K1 w - - 0 12 c1d2",
+      "ply": 23,
+      "moveNumber": 12,
+      "side": "White",
+      "san": "Bd2",
+      "uci": "c1d2",
+      "beforeFen": "r1bqr1k1/p3bppp/p1p2p2/8/3P4/5N2/PPP1QPPP/R1B1R1K1 w - - 0 12",
+      "afterFen": "r1bqr1k1/p3bppp/p1p2p2/8/3P4/5N2/PPPBQPPP/R3R1K1 b - - 1 12",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 Bc4 Bd6 Qe2+ Be7 Nf3 Na6 O-O O-O Re1 Re8 Bxa6 bxa6 Bd2",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "r1bqr1k1/p3bppp/p1p2p2/8/3P4/5N2/PPP1QPPP/R1B1R1K1 w - - 0 12 c1d2",
+        "title": "Develop Before Harvesting the Weak Pawns",
+        "question": "How can White improve coordination without losing sight of Black's vulnerable queenside?",
+        "takeaway": "White develops the remaining bishop and connects the rooks instead of immediately collecting the exposed a6 pawn. The queen continues to attack that pawn, while the bishop gains access to queenside squares through c3 and b4. Black has time to choose between moving the target and developing counterpressure, but should not expect White to remain uncoordinated.",
+        "intent": "The bishop vacates c1, releasing the a1 rook for central or queenside work. White is preparing pieces to exploit the pawn weaknesses rather than focusing only on a single capture. Black's c8 bishop remains undeveloped, making its activation an important competing priority.",
+        "plan": "The repertoire uses ...a5, moving the pawn off the queen's current diagonal. White then plays b3 and later repositions the queen. The supplied ...Bg4 alternative attacks the knight and can lead to ...Qxd4, showing why White must check the center before pursuing queenside material.",
+        "tactic": "In the supplied ...Bg4 h3 ...Bxf3 Qxf3 ...Qxd4 sequence, Black removes the knight that protects d4 and draws White's queen away from its e2–d3–c4–b5–a6 diagonal. The subsequent queen capture targets White's central pawn. Counterplay can come from eliminating a defender rather than defending a6 directly.",
+        "theme": "White completes development to make structural targets usable. Black must decide whether to move a weakness or create a competing problem, keeping the safety of White's central pawn in the same assessment.",
+        "alternativeNote": "The supplied Qd3 centralizes the queen first and continues ...a5 c4 ...Be6 before Bd2. Developing the bishop immediately connects the rooks sooner. Neither order guarantees a pawn win: Black's bishop activity and the defenders of d4 remain relevant in both.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T10:10:51.598Z",
+        "lineOrigin": "caro-6"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp 32 from side-to-move perspective",
+          "depth": 14,
+          "moves": "12.Bd2 12…Bg4 13.Qd3 13…Qd7 14.h3 14…Bf5 15.Qxa6 15…Bxc2"
+        },
+        {
+          "score": "cp 26 from side-to-move perspective",
+          "depth": 14,
+          "moves": "12.Qd3 12…a5 13.c4 13…Be6 14.Bd2 14…Bd6 15.Re3 15…Bc7"
+        },
+        {
+          "score": "cp 23 from side-to-move perspective",
+          "depth": 14,
+          "moves": "12.h3 12…a5 13.c4 13…Be6 14.Bd2 14…a4 15.Bc3 15…Bd6"
+        },
+        {
+          "score": "cp 19 from side-to-move perspective",
+          "depth": 14,
+          "moves": "12.c4 12…Bg4 13.h3 13…Be6 14.Be3 14…a5 15.Nd2 15…Bb4"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -32 from side-to-move perspective",
+          "depth": 13,
+          "moves": "12…a5 13.c4 13…Be6 14.Bc3 14…Bb4 15.Nd2 15…Qd7 16.Qf3"
+        },
+        {
+          "score": "cp -39 from side-to-move perspective",
+          "depth": 13,
+          "moves": "12…Qb6 13.b3"
+        },
+        {
+          "score": "cp -27 from side-to-move perspective",
+          "depth": 12,
+          "moves": "12…Bf5 13.Qxa6 13…Bxc2 14.Rac1 14…Bf5 15.Rxc6 15…Qd7 16.Ba5"
+        },
+        {
+          "score": "cp -37 from side-to-move perspective",
+          "depth": 12,
+          "moves": "12…Bg4 13.h3 13…Bxf3 14.Qxf3 14…Qxd4 15.Bc3 15…Qb6 16.Qe4"
+        }
+      ]
+    },
+    {
+      "key": "r1bqr1k1/p3bppp/p1p2p2/8/3P4/5N2/PPPBQPPP/R3R1K1 b - - 1 12 a6a5",
+      "ply": 24,
+      "moveNumber": 12,
+      "side": "Black",
+      "san": "a5",
+      "uci": "a6a5",
+      "beforeFen": "r1bqr1k1/p3bppp/p1p2p2/8/3P4/5N2/PPPBQPPP/R3R1K1 b - - 1 12",
+      "afterFen": "r1bqr1k1/p3bppp/2p2p2/p7/3P4/5N2/PPPBQPPP/R3R1K1 w - - 0 13",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 Bc4 Bd6 Qe2+ Be7 Nf3 Na6 O-O O-O Re1 Re8 Bxa6 bxa6 Bd2 a5",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "r1bqr1k1/p3bppp/p1p2p2/8/3P4/5N2/PPPBQPPP/R3R1K1 b - - 1 12 a6a5",
+        "title": "Move the Target Without Repairing It",
+        "question": "How should Black balance the exposed queenside pawn with the need for active development?",
+        "takeaway": "Black advances the front doubled a-pawn, taking it off White's queen diagonal and placing it under the black queen's protection from d8. This is useful target management, not structural repair. The pawn remains isolated and doubled, and White's bishop already attacks its new square. Black has changed the pawn's defender rather than eliminated its vulnerability.",
+        "intent": "The pawn controls b4 and could advance again to make contact with a white pawn on b3. Black has nevertheless spent a tempo on a weakness while the c8 bishop waits at home. The move needs to be followed by effective piece development.",
+        "plan": "White's b3 introduces possible ...a4 contact, but the repertoire develops ...Bf5 next. Against the supplied c4, Black can use ...Be6. White may reinforce the center or reposition the queen, so Black should not treat the pawn's advance as a demand that White cooperate with a queenside expansion.",
+        "tactic": "The queen on d8 protects a5 through c7 and b6. White's bishop on d2 attacks a5 through c3 and b4. Both paths are clear. A later black queen move may therefore remove the pawn's only defender; remember this dependency when coordinating the heavy pieces.",
+        "theme": "Black makes a weakness mobile instead of defending it on its original square. Its temporary queen protection explains both why the advance is playable and why later queen activity can come at a material cost.",
+        "alternativeNote": "The supplied ...Bf5 develops immediately and allows Qxa6 ...Bxc2, producing mutual pawn captures and further queenside play. ...a5 moves the target before developing the bishop. Compare the resulting captures and piece activity rather than treating any pawn advance as a structural improvement.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T10:10:51.598Z",
+        "lineOrigin": "caro-6"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp -32 from side-to-move perspective",
+          "depth": 13,
+          "moves": "12…a5 13.c4 13…Be6 14.Bc3 14…Bb4 15.Nd2 15…Qd7 16.Qf3"
+        },
+        {
+          "score": "cp -39 from side-to-move perspective",
+          "depth": 13,
+          "moves": "12…Qb6 13.b3"
+        },
+        {
+          "score": "cp -27 from side-to-move perspective",
+          "depth": 12,
+          "moves": "12…Bf5 13.Qxa6 13…Bxc2 14.Rac1 14…Bf5 15.Rxc6 15…Qd7 16.Ba5"
+        },
+        {
+          "score": "cp -37 from side-to-move perspective",
+          "depth": 12,
+          "moves": "12…Bg4 13.h3 13…Bxf3 14.Qxf3 14…Qxd4 15.Bc3 15…Qb6 16.Qe4"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 40 from side-to-move perspective",
+          "depth": 13,
+          "moves": "13.b3 13…a4"
+        },
+        {
+          "score": "cp 34 from side-to-move perspective",
+          "depth": 13,
+          "moves": "13.c4 13…Be6"
+        },
+        {
+          "score": "cp 33 from side-to-move perspective",
+          "depth": 12,
+          "moves": "13.Qd3 13…Be6 14.c4 14…a4 15.Bc3 15…Qd7 16.Nd2 16…Bf5"
+        },
+        {
+          "score": "cp 32 from side-to-move perspective",
+          "depth": 12,
+          "moves": "13.Qc4 13…Qb6 14.Qa4 14…Bd7 15.b3 15…Bb4 16.c3 16…Bf8"
+        }
+      ]
+    },
+    {
+      "key": "r1bqr1k1/p3bppp/2p2p2/p7/3P4/5N2/PPPBQPPP/R3R1K1 w - - 0 13 b2b3",
+      "ply": 25,
+      "moveNumber": 13,
+      "side": "White",
+      "san": "b3",
+      "uci": "b2b3",
+      "beforeFen": "r1bqr1k1/p3bppp/2p2p2/p7/3P4/5N2/PPPBQPPP/R3R1K1 w - - 0 13",
+      "afterFen": "r1bqr1k1/p3bppp/2p2p2/p7/3P4/1P3N2/P1PBQPPP/R3R1K1 b - - 0 13",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 Bc4 Bd6 Qe2+ Be7 Nf3 Na6 O-O O-O Re1 Re8 Bxa6 bxa6 Bd2 a5 b3",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "r1bqr1k1/p3bppp/2p2p2/p7/3P4/5N2/PPPBQPPP/R3R1K1 w - - 0 13 b2b3",
+        "title": "Support Expansion While Offering Pawn Contact",
+        "question": "What does White gain and concede by reinforcing queenside squares with a pawn?",
+        "takeaway": "White supports c4 and controls a4, preparing a more stable queenside arrangement. The move does not create an impenetrable barrier: Black can still play ...a4, offering contact against b3. Black must choose between using that contact immediately and developing the remaining bishop before White improves the queen and the a1 rook.",
+        "intent": "The b-pawn backs a future c-pawn advance and helps control a4. It also gives Black's advanced a-pawn something to engage. White has not reinforced c2, which remains vulnerable to a bishop developing on f5 along the clear diagonal through e4 and d3.",
+        "plan": "Black develops ...Bf5, and White responds Qc4, supporting c2 while pressuring c6. The supplied ...a4 alternative instead leads to Bb4 and possible bishop and pawn exchanges. The repertoire prioritizes activating the undeveloped bishop; the possibility of pawn contact remains a choice, not an immediate obligation.",
+        "tactic": "A pawn on b3 attacks a4, but that does not make ...a4 illegal or automatically bad: it creates a capture decision. Also distinguish neighboring squares carefully. The b3 pawn supports c4, not c2, so it does not answer the coming bishop pressure on White's c-pawn.",
+        "theme": "White strengthens the area around Black's weak pawn while offering a contact point of its own. The queenside is becoming an active contest rather than a static picture of Black's damaged formation.",
+        "alternativeNote": "The supplied c4 claims central space immediately and is met by ...Be6. b3 prepares that expansion but also permits ...a4 contact. The distinction is between using the central pawn now and adding support behind its intended square before committing it.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T10:10:51.598Z",
+        "lineOrigin": "caro-6"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp 40 from side-to-move perspective",
+          "depth": 13,
+          "moves": "13.b3 13…a4"
+        },
+        {
+          "score": "cp 34 from side-to-move perspective",
+          "depth": 13,
+          "moves": "13.c4 13…Be6"
+        },
+        {
+          "score": "cp 33 from side-to-move perspective",
+          "depth": 12,
+          "moves": "13.Qd3 13…Be6 14.c4 14…a4 15.Bc3 15…Qd7 16.Nd2 16…Bf5"
+        },
+        {
+          "score": "cp 32 from side-to-move perspective",
+          "depth": 12,
+          "moves": "13.Qc4 13…Qb6 14.Qa4 14…Bd7 15.b3 15…Bb4 16.c3 16…Bf8"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -22 from side-to-move perspective",
+          "depth": 13,
+          "moves": "13…Bf5 14.Qa6 14…Bxc2 15.Qxc6 15…Bf5 16.Qa4 16…Be6 17.Qxa5"
+        },
+        {
+          "score": "cp -42 from side-to-move perspective",
+          "depth": 13,
+          "moves": "13…Bg4 14.Qd3 14…a4 15.Qc4 15…Qd5 16.Qxd5 16…cxd5 17.c4"
+        },
+        {
+          "score": "cp -45 from side-to-move perspective",
+          "depth": 13,
+          "moves": "13…a4 14.Bb4 14…Be6 15.Bxe7 15…Qxe7 16.Qa6 16…axb3 17.axb3"
+        },
+        {
+          "score": "cp -47 from side-to-move perspective",
+          "depth": 12,
+          "moves": "13…Qb6 14.Qc4 14…Bf5 15.Qa4 15…Bb4"
+        }
+      ]
+    },
+    {
+      "key": "r1bqr1k1/p3bppp/2p2p2/p7/3P4/1P3N2/P1PBQPPP/R3R1K1 b - - 0 13 c8f5",
+      "ply": 26,
+      "moveNumber": 13,
+      "side": "Black",
+      "san": "Bf5",
+      "uci": "c8f5",
+      "beforeFen": "r1bqr1k1/p3bppp/2p2p2/p7/3P4/1P3N2/P1PBQPPP/R3R1K1 b - - 0 13",
+      "afterFen": "r2qr1k1/p3bppp/2p2p2/p4b2/3P4/1P3N2/P1PBQPPP/R3R1K1 w - - 1 14",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 Bc4 Bd6 Qe2+ Be7 Nf3 Na6 O-O O-O Re1 Re8 Bxa6 bxa6 Bd2 a5 b3 Bf5",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "r1bqr1k1/p3bppp/2p2p2/p7/3P4/1P3N2/P1PBQPPP/R3R1K1 b - - 0 13 c8f5",
+        "title": "Develop With a Concrete Countertarget",
+        "question": "How can Black make its remaining undeveloped piece relevant before White organizes against the weak pawns?",
+        "takeaway": "Black develops the bishop to f5 and attacks c2 along an unobstructed diagonal. That gives White a defensive task while bringing the bishop pair into play. The move does not solve every weakness: White can defend c2 actively with the queen and pressure c6 at the same time. Black must keep coordinating rather than expect a free pawn.",
+        "intent": "The bishop leaves c8, making the square available to the a8 rook while creating a target beyond White's central pawn. The d4 pawn does not block the f5–e4–d3–c2 diagonal. Black now gives the bishop pair a concrete function rather than relying on its abstract value.",
+        "plan": "After Qc4, reinforce c6 with ...Rc8 and prepare further queen coordination. White can instead play Qa6; the supplied ...Bxc2 Qxc6 sequence then produces mutual captures. Before taking c2, compare White's gains on the queenside and the bishop's retreat options instead of counting only the pawn Black collects.",
+        "tactic": "The c2 pawn is currently undefended: White's queen cannot protect it through the bishop on d2, and neither rook is on the c-file. Nevertheless, Qa6 ...Bxc2 Qxc6 illustrates a countercapture. An undefended enemy pawn may be available without its capture producing a net material gain.",
+        "theme": "Black's bishop pair begins generating practical decisions for White. Pressure on c2 shifts the focus from Black's pawn damage alone toward competing targets, while the bishop's departure also helps bring the last rook into play.",
+        "alternativeNote": "The supplied ...Bg4 challenges the f3 knight and can lead to queen exchanges after Qd3 ...a4 Qc4 ...Qd5. ...Bf5 attacks c2 instead. Choose the bishop's role according to the board, not a blanket rule about developing it outside a pawn chain.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T10:10:51.598Z",
+        "lineOrigin": "caro-6"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp -22 from side-to-move perspective",
+          "depth": 13,
+          "moves": "13…Bf5 14.Qa6 14…Bxc2 15.Qxc6 15…Bf5 16.Qa4 16…Be6 17.Qxa5"
+        },
+        {
+          "score": "cp -42 from side-to-move perspective",
+          "depth": 13,
+          "moves": "13…Bg4 14.Qd3 14…a4 15.Qc4 15…Qd5 16.Qxd5 16…cxd5 17.c4"
+        },
+        {
+          "score": "cp -45 from side-to-move perspective",
+          "depth": 13,
+          "moves": "13…a4 14.Bb4 14…Be6 15.Bxe7 15…Qxe7 16.Qa6 16…axb3 17.axb3"
+        },
+        {
+          "score": "cp -47 from side-to-move perspective",
+          "depth": 12,
+          "moves": "13…Qb6 14.Qc4 14…Bf5 15.Qa4 15…Bb4"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 42 from side-to-move perspective",
+          "depth": 13,
+          "moves": "14.Qc4 14…Rc8 15.Rac1 15…Qb6 16.Qa4 16…Qb5 17.Qxb5 17…cxb5"
+        },
+        {
+          "score": "cp 25 from side-to-move perspective",
+          "depth": 13,
+          "moves": "14.Qa6 14…Bxc2 15.Qxc6 15…Bf5 16.Rac1 16…Be6 17.Qa4 17…Qd6"
+        },
+        {
+          "score": "cp 15 from side-to-move perspective",
+          "depth": 13,
+          "moves": "14.Nh4 14…Be6 15.Nf3 15…Qb6 16.c4 16…a4 17.Qd3 17…Bf8"
+        },
+        {
+          "score": "cp 2 from side-to-move perspective",
+          "depth": 13,
+          "moves": "14.c4 14…Qd7 15.Qd1 15…a4 16.b4 16…Bd3 17.c5 17…Bb5"
+        }
+      ]
+    },
+    {
+      "key": "r2qr1k1/p3bppp/2p2p2/p4b2/3P4/1P3N2/P1PBQPPP/R3R1K1 w - - 1 14 e2c4",
+      "ply": 27,
+      "moveNumber": 14,
+      "side": "White",
+      "san": "Qc4",
+      "uci": "e2c4",
+      "beforeFen": "r2qr1k1/p3bppp/2p2p2/p4b2/3P4/1P3N2/P1PBQPPP/R3R1K1 w - - 1 14",
+      "afterFen": "r2qr1k1/p3bppp/2p2p2/p4b2/2QP4/1P3N2/P1PB1PPP/R3R1K1 b - - 2 14",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 Bc4 Bd6 Qe2+ Be7 Nf3 Na6 O-O O-O Re1 Re8 Bxa6 bxa6 Bd2 a5 b3 Bf5 Qc4",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "r2qr1k1/p3bppp/2p2p2/p4b2/3P4/1P3N2/P1PBQPPP/R3R1K1 w - - 1 14 e2c4",
+        "title": "Defend One Pawn by Attacking Another",
+        "question": "How can White answer the pressure on c2 without retreating into passive defense?",
+        "takeaway": "White moves the queen to c4, defending c2 along the file while attacking Black's c6 pawn. This is an active response to ...Bf5, not merely a queen excursion. It also clears e2 for the rook behind it. Black should recognize the new pawn threat before turning to a kingside plan that leaves c6 undefended.",
+        "intent": "The queen combines protection and pressure from a central queenside square. Black's c6 pawn is currently undefended, so White creates a concrete demand rather than merely improving a piece. Leaving e2 also lets the e1 rook directly attack the defended bishop on e7.",
+        "plan": "Black uses ...Rc8 to defend c6, and White brings the a1 rook to c1. Black can then seek kingside activity with the queenside target covered. The supplied immediate ...h5 variation allows Qxc6, showing why the order of reinforcement and flank expansion matters in this position.",
+        "tactic": "The queen reaches c6 through the empty c5 square and protects c2 through the empty c3 square. Black's rook on a8 does not yet protect c6. Meanwhile, White's rook now sees e7, but that bishop remains defended by the queen and rook. Separate the real pawn threat from the harmless rook alignment.",
+        "theme": "White answers Black's first active bishop move with a queen move serving two purposes. The pawn weaknesses now impose concrete defensive duties, which Black must meet efficiently to retain time for counterplay.",
+        "alternativeNote": "The supplied Qa6 allows ...Bxc2 and answers with Qxc6, accepting mutual pawn captures. Qc4 keeps c2 defended while attacking c6. It seeks coordinated pressure instead of that pawn exchange, though Black still has an economical way to reinforce the target.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T10:10:51.598Z",
+        "lineOrigin": "caro-6"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp 42 from side-to-move perspective",
+          "depth": 13,
+          "moves": "14.Qc4 14…Rc8 15.Rac1 15…Qb6 16.Qa4 16…Qb5 17.Qxb5 17…cxb5"
+        },
+        {
+          "score": "cp 25 from side-to-move perspective",
+          "depth": 13,
+          "moves": "14.Qa6 14…Bxc2 15.Qxc6 15…Bf5 16.Rac1 16…Be6 17.Qa4 17…Qd6"
+        },
+        {
+          "score": "cp 15 from side-to-move perspective",
+          "depth": 13,
+          "moves": "14.Nh4 14…Be6 15.Nf3 15…Qb6 16.c4 16…a4 17.Qd3 17…Bf8"
+        },
+        {
+          "score": "cp 2 from side-to-move perspective",
+          "depth": 13,
+          "moves": "14.c4 14…Qd7 15.Qd1 15…a4 16.b4 16…Bd3 17.c5 17…Bb5"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -35 from side-to-move perspective",
+          "depth": 13,
+          "moves": "14…Rc8 15.Rac1 15…h5 16.Re2 16…Bd6 17.Rxe8+ 17…Qxe8 18.Bxa5"
+        },
+        {
+          "score": "cp -40 from side-to-move perspective",
+          "depth": 13,
+          "moves": "14…Qb6 15.Qa4 15…Bxc2 16.Bxa5 16…Qb5 17.Qxb5 17…cxb5 18.Rac1"
+        },
+        {
+          "score": "cp -46 from side-to-move perspective",
+          "depth": 12,
+          "moves": "14…Qd7 15.Bxa5 15…h5 16.h3 16…Bd6 17.Rxe8+ 17…Rxe8 18.Re1"
+        },
+        {
+          "score": "cp -73 from side-to-move perspective",
+          "depth": 12,
+          "moves": "14…h5 15.Qxc6 15…Rc8 16.Qb5 16…Bxc2 17.Bxa5 17…Qd6 18.Rac1"
+        }
+      ]
+    },
+    {
+      "key": "r2qr1k1/p3bppp/2p2p2/p4b2/2QP4/1P3N2/P1PB1PPP/R3R1K1 b - - 2 14 a8c8",
+      "ply": 28,
+      "moveNumber": 14,
+      "side": "Black",
+      "san": "Rc8",
+      "uci": "a8c8",
+      "beforeFen": "r2qr1k1/p3bppp/2p2p2/p4b2/2QP4/1P3N2/P1PB1PPP/R3R1K1 b - - 2 14",
+      "afterFen": "2rqr1k1/p3bppp/2p2p2/p4b2/2QP4/1P3N2/P1PB1PPP/R3R1K1 w - - 3 15",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 Bc4 Bd6 Qe2+ Be7 Nf3 Na6 O-O O-O Re1 Re8 Bxa6 bxa6 Bd2 a5 b3 Bf5 Qc4 Rc8",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "r2qr1k1/p3bppp/2p2p2/p4b2/2QP4/1P3N2/P1PB1PPP/R3R1K1 b - - 2 14 a8c8",
+        "title": "Defend the Weak Pawn With Development",
+        "question": "How can Black meet the new queenside threat while improving an inactive piece?",
+        "takeaway": "Black places the unused rook on c8 and protects c6, meeting White's queen pressure with an improving move. The c-file is not open: Black's c6 pawn and White's c2 pawn still occupy it. The rook's present job is defensive support, while future exchanges or pawn advances may give it more active work.",
+        "intent": "The c8 bishop's departure has made this transfer possible. Black holds the vulnerable c-pawn without moving it or redirecting the queen from a5. The rook does acquire a defensive duty, but fulfilling it from c8 also brings the last undeveloped heavy piece into play.",
+        "plan": "White plays Rac1, giving c2 a rook defender and preparing the queen to change targets. Black can then consider ...h5 or queen activity. The supplied Re2 and ...Bd6 continuation also opens the e-file, so keep both rooks' responsibilities in view rather than focusing exclusively on the queenside.",
+        "tactic": "The rook protects c6 through the empty c7 square. It does not attack the queen on c4 because Black's own pawn on c6 blocks the file. White therefore has time to improve a rook; ...Rc8 is reinforcement, not a tempo-gaining queen attack or an immediate invasion.",
+        "theme": "Black meets a liability with piece coordination rather than another pawn concession. This defense helps make a later flank plan plausible: before c6 was protected, the same pawn advance would have allowed an easier capture.",
+        "alternativeNote": "The supplied ...Qb6 activates the queen and can lead to Qa4 ...Bxc2 Bxa5 ...Qb5. ...Rc8 secures c6 while retaining the queen's diagonal protection of a5. The contrast is between direct reinforcement and a more tactical exchange of targets.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T10:10:51.598Z",
+        "lineOrigin": "caro-6"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp -35 from side-to-move perspective",
+          "depth": 13,
+          "moves": "14…Rc8 15.Rac1 15…h5 16.Re2 16…Bd6 17.Rxe8+ 17…Qxe8 18.Bxa5"
+        },
+        {
+          "score": "cp -40 from side-to-move perspective",
+          "depth": 13,
+          "moves": "14…Qb6 15.Qa4 15…Bxc2 16.Bxa5 16…Qb5 17.Qxb5 17…cxb5 18.Rac1"
+        },
+        {
+          "score": "cp -46 from side-to-move perspective",
+          "depth": 12,
+          "moves": "14…Qd7 15.Bxa5 15…h5 16.h3 16…Bd6 17.Rxe8+ 17…Rxe8 18.Re1"
+        },
+        {
+          "score": "cp -73 from side-to-move perspective",
+          "depth": 12,
+          "moves": "14…h5 15.Qxc6 15…Rc8 16.Qb5 16…Bxc2 17.Bxa5 17…Qd6 18.Rac1"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 40 from side-to-move perspective",
+          "depth": 13,
+          "moves": "15.Rac1 15…h5 16.Re2 16…Bd6 17.Rxe8+ 17…Qxe8 18.Bxa5 18…Qe6"
+        },
+        {
+          "score": "cp 23 from side-to-move perspective",
+          "depth": 13,
+          "moves": "15.Qa4 15…Bxc2 16.Rac1 16…Bf5 17.Rxc6 17…Bf8 18.Rxe8 18…Qxe8"
+        },
+        {
+          "score": "cp 20 from side-to-move perspective",
+          "depth": 13,
+          "moves": "15.Re3 15…Bd6"
+        },
+        {
+          "score": "cp 26 from side-to-move perspective",
+          "depth": 12,
+          "moves": "15.Re2 15…Bd6 16.Rxe8+ 16…Qxe8 17.Bxa5 17…Qe4 18.c3 18…Bg4"
+        }
+      ]
+    },
+    {
+      "key": "2rqr1k1/p3bppp/2p2p2/p4b2/2QP4/1P3N2/P1PB1PPP/R3R1K1 w - - 3 15 a1c1",
+      "ply": 29,
+      "moveNumber": 15,
+      "side": "White",
+      "san": "Rac1",
+      "uci": "a1c1",
+      "beforeFen": "2rqr1k1/p3bppp/2p2p2/p4b2/2QP4/1P3N2/P1PB1PPP/R3R1K1 w - - 3 15",
+      "afterFen": "2rqr1k1/p3bppp/2p2p2/p4b2/2QP4/1P3N2/P1PB1PPP/2R1R1K1 b - - 4 15",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 Bc4 Bd6 Qe2+ Be7 Nf3 Na6 O-O O-O Re1 Re8 Bxa6 bxa6 Bd2 a5 b3 Bf5 Qc4 Rc8 Rac1",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "2rqr1k1/p3bppp/2p2p2/p4b2/2QP4/1P3N2/P1PB1PPP/R3R1K1 w - - 3 15 a1c1",
+        "title": "Free the Queen From Defensive Duties",
+        "question": "How can White strengthen the position before moving the queen away from its defensive duties?",
+        "takeaway": "White brings the a1 rook to c1, giving c2 a defender independent of the queen. That matters because the queen may soon leave c4 to attack a5. The move is not an immediate invasion on an open file; it improves coordination behind a pawn and reduces the practical force of Black's bishop pressure.",
+        "intent": "White uses the rook that was still on a1, retaining the other rook's influence on the e-file. The c1 rook cannot see c6 through its own pawn. Its immediate value is allowing queen activity without abandoning c2 to the bishop on f5.",
+        "plan": "Black chooses ...h5, while White can reposition the queen or improve the e1 rook. The supplied Qa4 branches target a5; the Re2 branches prepare central exchanges. Black should look for a fresh source of pressure rather than assume the now-defended c2 pawn remains an easy source of counterplay.",
+        "tactic": "With a rook on c1, a bishop arriving on c2 would be attacked by that rook. Black's c8 rook cannot support such a capture through its own c6 pawn. Check these blockers before treating the rook alignment as support for an incursion deep into White's position.",
+        "theme": "White completes the coordination needed to pursue Black's weak pawns. The original c2 target has become more secure, encouraging Black to change emphasis toward central piece pressure and possibilities around the king.",
+        "alternativeNote": "The supplied immediate Qa4 allows ...Bxc2 before Rac1, followed by a bishop retreat and Rxc6. Rac1 first avoids that specific pawn-trading sequence. White invests in protection so the queen can change targets without conceding the same capture on c2.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T10:10:51.598Z",
+        "lineOrigin": "caro-6"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp 40 from side-to-move perspective",
+          "depth": 13,
+          "moves": "15.Rac1 15…h5 16.Re2 16…Bd6 17.Rxe8+ 17…Qxe8 18.Bxa5 18…Qe6"
+        },
+        {
+          "score": "cp 23 from side-to-move perspective",
+          "depth": 13,
+          "moves": "15.Qa4 15…Bxc2 16.Rac1 16…Bf5 17.Rxc6 17…Bf8 18.Rxe8 18…Qxe8"
+        },
+        {
+          "score": "cp 20 from side-to-move perspective",
+          "depth": 13,
+          "moves": "15.Re3 15…Bd6"
+        },
+        {
+          "score": "cp 26 from side-to-move perspective",
+          "depth": 12,
+          "moves": "15.Re2 15…Bd6 16.Rxe8+ 16…Qxe8 17.Bxa5 17…Qe4 18.c3 18…Bg4"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -31 from side-to-move perspective",
+          "depth": 12,
+          "moves": "15…h5 16.h3 16…Qd5 17.Qxd5 17…cxd5 18.c4 18…Ba3 19.Rxe8+"
+        },
+        {
+          "score": "cp -38 from side-to-move perspective",
+          "depth": 12,
+          "moves": "15…h6 16.Qa4 16…Qd7 17.Bxa5 17…Bd6 18.Rxe8+ 18…Rxe8 19.Re1"
+        },
+        {
+          "score": "cp -52 from side-to-move perspective",
+          "depth": 12,
+          "moves": "15…Qb6 16.Qa4 16…Qb5 17.Qxb5 17…cxb5 18.Bxa5 18…Ba3 19.Rxe8+"
+        },
+        {
+          "score": "cp -58 from side-to-move perspective",
+          "depth": 12,
+          "moves": "15…Qd5 16.Qa6"
+        }
+      ]
+    },
+    {
+      "key": "2rqr1k1/p3bppp/2p2p2/p4b2/2QP4/1P3N2/P1PB1PPP/2R1R1K1 b - - 4 15 h7h5",
+      "ply": 30,
+      "moveNumber": 15,
+      "side": "Black",
+      "san": "h5",
+      "uci": "h7h5",
+      "beforeFen": "2rqr1k1/p3bppp/2p2p2/p4b2/2QP4/1P3N2/P1PB1PPP/2R1R1K1 b - - 4 15",
+      "afterFen": "2rqr1k1/p3bpp1/2p2p2/p4b1p/2QP4/1P3N2/P1PB1PPP/2R1R1K1 w - - 0 16",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 Bc4 Bd6 Qe2+ Be7 Nf3 Na6 O-O O-O Re1 Re8 Bxa6 bxa6 Bd2 a5 b3 Bf5 Qc4 Rc8 Rac1 h5",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "2rqr1k1/p3bppp/2p2p2/p4b2/2QP4/1P3N2/P1PB1PPP/2R1R1K1 b - - 4 15 h7h5",
+        "title": "Create Space Behind the Active Pieces",
+        "question": "With the immediate queenside threat covered, where can Black seek useful counterplay?",
+        "takeaway": "Black advances the h-pawn to gain kingside space and support a possible bishop on g4. The move also prepares a later ...h4, but attacks no white piece immediately. Black seeks counterplay while queenside weaknesses remain, so this gain in space must be weighed against moving a pawn away from the king's own shelter.",
+        "intent": "The pawn controls g4, a useful square for the f5 bishop. The c6 pawn has already received rook protection, making this flank investment better prepared than before ...Rc8. White can nevertheless continue targeting a5 rather than being forced to defend the king immediately.",
+        "plan": "White's Qa4 increases pressure on a5, and Black can coordinate the queen before redeploying the bishops. The supplied h3 branch also permits ...Qd5 and queen exchanges. The pawn advance can support active play without requiring an all-out attack or an insistence that queens remain on the board.",
+        "tactic": "The h5 pawn protects g4 but does not attack the knight on f3. A later ...Bg4 attacks that knight, and the value of ...Bxf3 then depends on White's recaptures. These are separate stages. Do not turn a supporting pawn move into an imaginary immediate threat against a piece.",
+        "theme": "Black seeks counterplay on the other wing after covering c6. The advance becomes useful through cooperation with the bishops, not because a flank pawn can compensate for structural weaknesses without help.",
+        "alternativeNote": "The supplied ...h6 makes a smaller kingside commitment and continues Qa4 ...Qd7 Bxa5 ...Bd6. ...h5 gains more space and supports g4, but moves a shelter pawn farther. Neither choice directly solves the vulnerability of a5.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T10:10:51.598Z",
+        "lineOrigin": "caro-6"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp -31 from side-to-move perspective",
+          "depth": 12,
+          "moves": "15…h5 16.h3 16…Qd5 17.Qxd5 17…cxd5 18.c4 18…Ba3 19.Rxe8+"
+        },
+        {
+          "score": "cp -38 from side-to-move perspective",
+          "depth": 12,
+          "moves": "15…h6 16.Qa4 16…Qd7 17.Bxa5 17…Bd6 18.Rxe8+ 18…Rxe8 19.Re1"
+        },
+        {
+          "score": "cp -52 from side-to-move perspective",
+          "depth": 12,
+          "moves": "15…Qb6 16.Qa4 16…Qb5 17.Qxb5 17…cxb5 18.Bxa5 18…Ba3 19.Rxe8+"
+        },
+        {
+          "score": "cp -58 from side-to-move perspective",
+          "depth": 12,
+          "moves": "15…Qd5 16.Qa6"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 42 from side-to-move perspective",
+          "depth": 13,
+          "moves": "16.Qa4 16…Bd6 17.Rxe8+ 17…Qxe8 18.Qxa5 18…Qd7 19.c4 19…Bc7"
+        },
+        {
+          "score": "cp 26 from side-to-move perspective",
+          "depth": 13,
+          "moves": "16.Re3 16…Bf8 17.Rxe8 17…Qxe8 18.Bxa5 18…Qe4 19.Qc3 19…Bd6"
+        },
+        {
+          "score": "cp 22 from side-to-move perspective",
+          "depth": 13,
+          "moves": "16.h3 16…Bd6 17.Rxe8+ 17…Qxe8 18.Bxa5 18…Qe4 19.Qc3 19…Bf4"
+        },
+        {
+          "score": "cp 21 from side-to-move perspective",
+          "depth": 13,
+          "moves": "16.Re2 16…Bf8"
+        }
+      ]
+    },
+    {
+      "key": "2rqr1k1/p3bpp1/2p2p2/p4b1p/2QP4/1P3N2/P1PB1PPP/2R1R1K1 w - - 0 16 c4a4",
+      "ply": 31,
+      "moveNumber": 16,
+      "side": "White",
+      "san": "Qa4",
+      "uci": "c4a4",
+      "beforeFen": "2rqr1k1/p3bpp1/2p2p2/p4b1p/2QP4/1P3N2/P1PB1PPP/2R1R1K1 w - - 0 16",
+      "afterFen": "2rqr1k1/p3bpp1/2p2p2/p4b1p/Q2P4/1P3N2/P1PB1PPP/2R1R1K1 b - - 1 16",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 Bc4 Bd6 Qe2+ Be7 Nf3 Na6 O-O O-O Re1 Re8 Bxa6 bxa6 Bd2 a5 b3 Bf5 Qc4 Rc8 Rac1 h5 Qa4",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "2rqr1k1/p3bpp1/2p2p2/p4b1p/2QP4/1P3N2/P1PB1PPP/2R1R1K1 w - - 0 16 c4a4",
+        "title": "Concentrate Pressure on the Advanced Pawn",
+        "question": "How can White redirect the queen now that c2 has rook protection?",
+        "takeaway": "White turns the queen toward a5, adding pressure to the bishop's existing attack. The c2 pawn no longer needs the queen's direct protection because the rook has arrived on c1. Black must decide whether trying to preserve the advanced pawn is worth restricting its pieces, or whether their activity can justify allowing White to collect it.",
+        "intent": "The queen attacks a5 from directly in front while the bishop on d2 attacks diagonally. Black's queen on d8 still guards the pawn. White concentrates on a concrete target, but the queen's distance from the kingside will matter if Black begins attacking the defenders there.",
+        "plan": "The repertoire uses ...Qd7, allowing Bxa5 and preparing active bishop play. Another supplied branch develops ...Bd6 and trades rooks on e8 before White captures with the queen. Black has choices about the resulting piece arrangement, even though preserving the weak pawn is difficult without further concessions.",
+        "tactic": "The pawn currently has two attackers and one defender, but that count alone does not establish a profitable capture: exchanging a bishop for a defended pawn is not a gain. When Black's queen leaves d8, its protection disappears. That change makes the subsequent Bxa5 a straightforward pawn capture.",
+        "theme": "White's development now produces a concrete material question. Black must compare the value of preserving the pawn with the activity available after relinquishing it, rather than assess the position by pawn structure alone.",
+        "alternativeNote": "The supplied h3 attends to Black's kingside intentions and continues ...Bd6 Rxe8+ ...Qxe8 Bxa5. Qa4 keeps the immediate focus on a5. Both can lead to collecting that pawn, but they invest the intervening tempo in different parts of the board.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T10:10:51.598Z",
+        "lineOrigin": "caro-6"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp 42 from side-to-move perspective",
+          "depth": 13,
+          "moves": "16.Qa4 16…Bd6 17.Rxe8+ 17…Qxe8 18.Qxa5 18…Qd7 19.c4 19…Bc7"
+        },
+        {
+          "score": "cp 26 from side-to-move perspective",
+          "depth": 13,
+          "moves": "16.Re3 16…Bf8 17.Rxe8 17…Qxe8 18.Bxa5 18…Qe4 19.Qc3 19…Bd6"
+        },
+        {
+          "score": "cp 22 from side-to-move perspective",
+          "depth": 13,
+          "moves": "16.h3 16…Bd6 17.Rxe8+ 17…Qxe8 18.Bxa5 18…Qe4 19.Qc3 19…Bf4"
+        },
+        {
+          "score": "cp 21 from side-to-move perspective",
+          "depth": 13,
+          "moves": "16.Re2 16…Bf8"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -24 from side-to-move perspective",
+          "depth": 13,
+          "moves": "16…Qd7 17.Bxa5 17…Bf8 18.Bb4 18…Bg4 19.Bxf8 19…Bxf3 20.gxf3"
+        },
+        {
+          "score": "cp -41 from side-to-move perspective",
+          "depth": 12,
+          "moves": "16…Bg4 17.Re3 17…Bd6 18.Qxa5 18…Qd7 19.Rxe8+ 19…Rxe8 20.Re1"
+        },
+        {
+          "score": "cp -45 from side-to-move perspective",
+          "depth": 12,
+          "moves": "16…Bd6 17.Rxe8+ 17…Qxe8 18.Qxa5 18…Qd7 19.c4 19…Bc7 20.Qc3"
+        },
+        {
+          "score": "cp -64 from side-to-move perspective",
+          "depth": 12,
+          "moves": "16…Qd5 17.c4 17…Qd7 18.Qxa5 18…Bg4 19.Qc3 19…Bf5 20.h3"
+        }
+      ]
+    },
+    {
+      "key": "2rqr1k1/p3bpp1/2p2p2/p4b1p/Q2P4/1P3N2/P1PB1PPP/2R1R1K1 b - - 1 16 d8d7",
+      "ply": 32,
+      "moveNumber": 16,
+      "side": "Black",
+      "san": "Qd7",
+      "uci": "d8d7",
+      "beforeFen": "2rqr1k1/p3bpp1/2p2p2/p4b1p/Q2P4/1P3N2/P1PB1PPP/2R1R1K1 b - - 1 16",
+      "afterFen": "2r1r1k1/p2qbpp1/2p2p2/p4b1p/Q2P4/1P3N2/P1PB1PPP/2R1R1K1 w - - 2 17",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 Bc4 Bd6 Qe2+ Be7 Nf3 Na6 O-O O-O Re1 Re8 Bxa6 bxa6 Bd2 a5 b3 Bf5 Qc4 Rc8 Rac1 h5 Qa4 Qd7",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "2rqr1k1/p3bpp1/2p2p2/p4b1p/Q2P4/1P3N2/P1PB1PPP/2R1R1K1 b - - 1 16 d8d7",
+        "title": "Choose Coordination Over Keeping Every Pawn",
+        "question": "How should Black balance the endangered queenside pawn against the activity of the remaining pieces?",
+        "takeaway": "Black moves the queen to d7 and clears d8 between the rooks, relinquishing its protection of a5. White can take that pawn. This is a material concession for better coordination and more flexible bishop play, not a hidden defense of the weakness. Black still has to demonstrate useful activity; the move alone proves no forced attack.",
+        "intent": "The queen supports c6 and also covers g4 along the clear d7–e6–f5–g4 diagonal once the bishop leaves f5. Clearing d8 connects the rooks. These gains assist the coming bishop activity and central exchanges, while leaving the a5 pawn available to White.",
+        "plan": "After Bxa5, the line plays ...Bg4 to challenge the f3 knight, followed by ...Bd6 when White retreats. White can instead capture with the queen or organize central play. The supplied branches show different ways to meet Black's initiative, so use the coordination gains without assuming a forced sequence.",
+        "tactic": "Vacating d8 removes the defender of a5 and opens the c8 rook's route to e8. Once the e7 bishop moves, a white rook capture on e8 can therefore be answered by that rook as well as by the queen on d7. This is a genuine gain in recapture options, not immediate pawn recovery.",
+        "theme": "Black commits to making the pieces count instead of keeping the advanced pawn at any cost. Structural weakness is about to become a material deficit, raising the importance of accurate, sustained activity.",
+        "alternativeNote": "The supplied immediate ...Bd6 allows Rxe8+ ...Qxe8 before Qxa5. ...Qd7 first gives the other rook a recapture route and retains the bishop's placement for another move. Compare the resulting heavy-piece coordination rather than treating every route to losing a5 as identical.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T10:10:51.598Z",
+        "lineOrigin": "caro-6"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp -24 from side-to-move perspective",
+          "depth": 13,
+          "moves": "16…Qd7 17.Bxa5 17…Bf8 18.Bb4 18…Bg4 19.Bxf8 19…Bxf3 20.gxf3"
+        },
+        {
+          "score": "cp -41 from side-to-move perspective",
+          "depth": 12,
+          "moves": "16…Bg4 17.Re3 17…Bd6 18.Qxa5 18…Qd7 19.Rxe8+ 19…Rxe8 20.Re1"
+        },
+        {
+          "score": "cp -45 from side-to-move perspective",
+          "depth": 12,
+          "moves": "16…Bd6 17.Rxe8+ 17…Qxe8 18.Qxa5 18…Qd7 19.c4 19…Bc7 20.Qc3"
+        },
+        {
+          "score": "cp -64 from side-to-move perspective",
+          "depth": 12,
+          "moves": "16…Qd5 17.c4 17…Qd7 18.Qxa5 18…Bg4 19.Qc3 19…Bf5 20.h3"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 28 from side-to-move perspective",
+          "depth": 14,
+          "moves": "17.Bxa5 17…Bg4 18.Re3 18…Bd6 19.Rxe8+ 19…Rxe8 20.Re1 20…Rxe1+"
+        },
+        {
+          "score": "cp 25 from side-to-move perspective",
+          "depth": 13,
+          "moves": "17.Qxa5 17…Bg4 18.Re4 18…Bf8 19.Rxe8 19…Rxe8 20.Re1 20…Rxe1+"
+        },
+        {
+          "score": "cp 23 from side-to-move perspective",
+          "depth": 13,
+          "moves": "17.c4 17…h4 18.Nxh4 18…Qxd4 19.Qxa5 19…Bc5 20.Nxf5 20…Qxf2+"
+        },
+        {
+          "score": "cp 18 from side-to-move perspective",
+          "depth": 13,
+          "moves": "17.Re3 17…Bd6 18.Rxe8+ 18…Rxe8 19.d5 19…cxd5 20.Qxd7 20…Bxd7"
+        }
+      ]
+    },
+    {
+      "key": "2r1r1k1/p2qbpp1/2p2p2/p4b1p/Q2P4/1P3N2/P1PB1PPP/2R1R1K1 w - - 2 17 d2a5",
+      "ply": 33,
+      "moveNumber": 17,
+      "side": "White",
+      "san": "Bxa5",
+      "uci": "d2a5",
+      "beforeFen": "2r1r1k1/p2qbpp1/2p2p2/p4b1p/Q2P4/1P3N2/P1PB1PPP/2R1R1K1 w - - 2 17",
+      "afterFen": "2r1r1k1/p2qbpp1/2p2p2/B4b1p/Q2P4/1P3N2/P1P2PPP/2R1R1K1 b - - 0 17",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 Bc4 Bd6 Qe2+ Be7 Nf3 Na6 O-O O-O Re1 Re8 Bxa6 bxa6 Bd2 a5 b3 Bf5 Qc4 Rc8 Rac1 h5 Qa4 Qd7 Bxa5",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "2r1r1k1/p2qbpp1/2p2p2/p4b1p/Q2P4/1P3N2/P1PB1PPP/2R1R1K1 w - - 2 17 d2a5",
+        "title": "Collect the Pawn Without Forgetting Defense",
+        "question": "How can White convert the queenside pressure into material while keeping the resulting defensive duties in view?",
+        "takeaway": "White captures the undefended a5 pawn with the bishop and emerges a pawn ahead. This is a real gain, not a trap that Black immediately refutes. White's queen and bishop are now both on the queenside, however, leaving Black an opportunity to pose more urgent questions about the f3 knight and the king's pawn shelter.",
+        "intent": "The bishop converts its long-standing diagonal pressure into material while the queen stays on a4. Black's doubled a-pawns become a lone pawn on a7 through loss, not structural repair. White must now consolidate the extra pawn while Black improves the two bishops.",
+        "plan": "Black answers ...Bg4. White can retreat the knight, as the line does, or reinforce it with Re3 as in another supplied continuation. White should be ready to return the bishop toward the center later; winning a pawn does not make its advanced placement permanently useful.",
+        "tactic": "The capture works because Black's queen left the d8–a5 diagonal. After ...Bg4, the immediate question changes: the bishop attacks the f3 knight, whose pawn recapture would be gxf3. White needs to evaluate that new issue before seeking another queenside pawn or assuming material gain has ended the struggle.",
+        "theme": "White has achieved the material goal arising from Black's damaged queenside. The focus shifts to consolidation, while Black tries to make the bishops' activity more urgent than the absence of the captured pawn.",
+        "alternativeNote": "The supplied Qxa5 also wins the pawn and continues ...Bg4 Re4 ...Bf8. Bxa5 retains the queen on a4 and moves the bishop from d2. The material result is the same, but the subsequent defensive coordination and choices of rook placement differ.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T10:10:51.598Z",
+        "lineOrigin": "caro-6"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp 28 from side-to-move perspective",
+          "depth": 14,
+          "moves": "17.Bxa5 17…Bg4 18.Re3 18…Bd6 19.Rxe8+ 19…Rxe8 20.Re1 20…Rxe1+"
+        },
+        {
+          "score": "cp 25 from side-to-move perspective",
+          "depth": 13,
+          "moves": "17.Qxa5 17…Bg4 18.Re4 18…Bf8 19.Rxe8 19…Rxe8 20.Re1 20…Rxe1+"
+        },
+        {
+          "score": "cp 23 from side-to-move perspective",
+          "depth": 13,
+          "moves": "17.c4 17…h4 18.Nxh4 18…Qxd4 19.Qxa5 19…Bc5 20.Nxf5 20…Qxf2+"
+        },
+        {
+          "score": "cp 18 from side-to-move perspective",
+          "depth": 13,
+          "moves": "17.Re3 17…Bd6 18.Rxe8+ 18…Rxe8 19.d5 19…cxd5 20.Qxd7 20…Bxd7"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -6 from side-to-move perspective",
+          "depth": 13,
+          "moves": "17…Bg4 18.Re3 18…Bd6 19.Rxe8+ 19…Rxe8 20.Re1 20…Bxf3 21.Rxe8+"
+        },
+        {
+          "score": "cp -34 from side-to-move perspective",
+          "depth": 13,
+          "moves": "17…Bd6 18.Rxe8+"
+        },
+        {
+          "score": "cp -34 from side-to-move perspective",
+          "depth": 13,
+          "moves": "17…Bf8 18.Rxe8 18…Rxe8 19.Re1 19…g5 20.Qc4 20…g4 21.Rxe8"
+        },
+        {
+          "score": "cp -60 from side-to-move perspective",
+          "depth": 12,
+          "moves": "17…Rb8 18.c4 18…Rbc8 19.Bb4 19…Bxb4 20.Qxb4 20…Be4 21.Nd2"
+        }
+      ]
+    },
+    {
+      "key": "2r1r1k1/p2qbpp1/2p2p2/B4b1p/Q2P4/1P3N2/P1P2PPP/2R1R1K1 b - - 0 17 f5g4",
+      "ply": 34,
+      "moveNumber": 17,
+      "side": "Black",
+      "san": "Bg4",
+      "uci": "f5g4",
+      "beforeFen": "2r1r1k1/p2qbpp1/2p2p2/B4b1p/Q2P4/1P3N2/P1P2PPP/2R1R1K1 b - - 0 17",
+      "afterFen": "2r1r1k1/p2qbpp1/2p2p2/B6p/Q2P2b1/1P3N2/P1P2PPP/2R1R1K1 w - - 1 18",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 Bc4 Bd6 Qe2+ Be7 Nf3 Na6 O-O O-O Re1 Re8 Bxa6 bxa6 Bd2 a5 b3 Bf5 Qc4 Rc8 Rac1 h5 Qa4 Qd7 Bxa5 Bg4",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "2r1r1k1/p2qbpp1/2p2p2/B4b1p/Q2P4/1P3N2/P1P2PPP/2R1R1K1 b - - 0 17 f5g4",
+        "title": "Make the Knight a Defensive Decision",
+        "question": "What concrete pressure can Black create while White's active pieces remain on the queenside?",
+        "takeaway": "Black attacks the f3 knight with the bishop, supported by the h5 pawn and d7 queen. This is not a pin: White's queen has left e2, and the knight can legally move. The pressure matters because exchanging on f3 would require White to change the king's pawn shelter unless another recapture is arranged first.",
+        "intent": "The bishop changes targets from the defended c2 pawn to a piece that supports White's center and king. Black uses the tempo spent on Bxa5 to create a choice between retreat, reinforcement, and accepting pawn damage. That is useful counterplay, not proof of a forced win.",
+        "plan": "White retreats Nd2 in the line, and Black improves the other bishop with ...Bd6. The supplied Re3 alternative supports the knight while keeping it active. Black should compare exchanging on f3 with retaining the bishop; the value of the exchange depends on the resulting defenders and central play.",
+        "tactic": "In the current arrangement, gxf3 is White's available recapture if the bishop takes the knight; the queen on a4 cannot reach f3. Re3 adds a rook recapture, while Nd2 avoids the exchange. These legal options show why the bishop creates a defensive decision rather than a pin.",
+        "theme": "The earlier h-pawn advance now supports a concrete bishop placement. Black gains practical compensation by making White spend time on defense after collecting a pawn, rather than immediately winning that pawn back.",
+        "alternativeNote": "The supplied ...Bd6 activates the second bishop immediately but opens the e-file for Rxe8+. ...Bg4 first challenges the knight before opening that file. The move order aims to improve the conditions for central activity, not to forbid White from exchanging rooks later.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T10:10:51.598Z",
+        "lineOrigin": "caro-6"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp -6 from side-to-move perspective",
+          "depth": 13,
+          "moves": "17…Bg4 18.Re3 18…Bd6 19.Rxe8+ 19…Rxe8 20.Re1 20…Bxf3 21.Rxe8+"
+        },
+        {
+          "score": "cp -34 from side-to-move perspective",
+          "depth": 13,
+          "moves": "17…Bd6 18.Rxe8+"
+        },
+        {
+          "score": "cp -34 from side-to-move perspective",
+          "depth": 13,
+          "moves": "17…Bf8 18.Rxe8 18…Rxe8 19.Re1 19…g5 20.Qc4 20…g4 21.Rxe8"
+        },
+        {
+          "score": "cp -60 from side-to-move perspective",
+          "depth": 12,
+          "moves": "17…Rb8 18.c4 18…Rbc8 19.Bb4 19…Bxb4 20.Qxb4 20…Be4 21.Nd2"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 13 from side-to-move perspective",
+          "depth": 14,
+          "moves": "18.Nd2 18…Bd6"
+        },
+        {
+          "score": "cp 6 from side-to-move perspective",
+          "depth": 13,
+          "moves": "18.Re3 18…Bd6 19.Rxe8+ 19…Rxe8 20.Re1 20…Bxf3 21.Rxe8+ 21…Qxe8"
+        },
+        {
+          "score": "cp 0 from side-to-move perspective",
+          "depth": 13,
+          "moves": "18.Bb4 18…Bxf3 19.gxf3 19…Qf5 20.Bxe7 20…Rxe7 21.Rxe7 21…Qg5+"
+        },
+        {
+          "score": "cp -38 from side-to-move perspective",
+          "depth": 13,
+          "moves": "18.Qc4 18…Bxf3 19.gxf3 19…Qh3 20.Qd3 20…Bd6 21.f4 21…Qg4+"
+        }
+      ]
+    },
+    {
+      "key": "2r1r1k1/p2qbpp1/2p2p2/B6p/Q2P2b1/1P3N2/P1P2PPP/2R1R1K1 w - - 1 18 f3d2",
+      "ply": 35,
+      "moveNumber": 18,
+      "side": "White",
+      "san": "Nd2",
+      "uci": "f3d2",
+      "beforeFen": "2r1r1k1/p2qbpp1/2p2p2/B6p/Q2P2b1/1P3N2/P1P2PPP/2R1R1K1 w - - 1 18",
+      "afterFen": "2r1r1k1/p2qbpp1/2p2p2/B6p/Q2P2b1/1P6/P1PN1PPP/2R1R1K1 b - - 2 18",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 Bc4 Bd6 Qe2+ Be7 Nf3 Na6 O-O O-O Re1 Re8 Bxa6 bxa6 Bd2 a5 b3 Bf5 Qc4 Rc8 Rac1 h5 Qa4 Qd7 Bxa5 Bg4 Nd2",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "2r1r1k1/p2qbpp1/2p2p2/B6p/Q2P2b1/1P3N2/P1P2PPP/2R1R1K1 w - - 1 18 f3d2",
+        "title": "Retreat to Preserve the King Shelter",
+        "question": "How can White answer the attack on the knight without accepting damage in front of the king?",
+        "takeaway": "White retreats the knight instead of allowing ...Bxf3 to disrupt the kingside pawns. The move gives up central influence but preserves the shelter while White holds an extra pawn. Black gains time to activate the second bishop, not evidence that White's position has collapsed. The knight has useful defensive and active routes from its new square.",
+        "intent": "The knight leaves the bishop's attack and can continue to f1 to reinforce the king. It no longer protects d4 from f3, although the queen on a4 still guards that pawn along the fourth rank. Black should update the defenders rather than assume the retreat leaves d4 hanging.",
+        "plan": "Black plays ...Bd6, and White continues Nf1 in the line. The supplied ...h4 alternative initiates sharper play, including a bishop sacrifice after h3, and needs concrete calculation. The repertoire first improves the bishop while keeping rook exchanges and White's possible central pawn advance in view.",
+        "tactic": "The knight was attacked, not pinned, so it can retreat freely. From d2 it can reach either f1 or c4. The latter would place it between the queen on a4 and pawn on d4, changing that pawn's defense. A more active square can have a less obvious defensive cost.",
+        "theme": "White begins consolidating through a knight maneuver rather than a pawn concession. Black has gained time and reduced the knight's central influence, but needs coordinated follow-up to make those gains outweigh White's extra pawn.",
+        "alternativeNote": "The supplied Re3 retains the knight on f3 and adds a rook defender, followed by ...Bd6 and central exchanges. Nd2 avoids the immediate recapture issue but spends time relocating the knight. Both are serious defensive choices, not evidence that White must accept damaged pawns.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T10:10:51.598Z",
+        "lineOrigin": "caro-6"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp 13 from side-to-move perspective",
+          "depth": 14,
+          "moves": "18.Nd2 18…Bd6"
+        },
+        {
+          "score": "cp 6 from side-to-move perspective",
+          "depth": 13,
+          "moves": "18.Re3 18…Bd6 19.Rxe8+ 19…Rxe8 20.Re1 20…Bxf3 21.Rxe8+ 21…Qxe8"
+        },
+        {
+          "score": "cp 0 from side-to-move perspective",
+          "depth": 13,
+          "moves": "18.Bb4 18…Bxf3 19.gxf3 19…Qf5 20.Bxe7 20…Rxe7 21.Rxe7 21…Qg5+"
+        },
+        {
+          "score": "cp -38 from side-to-move perspective",
+          "depth": 13,
+          "moves": "18.Qc4 18…Bxf3 19.gxf3 19…Qh3 20.Qd3 20…Bd6 21.f4 21…Qg4+"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -12 from side-to-move perspective",
+          "depth": 11,
+          "moves": "18…Bd6 19.Nf1 19…Be2 20.Bd2 20…h4 21.h3 21…Bc7 22.d5"
+        },
+        {
+          "score": "cp -12 from side-to-move perspective",
+          "depth": 11,
+          "moves": "18…h4 19.h3 19…Bxh3 20.gxh3 20…Qxh3 21.d5 21…Bd6 22.Nf1"
+        },
+        {
+          "score": "cp -14 from side-to-move perspective",
+          "depth": 11,
+          "moves": "18…Bf8 19.Nf1 19…h4 20.Rxe8 20…Rxe8 21.d5 21…Bc5 22.Re1"
+        },
+        {
+          "score": "cp -55 from side-to-move perspective",
+          "depth": 11,
+          "moves": "18…Bf5 19.Nf1"
+        }
+      ]
+    },
+    {
+      "key": "2r1r1k1/p2qbpp1/2p2p2/B6p/Q2P2b1/1P6/P1PN1PPP/2R1R1K1 b - - 2 18 e7d6",
+      "ply": 36,
+      "moveNumber": 18,
+      "side": "Black",
+      "san": "Bd6",
+      "uci": "e7d6",
+      "beforeFen": "2r1r1k1/p2qbpp1/2p2p2/B6p/Q2P2b1/1P6/P1PN1PPP/2R1R1K1 b - - 2 18",
+      "afterFen": "2r1r1k1/p2q1pp1/2pb1p2/B6p/Q2P2b1/1P6/P1PN1PPP/2R1R1K1 w - - 3 19",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 Bc4 Bd6 Qe2+ Be7 Nf3 Na6 O-O O-O Re1 Re8 Bxa6 bxa6 Bd2 a5 b3 Bf5 Qc4 Rc8 Rac1 h5 Qa4 Qd7 Bxa5 Bg4 Nd2 Bd6",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "2r1r1k1/p2qbpp1/2p2p2/B6p/Q2P2b1/1P6/P1PN1PPP/2R1R1K1 b - - 2 18 e7d6",
+        "title": "Activate the Bishop and Expose the File",
+        "question": "How can Black use the tempo gained against White's knight while keeping central exchanges under control?",
+        "takeaway": "Black returns the bishop to d6, this time with a castled king and coordinated rooks behind it. The bishop looks toward h2, but moving it also clears the e-file between the opposing rooks. The attacking improvement therefore creates an immediate calculation duty: understand the rook exchanges before judging the position solely by the bishop's diagonal.",
+        "intent": "The bishop leaves e7 and joins the kingside pressure without abandoning a king on the central file. Black has two bishops against White's bishop and retreating knight. Opening rook contact gives White simplification options, so the move improves activity without forcing White to endure every attacking piece.",
+        "plan": "White plays Nf1, reinforcing h2, and Black continues ...Be2. White can instead challenge the bishop with Nc4 or play d5, both supplied alternatives. Against d5, the candidate uses ...Rxe1+ before ...cxd5 and a queen trade. Central exchanges remain part of Black's calculation even during kingside play.",
+        "tactic": "With e7 vacated, the rooks on e1 and e8 face each other along an unobstructed file. After Rxe8+, Black can recapture with the c8 rook through d8 or with the queen on d7. The earlier queen move supplied both options; moving the bishop now has not simply left a rook undefended.",
+        "theme": "The bishop's return to d6 completes a development story. Its first visit invited a forcing check; this one follows castling and rook coordination, which remove that specific problem and make active play more credible.",
+        "alternativeNote": "The supplied ...Bf8 also clears the e-file but places the bishop on a quieter square, with Nf1 ...h4 and rook exchanges following. ...Bd6 immediately bears on h2, but allows knight harassment with Nc4. Compare the diagonal's value with those concrete replies.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T10:10:51.598Z",
+        "lineOrigin": "caro-6"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp -12 from side-to-move perspective",
+          "depth": 11,
+          "moves": "18…Bd6 19.Nf1 19…Be2 20.Bd2 20…h4 21.h3 21…Bc7 22.d5"
+        },
+        {
+          "score": "cp -12 from side-to-move perspective",
+          "depth": 11,
+          "moves": "18…h4 19.h3 19…Bxh3 20.gxh3 20…Qxh3 21.d5 21…Bd6 22.Nf1"
+        },
+        {
+          "score": "cp -14 from side-to-move perspective",
+          "depth": 11,
+          "moves": "18…Bf8 19.Nf1 19…h4 20.Rxe8 20…Rxe8 21.d5 21…Bc5 22.Re1"
+        },
+        {
+          "score": "cp -55 from side-to-move perspective",
+          "depth": 11,
+          "moves": "18…Bf5 19.Nf1"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 6 from side-to-move perspective",
+          "depth": 13,
+          "moves": "19.Nf1 19…Be2 20.Bb4 20…Bf4 21.Bd2 21…Bc7 22.Ng3 22…Bg4"
+        },
+        {
+          "score": "cp 6 from side-to-move perspective",
+          "depth": 13,
+          "moves": "19.Nc4 19…Bb8 20.Rxe8+ 20…Rxe8 21.Re1 21…Rxe1+ 22.Bxe1 22…Qxd4"
+        },
+        {
+          "score": "cp 0 from side-to-move perspective",
+          "depth": 13,
+          "moves": "19.Re4"
+        },
+        {
+          "score": "cp -8 from side-to-move perspective",
+          "depth": 12,
+          "moves": "19.d5 19…Rxe1+ 20.Rxe1 20…cxd5 21.Qxd7 21…Bxd7 22.c3 22…Be5"
+        }
+      ]
+    },
+    {
+      "key": "2r1r1k1/p2q1pp1/2pb1p2/B6p/Q2P2b1/1P6/P1PN1PPP/2R1R1K1 w - - 3 19 d2f1",
+      "ply": 37,
+      "moveNumber": 19,
+      "side": "White",
+      "san": "Nf1",
+      "uci": "d2f1",
+      "beforeFen": "2r1r1k1/p2q1pp1/2pb1p2/B6p/Q2P2b1/1P6/P1PN1PPP/2R1R1K1 w - - 3 19",
+      "afterFen": "2r1r1k1/p2q1pp1/2pb1p2/B6p/Q2P2b1/1P6/P1P2PPP/2R1RNK1 b - - 4 19",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 Bc4 Bd6 Qe2+ Be7 Nf3 Na6 O-O O-O Re1 Re8 Bxa6 bxa6 Bd2 a5 b3 Bf5 Qc4 Rc8 Rac1 h5 Qa4 Qd7 Bxa5 Bg4 Nd2 Bd6 Nf1",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "2r1r1k1/p2q1pp1/2pb1p2/B6p/Q2P2b1/1P6/P1PN1PPP/2R1R1K1 w - - 3 19 d2f1",
+        "title": "Complete the Defensive Knight Circuit",
+        "question": "How can White reinforce the king after Black's second bishop joins the pressure?",
+        "takeaway": "White brings the knight to f1, adding protection to h2 and controlling g3 and e3. The route through d2 has traded central influence for defensive stability. Black should respect that regrouping while noticing an opportunity to interfere with it: the cleared f3 square gives the g4 bishop access toward the back-rank defenders.",
+        "intent": "The knight reinforces the pawn targeted by the d6 bishop and offers future routes toward e3 or g3. White is trying to consolidate the extra pawn without weakening the shelter. Black needs a new source of restriction, because simply pointing at h2 has become less effective.",
+        "plan": "Black uses ...Be2 to attack the knight and interrupt the e-file. White can return the advanced bishop through b4 or directly to d2, as supplied continuations show. Black can also consider ...h4, controlling g3 and asking White to choose between a pawn response and another knight maneuver.",
+        "tactic": "The f1 knight defends h2 and is itself protected by both the g1 king and e1 rook. Black's coming bishop attack therefore does not win an undefended piece. Its value lies in restricting movement and interrupting coordination, so evaluate the pressure without inventing an immediate material threat.",
+        "theme": "White's consolidation has required a full maneuver, giving Black time to activate both bishops. The next question is whether those bishops can keep the defenders restricted or White can reorganize and use the extra pawn.",
+        "alternativeNote": "The supplied Nc4 attacks the bishop and prompts ...Bb8, but also blocks the queen's a4–d4 line. After the listed rook exchanges, ...Qxd4 collects the now-unguarded pawn. Nf1 chooses king defense without obstructing that line, an important detail beyond the knight's apparent activity.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T10:10:51.598Z",
+        "lineOrigin": "caro-6"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp 6 from side-to-move perspective",
+          "depth": 13,
+          "moves": "19.Nf1 19…Be2 20.Bb4 20…Bf4 21.Bd2 21…Bc7 22.Ng3 22…Bg4"
+        },
+        {
+          "score": "cp 6 from side-to-move perspective",
+          "depth": 13,
+          "moves": "19.Nc4 19…Bb8 20.Rxe8+ 20…Rxe8 21.Re1 21…Rxe1+ 22.Bxe1 22…Qxd4"
+        },
+        {
+          "score": "cp 0 from side-to-move perspective",
+          "depth": 13,
+          "moves": "19.Re4"
+        },
+        {
+          "score": "cp -8 from side-to-move perspective",
+          "depth": 12,
+          "moves": "19.d5 19…Rxe1+ 20.Rxe1 20…cxd5 21.Qxd7 21…Bxd7 22.c3 22…Be5"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -11 from side-to-move perspective",
+          "depth": 13,
+          "moves": "19…Be2 20.Bb4"
+        },
+        {
+          "score": "cp -9 from side-to-move perspective",
+          "depth": 12,
+          "moves": "19…h4 20.h3 20…Be2 21.Bb4 21…Bf4 22.Bd2 22…Bc7 23.Qb4"
+        },
+        {
+          "score": "cp -48 from side-to-move perspective",
+          "depth": 12,
+          "moves": "19…Bf5 20.Rxe8+ 20…Rxe8 21.Qc4 21…Be4 22.Re1 22…Re6 23.f3"
+        },
+        {
+          "score": "cp -64 from side-to-move perspective",
+          "depth": 12,
+          "moves": "19…Qf5 20.Rxe8+ 20…Rxe8 21.Qxc6 21…Re2 22.Be1 22…Bf4 23.Ng3"
+        }
+      ]
+    },
+    {
+      "key": "2r1r1k1/p2q1pp1/2pb1p2/B6p/Q2P2b1/1P6/P1P2PPP/2R1RNK1 b - - 4 19 g4e2",
+      "ply": 38,
+      "moveNumber": 19,
+      "side": "Black",
+      "san": "Be2",
+      "uci": "g4e2",
+      "beforeFen": "2r1r1k1/p2q1pp1/2pb1p2/B6p/Q2P2b1/1P6/P1P2PPP/2R1RNK1 b - - 4 19",
+      "afterFen": "2r1r1k1/p2q1pp1/2pb1p2/B6p/Q2P4/1P6/P1P1bPPP/2R1RNK1 w - - 5 20",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 Bc4 Bd6 Qe2+ Be7 Nf3 Na6 O-O O-O Re1 Re8 Bxa6 bxa6 Bd2 a5 b3 Bf5 Qc4 Rc8 Rac1 h5 Qa4 Qd7 Bxa5 Bg4 Nd2 Bd6 Nf1 Be2",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "2r1r1k1/p2q1pp1/2pb1p2/B6p/Q2P2b1/1P6/P1P2PPP/2R1RNK1 b - - 4 19 g4e2",
+        "title": "Occupy the File to Restrict Defenders",
+        "question": "How can Black keep pressure on White's reorganized defense without rushing an exchange?",
+        "takeaway": "Black plants the bishop on e2, attacking the knight on f1 and interrupting the open e-file. The e8 rook supports the advanced bishop, so White cannot treat it as a loose intruder. This is restriction rather than a fork: the bishop attacks neither white rook, and the knight it challenges still has defenders.",
+        "intent": "The bishop uses the cleared f3 square to enter White's position. Standing between the rooks, it prevents their immediate exchange and keeps the f1 knight under attack. Black retains both bishops while making White's effort to simplify and reorganize less straightforward.",
+        "plan": "White returns the bishop with Bd2 in the line, and Black advances ...h4. The supplied Bb4 branch permits ...Bf4 and further bishop maneuvering. Keep ...Bxf1 available, but exchange the bishop only for a purpose: later candidates combine that trade with queen improvement or a pawn advance.",
+        "tactic": "The e8 rook protects the bishop down the clear file. Rxe2 would therefore allow ...Rxe2, making the capture an exchange sacrifice rather than a free bishop. Conversely, ...Bxf1 can be met by the king in supplied continuations. Neither available capture should be assessed without identifying its legal recapture.",
+        "theme": "Black changes the e-file from a route for rook exchanges into support for an advanced bishop. The initiative rests on restricting defenders and preserving choices, not on already recovering the sacrificed pawn.",
+        "alternativeNote": "The supplied ...h4 starts the pawn pressure immediately and can transpose after h3 ...Be2. ...Be2 first interrupts the file and attacks the knight. The order changes White's options even though both plans may combine the same bishop placement and pawn advance.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T10:10:51.598Z",
+        "lineOrigin": "caro-6"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp -11 from side-to-move perspective",
+          "depth": 13,
+          "moves": "19…Be2 20.Bb4"
+        },
+        {
+          "score": "cp -9 from side-to-move perspective",
+          "depth": 12,
+          "moves": "19…h4 20.h3 20…Be2 21.Bb4 21…Bf4 22.Bd2 22…Bc7 23.Qb4"
+        },
+        {
+          "score": "cp -48 from side-to-move perspective",
+          "depth": 12,
+          "moves": "19…Bf5 20.Rxe8+ 20…Rxe8 21.Qc4 21…Be4 22.Re1 22…Re6 23.f3"
+        },
+        {
+          "score": "cp -64 from side-to-move perspective",
+          "depth": 12,
+          "moves": "19…Qf5 20.Rxe8+ 20…Rxe8 21.Qxc6 21…Re2 22.Be1 22…Bf4 23.Ng3"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 6 from side-to-move perspective",
+          "depth": 13,
+          "moves": "20.Bd2 20…h4 21.h3 21…f5 22.Be3 22…Bxf1 23.Kxf1 23…f4"
+        },
+        {
+          "score": "cp 2 from side-to-move perspective",
+          "depth": 13,
+          "moves": "20.Bb4 20…Bf4 21.Bd2 21…Bxd2 22.Nxd2 22…Qg4 23.h3 23…Qg5"
+        },
+        {
+          "score": "cp -21 from side-to-move perspective",
+          "depth": 13,
+          "moves": "20.c4 20…Bf4 21.Bd2 21…Bxd2 22.Nxd2 22…Qxd4 23.Nf1 23…h4"
+        },
+        {
+          "score": "cp -21 from side-to-move perspective",
+          "depth": 13,
+          "moves": "20.d5 20…Bb5"
+        }
+      ]
+    },
+    {
+      "key": "2r1r1k1/p2q1pp1/2pb1p2/B6p/Q2P4/1P6/P1P1bPPP/2R1RNK1 w - - 5 20 a5d2",
+      "ply": 39,
+      "moveNumber": 20,
+      "side": "White",
+      "san": "Bd2",
+      "uci": "a5d2",
+      "beforeFen": "2r1r1k1/p2q1pp1/2pb1p2/B6p/Q2P4/1P6/P1P1bPPP/2R1RNK1 w - - 5 20",
+      "afterFen": "2r1r1k1/p2q1pp1/2pb1p2/7p/Q2P4/1P6/P1PBbPPP/2R1RNK1 b - - 6 20",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 Bc4 Bd6 Qe2+ Be7 Nf3 Na6 O-O O-O Re1 Re8 Bxa6 bxa6 Bd2 a5 b3 Bf5 Qc4 Rc8 Rac1 h5 Qa4 Qd7 Bxa5 Bg4 Nd2 Bd6 Nf1 Be2 Bd2",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "2r1r1k1/p2q1pp1/2pb1p2/B6p/Q2P4/1P6/P1P1bPPP/2R1RNK1 w - - 5 20 a5d2",
+        "title": "Bring the Pawn Collector Back Home",
+        "question": "How can White improve coordination now that the queenside capture has been completed?",
+        "takeaway": "White returns the bishop from a5 to d2 after collecting the pawn. Here it protects the e1 rook, controls f4 through e3, and can later develop to e3. It does not attack the black bishop on e2: the two bishops occupy different-colored squares. Black should recognize a useful defensive regrouping rather than an aimless retreat.",
+        "intent": "The bishop rejoins the central pieces instead of remaining beside the queen on the queenside. On d2 it supports the rook and has the f1 knight's protection. White is improving coordination before undertaking further activity, while Black still has the advanced bishop and h-pawn to use.",
+        "plan": "Black plays ...h4, and White must choose between a pawn response and further piece activity. Supplied h3 lines include ...Bc7 followed by Be3 or d5. Stay alert to central resistance: the bishop's return can support an active response to the initiative rather than commit White to permanent defense.",
+        "tactic": "The return route a5–b4–c3–d2 is clear. From d2 the bishop protects e1, not e2, so Black's advanced bishop remains unchallenged directly and supported by the e8 rook. Distinguish the new protection of White's rook from an imaginary attack on the neighboring black bishop.",
+        "theme": "White's bishop has developed, won a pawn, and returned to assist consolidation. Black gained time for activity during that journey, but White is reconnecting the material gain with the defensive needs of the rest of the position.",
+        "alternativeNote": "The supplied Bb4 retains a more advanced bishop placement and continues ...Bf4 Bd2 ...Bxd2 Nxd2. Direct Bd2 omits that intermediate stop and immediately supports e1. Compare the resulting exchanges and defensive coverage, not just which bishop square appears more active.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T10:10:51.598Z",
+        "lineOrigin": "caro-6"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp 6 from side-to-move perspective",
+          "depth": 13,
+          "moves": "20.Bd2 20…h4 21.h3 21…f5 22.Be3 22…Bxf1 23.Kxf1 23…f4"
+        },
+        {
+          "score": "cp 2 from side-to-move perspective",
+          "depth": 13,
+          "moves": "20.Bb4 20…Bf4 21.Bd2 21…Bxd2 22.Nxd2 22…Qg4 23.h3 23…Qg5"
+        },
+        {
+          "score": "cp -21 from side-to-move perspective",
+          "depth": 13,
+          "moves": "20.c4 20…Bf4 21.Bd2 21…Bxd2 22.Nxd2 22…Qxd4 23.Nf1 23…h4"
+        },
+        {
+          "score": "cp -21 from side-to-move perspective",
+          "depth": 13,
+          "moves": "20.d5 20…Bb5"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp -4 from side-to-move perspective",
+          "depth": 12,
+          "moves": "20…h4 21.h3 21…Bc7 22.Be3 22…Bxf1 23.Kxf1 23…Qd6 24.f3"
+        },
+        {
+          "score": "cp -16 from side-to-move perspective",
+          "depth": 12,
+          "moves": "20…Qg4 21.Qxa7 21…f5 22.Rxe2 22…Qxe2 23.Qd7 23…Qe6 24.Qxe6"
+        },
+        {
+          "score": "cp -27 from side-to-move perspective",
+          "depth": 11,
+          "moves": "20…Bb8 21.Ne3 21…Qd6 22.g3 22…Bf3 23.Ng2 23…Qd5"
+        },
+        {
+          "score": "cp -28 from side-to-move perspective",
+          "depth": 11,
+          "moves": "20…Re4 21.c4 21…Qg4 22.Qxa7 22…Rce8 23.h3 23…Qg6 24.Qd7"
+        }
+      ]
+    },
+    {
+      "key": "2r1r1k1/p2q1pp1/2pb1p2/7p/Q2P4/1P6/P1PBbPPP/2R1RNK1 b - - 6 20 h5h4",
+      "ply": 40,
+      "moveNumber": 20,
+      "side": "Black",
+      "san": "h4",
+      "uci": "h5h4",
+      "beforeFen": "2r1r1k1/p2q1pp1/2pb1p2/7p/Q2P4/1P6/P1PBbPPP/2R1RNK1 b - - 6 20",
+      "afterFen": "2r1r1k1/p2q1pp1/2pb1p2/8/Q2P3p/1P6/P1PBbPPP/2R1RNK1 w - - 0 21",
+      "source": "engine-continuation",
+      "playedPrefix": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 Bc4 Bd6 Qe2+ Be7 Nf3 Na6 O-O O-O Re1 Re8 Bxa6 bxa6 Bd2 a5 b3 Bf5 Qc4 Rc8 Rac1 h5 Qa4 Qd7 Bxa5 Bg4 Nd2 Bd6 Nf1 Be2 Bd2 h4",
+      "needsAuthoring": false,
+      "existingAccepted": {
+        "key": "2r1r1k1/p2q1pp1/2pb1p2/7p/Q2P4/1P6/P1PBbPPP/2R1RNK1 b - - 6 20 h5h4",
+        "title": "Restrict the Defender Before Forcing Contact",
+        "question": "How can Black sustain the initiative while White tries to consolidate the extra pawn?",
+        "takeaway": "Black advances the h-pawn again, controlling g3 and preparing ...h3 if White permits it. This restricts one route for the defensive knight. There is no forced attack: White can respond with h3 or improve the knight through e3. Black must combine the pawn pressure with accurate bishop play and attention to the center.",
+        "intent": "The pawn now supports restriction of the f1 knight rather than a bishop on g4. The e2 bishop already attacks that knight, while the d6 bishop bears on h2. These pieces give the pawn advance purpose, but White's extra pawn and central counterplay remain important.",
+        "plan": "Against h3, the supplied continuation uses ...Bc7 and meets d5 with ...Qxd5, followed by queen activity. Against Ne3, ...Bb5 attacks the queen and changes the bishop's role. Choose according to White's defense rather than push the pawn again automatically while ignoring changes in the center.",
+        "tactic": "After Ne3, the supplied ...Bb5 moves the e2 bishop through d3 and c4 to attack the queen on a4. White must move that queen, and its departure can affect the defense of d4. Against immediate d5 instead, the supplied ...h3 creates sharper king-side contact. Compare these distinct resources rather than assuming one forcing attack.",
+        "theme": "The line reaches a material-versus-activity struggle: White owns the extra pawn, while Black's bishops and h-pawn complicate consolidation. The next decisions concern accurate middlegame pressure and central counterplay, not a promised mating sequence.",
+        "alternativeNote": "The supplied ...Qg4 activates the queen immediately but allows Qxa7, followed by ...f5 and central exchanges. ...h4 first restricts White's kingside choices while keeping the queen central. Compare the pressure gained with the extra queenside material White can collect in that alternative.",
+        "authored": "astra-reviewed",
+        "model": "cliproxyapi/gpt-6-astra",
+        "effort": "high",
+        "reviewedAt": "2026-10-09T10:10:51.598Z",
+        "lineOrigin": "caro-6"
+      },
+      "candidatesBefore": [
+        {
+          "score": "cp -4 from side-to-move perspective",
+          "depth": 12,
+          "moves": "20…h4 21.h3 21…Bc7 22.Be3 22…Bxf1 23.Kxf1 23…Qd6 24.f3"
+        },
+        {
+          "score": "cp -16 from side-to-move perspective",
+          "depth": 12,
+          "moves": "20…Qg4 21.Qxa7 21…f5 22.Rxe2 22…Qxe2 23.Qd7 23…Qe6 24.Qxe6"
+        },
+        {
+          "score": "cp -27 from side-to-move perspective",
+          "depth": 11,
+          "moves": "20…Bb8 21.Ne3 21…Qd6 22.g3 22…Bf3 23.Ng2 23…Qd5"
+        },
+        {
+          "score": "cp -28 from side-to-move perspective",
+          "depth": 11,
+          "moves": "20…Re4 21.c4 21…Qg4 22.Qxa7 22…Rce8 23.h3 23…Qg6 24.Qd7"
+        }
+      ],
+      "candidatesAfter": [
+        {
+          "score": "cp 15 from side-to-move perspective",
+          "depth": 12,
+          "moves": "21.Ne3 21…Bb5 22.Qa5 22…Bc7 23.Qa3 23…Qxd4 24.Qb4 24…Qxb4"
+        },
+        {
+          "score": "cp 10 from side-to-move perspective",
+          "depth": 12,
+          "moves": "21.h3 21…Bc7 22.d5 22…Qxd5 23.Be3 23…Qh5 24.Qxa7 24…Be5"
+        },
+        {
+          "score": "cp -50 from side-to-move perspective",
+          "depth": 12,
+          "moves": "21.d5 21…h3 22.Ne3 22…Bb5 23.Qg4 23…Qxg4 24.Nxg4 24…cxd5"
+        },
+        {
+          "score": "cp -64 from side-to-move perspective",
+          "depth": 12,
+          "moves": "21.b4 21…h3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "lineId": "scotch-18",
+  "model": "cliproxyapi/gpt-6-astra",
+  "effort": "high",
+  "lessons": [
+    {
+      "key": "r1bqk1nr/pppp1ppp/2n5/8/1bB1P3/2P2N2/P4PPP/RNBQK2R b KQkq - 0 6 b4d6",
+      "title": "A Retreat That Crowds Development",
+      "question": "What should Black consider besides saving the attacked bishop when choosing its retreat?",
+      "takeaway": "The retreat ...Bd6 saves the bishop from the c3 pawn, but its central appearance is misleading. It stands directly in front of the d7 pawn and gives White a target for e5. Black keeps the extra pawn, yet makes coordination harder. White can first secure the king rather than rush to prove that the bishop is misplaced.",
+      "intent": "Black answers the immediate bishop attack at a positional cost. With the d-pawn blocked, the c8 bishop lacks its usual developing diagonal, and a central challenge is harder to arrange. White's compensation for the missing pawn now includes a concrete way to make Black spend another bishop move.",
+      "plan": "White can castle before considering the supported e5 advance. Black needs kingside development, but should expect the bishop to move again before the d-pawn can participate. The supplied ...Qf6 branch after castling allows Bg5, queen relocation and Re1: White can exploit the congestion through developing threats as well as pawn advances.",
+      "tactic": "The immediate threat is cxb4, which would remove the bishop even though the pawn currently lies on its diagonal to the king. Retreating ends that threat. Next, calculate e5 and the bishop's possible retreats; the f3 knight supports e5, but captures there require counting Black's c6 knight too.",
+      "theme": "The shared opening lessons traded pawn compactness for activity. This retreat gives that bargain a specific focus: White can exploit awkward coordination, preferably after establishing king safety rather than by launching an unsupported attack.",
+      "alternativeNote": "The supplied ...Ba5 line keeps the d-pawn free, and Black later plays ...d6 after relocating the bishop toward b6. Compare that freedom with the obstruction caused by ...Bd6. A bishop's useful-looking diagonal does not automatically compensate for blocking another piece's development."
+    },
+    {
+      "key": "r1bqk1nr/pppp1ppp/2nb4/8/2B1P3/2P2N2/P4PPP/RNBQK2R w KQkq - 1 7 e1g1",
+      "title": "Secure the King Before Gaining Time",
+      "question": "How can White prepare central action while reducing the risks of having the king on an open file?",
+      "takeaway": "Castling puts White's king behind the intact kingside pawns and brings a rook closer to the central struggle. There is no need to chase the bishop immediately. Black still has to develop the kingside knight, and the bishop on d6 remains a potential target for e5. White makes the coming central action easier to handle before starting it.",
+      "intent": "White is a pawn down, but Black's bishop obstructs the d-pawn and several black pieces remain undeveloped. The priority is to make that temporary coordination advantage usable. Castling removes the king from the center and places the rook where it can reach e1 in a single move.",
+      "plan": "Against ...Nh6, White can advance e5, making Black address the bishop before deciding whether to exchange on h6. Black can instead try ...Qf6, when the supplied Bg5 and Re1 sequence develops with threats. In either case, White should eventually bring the b1 knight into play rather than rely indefinitely on the same attackers.",
+      "tactic": "Castling is legal here: the king is not in check, the intervening squares are empty, and neither f1 nor g1 is attacked. Black's bishop on d6 does not control the king's route. The useful calculation comes afterward, when a central pawn advance may expose or attack pieces on both sides.",
+      "theme": "The initiative gains a safer base. White has already accepted a less compact pawn structure, so patience matters: reduce the king's exposure before asking the central pawn and active pieces to justify the gambit.",
+      "alternativeNote": "Na3 develops the other knight and the supplied line sends it toward b5, but it postpones castling. Qb3 also delays king safety and lets Black organize ...Qe7 and ...Nf6. Castling keeps the next attacking choice flexible instead of committing another piece first."
+    },
+    {
+      "key": "r1bqk1nr/pppp1ppp/2nb4/8/2B1P3/2P2N2/P4PPP/RNBQ1RK1 b kq - 2 7 g8h6",
+      "title": "Develop Around the Pawn Fork",
+      "question": "How can Black develop the kingside knight without giving White's central advance two targets at once?",
+      "takeaway": "The edge square has a concrete explanation: ...Nh6 develops the knight without putting it on f6, where e5 would attack both knight and bishop. It also adds protection to f7 and clears the castling route. The drawback is equally concrete: White's c1 bishop can capture the knight, presenting Black with a choice between damaged kingside pawns and a material deficit.",
+      "intent": "Black must finish kingside development despite the bishop's awkward position on d6. The knight avoids a central pawn fork, but becomes accessible along the c1–h6 diagonal. This is a defensive compromise worth understanding, not an ideal placement or a mistake simply because the knight reaches the rim.",
+      "plan": "White's leading supplied continuation starts with e5 and exchanges on h6 after ...Be7. Black should be ready to recapture with the g-pawn and solve king safety in the resulting structure. Immediate Bxh6 is also possible, but the supplied branch then gives Black a different bishop retreat after the pawn advance.",
+      "tactic": "Trace the e-pawn's attacks after e5: they land on d6 and f6. A knight on h6 avoids that fork, but White's bishop has an unobstructed diagonal from c1 to h6. Avoiding the pawn attack therefore does not avoid an exchange; Black must calculate the resulting recapture and queen activity.",
+      "theme": "The awkward bishop placement now affects another piece's development. Black solves a coordination problem while offering White a structural transformation, showing how an opening concession can influence several later decisions without losing material immediately.",
+      "alternativeNote": "The supplied ...Nge7 develops more centrally but permits Ng5, answered by ...Ne5 in that continuation. The ...Qf6 option instead exposes the queen to Bg5. Compare the concrete pressure each arrangement allows rather than dismissing ...Nh6 through a general rule about edge knights."
+    },
+    {
+      "key": "r1bqk2r/pppp1ppp/2nb3n/8/2B1P3/2P2N2/P4PPP/RNBQ1RK1 w kq - 3 8 e4e5",
+      "title": "Gain Time Before Changing Structure",
+      "question": "Which immediate target lets White improve the center before deciding whether to exchange the exposed knight?",
+      "takeaway": "The advance e5 attacks the bishop on d6 and makes Black address its placement again. White uses a supported central pawn to gain space before exchanging on h6. This keeps the initiative concrete: Black must account for the bishop attack, while White retains the option of changing the kingside structure. The pawn does not attack the knight on h6.",
+      "intent": "White turns the bishop's obstruction into a useful tempo. The f3 knight supports e5, while the c1 bishop still has access to h6. This central foothold restricts Black's development, but it is not permanent territory: a prepared ...d6 can challenge it once Black has attended to king safety.",
+      "plan": "After the supplied ...Be7, White can capture on h6 and bring the queen centrally following the recapture. Black should preserve the bishop, complete castling preparations and eventually challenge e5. White's next moves need to coordinate with the pawn; gaining space alone will not compensate for the missing pawn indefinitely.",
+      "tactic": "The f3 knight defends the advanced pawn, but Black's c6 knight also attacks e5. Consequently, ...Bxe5 needs a full exchange calculation, not the simplistic claim that the bishop would be lost for nothing. The supplied analysis favors retreats; examine their effect on castling and the coming exchange on h6.",
+      "theme": "White gains a forcing move without recovering material. The value is the connection between central space and the coming attack: the bishop retreat gives White a chance to change the king shelter while keeping the initiative.",
+      "alternativeNote": "Immediate Bxh6 is also supplied, followed by ...gxh6, e5 and ...Bf8 in that branch. Advancing first leads to ...Be7 in the main continuation. These are candidate choices, not forced retreats; compare the resulting bishop placement and king preparation before treating the move orders as equivalent."
+    },
+    {
+      "key": "r1bqk2r/pppp1ppp/2nb3n/4P3/2B5/2P2N2/P4PPP/RNBQ1RK1 b kq - 0 8 d6e7",
+      "title": "Retreat Without Abandoning Castling",
+      "question": "How can Black preserve the attacked bishop without obstructing the king's escape from the center?",
+      "takeaway": "Black retreats with ...Be7, saving the bishop and keeping the kingside castling route clear. The move also frees the d-pawn, although advancing it immediately will not always be safe. White has gained space with tempo and can still exchange on h6. Black's reply is useful damage control within an awkward position, not a restoration of complete harmony.",
+      "intent": "The bishop is under pawn attack and needs a safer square. Black chooses one that permits castling rather than returning to f8 and obstructing it. The h6 knight remains available for exchange, so Black must anticipate damage to the pawn shelter before treating development as complete.",
+      "plan": "White can play Bxh6, meet ...gxh6 with Qd5 and coordinate against f7. Black should then address the king's immediate safety before undermining e5. The main continuation castles; after the bishop changes diagonals and Black adjusts the king, ...d6 becomes a workable central challenge rather than an automatic developing move.",
+      "tactic": "The retreat answers the current pawn attack, but the next threat will be different. After Bxh6, ...gxh6 and Qd5, queen and bishop converge on f7. The packet shows that ...d6 then permits a mating sequence. Reassess threats after each structural change instead of carrying out a fixed development schedule.",
+      "theme": "Black preserves the pieces while conceding White the next active choice. The gain of time has not won material, but it positions White to connect a structural exchange with a direct threat against the king.",
+      "alternativeNote": "The supplied ...Bf8 branch later returns the bishop to e7, spending another move before castling. The ...Bc5 branch keeps the bishop more active but still allows Bxh6 and Qd5. Retreating to e7 prioritizes unobstructed king evacuation over maintaining the most ambitious bishop diagonal."
+    },
+    {
+      "key": "r1bqk2r/ppppbppp/2n4n/4P3/2B5/2P2N2/P4PPP/RNBQ1RK1 w kq - 1 9 c1h6",
+      "title": "Trade a Bishop for Lasting Targets",
+      "question": "Is preserving both bishops more important than changing the pawn shelter around Black's uncastled king?",
+      "takeaway": "Bxh6 gives up a bishop for a knight, but the point is the recapture. After ...gxh6, Black has doubled h-pawns and no g-pawn shielding the usual castled position. White can then bring the queen to d5 with pressure on f7. The exchange earns its place through that follow-up, not through a blanket rule that doubled pawns are bad.",
+      "intent": "White converts temporary activity into a structural target while Black's king is still central. The price is surrendering the dark-squared bishop and leaving Black with both bishops. That matters later: the same recapture that damages the shelter also creates a semi-open g-file for Black's rook.",
+      "plan": "After ...gxh6, White should coordinate the queen and remaining bishop rather than automatically collect the h6 pawn. The supplied Qd5 continuation is met by castling, followed by Bd3. Black should recover the bishop and prioritize king safety, while preserving the bishop pair as a potential source of counterplay.",
+      "tactic": "The c1–h6 diagonal is completely clear, so White can capture the knight directly. Black can decline the recapture, but must calculate White's forcing replies. In the supplied ...Na5 branch, Bxf7+ and a queen check disrupt the king before the attacking bishop retreats; a counterattack does not automatically restore material.",
+      "theme": "The gambit's compensation acquires a lasting target around the king. Yet the exchange also leaves Black with long-range pieces and a useful file, so White is creating an imbalance rather than obtaining a benefit without a price.",
+      "alternativeNote": "Re1 first is natural development, but its supplied continuation lets Black castle before the exchange and organize ...d6. Immediate Bxh6 changes the structure before that consolidation. Compare the defensive moves Black receives between your attacking moves, rather than judging only how many pieces you have developed."
+    },
+    {
+      "key": "r1bqk2r/ppppbppp/2n4B/4P3/2B5/2P2N2/P4PPP/RN1Q1RK1 b kq - 0 9 g7h6",
+      "title": "Accept Damage to Restore Material",
+      "question": "How should Black weigh an intact pawn shelter against recovering the bishop that captured the knight?",
+      "takeaway": "The recapture ...gxh6 restores the exchanged material, even though it leaves doubled h-pawns and removes the g-pawn from the king shelter. Refusing that damage would leave Black a piece down for now. Black accepts an uncomfortable structure and keeps both bishops, whose activity may eventually matter more than the appearance of the pawns suggests.",
+      "intent": "Black distinguishes a structural concession from a material deficit. After recapturing, Black has two bishops and a knight against White's bishop and two knights: three minor pieces each. The g-file becomes semi-open for Black, but the central king and White's pressure on f7 need attention before rook counterplay.",
+      "plan": "White can place the queen on d5, joining the bishop against f7, and Black's main response is castling. White may instead target h6 with Qd2 or Qc1, but those branches allow central exchanges. Black should meet the immediate king threats before trying to exploit the new rook file.",
+      "tactic": "The pawn from g7 captures the bishop on h6; the original h7 pawn stays in place. This removes White's dark-squared bishop but leaves the c4 bishop aimed at f7. After Qd5, count the queen and bishop together: restoring material has not neutralized their potential attack on the king.",
+      "theme": "A structural imbalance replaces part of the development race. White has a weakened shelter to attack, while Black has the bishop pair and a potential rook file; coordination will determine which features become important first.",
+      "alternativeNote": "The supplied ...O-O without recapturing lets White retreat the bishop to e3 and retain the extra piece. The ...Na5 alternative also allows forcing play against f7. Those concrete material and king-safety costs explain why accepting doubled pawns is preferable to protecting the shelter's appearance."
+    },
+    {
+      "key": "r1bqk2r/ppppbp1p/2n4p/4P3/2B5/2P2N2/P4PPP/RN1Q1RK1 w kq - 0 10 d1d5",
+      "title": "Coordinate Against the Immediate Weak Point",
+      "question": "How can White turn the structural concession into an urgent king-safety problem rather than just a pawn target?",
+      "takeaway": "Qd5 brings the queen into the center and joins the bishop on c4 against f7. This is more urgent than simply attacking the pawn on h6: Black must address a direct king-safety problem. The queen also supports e5, connecting the central foothold to the attack. Active coordination gives the earlier bishop exchange its immediate justification.",
+      "intent": "White's compensation rests on the exposed king and the ability to concentrate threats quickly, not a material surplus. The queen and bishop converge on f7 while e5 controls important central squares. Black needs to change the defensive arrangement around the king rather than make an unrelated developing move.",
+      "plan": "Against ...O-O, White can reroute the bishop to d3 and shift attention toward h7. Black should use castling to escape the central threats, then prepare a king adjustment and central counterplay. White's queen is useful here, but the b1 knight still needs development if the first wave of pressure is contained.",
+      "tactic": "The supplied ...d6 continuation makes the threat concrete: Qxf7+ is followed by ...Kd7 and Be6 mate. A normal central move is therefore too slow in this position. Castling changes the mechanism by moving the king and placing a rook on f8 to defend the threatened pawn.",
+      "theme": "The structural exchange has produced a tactical obligation. White's queen is not merely occupying an impressive square; it works with the bishop already in play and makes Black spend time securing the king.",
+      "alternativeNote": "Qd2 aims at h6, and the supplied line captures that pawn after ...d6. Black then counters with ...Nxe5 and central exchanges. Qd5 keeps the initiative focused on the king instead, asking whether coordinated activity is worth more than immediate recovery of a flank pawn."
+    },
+    {
+      "key": "r1bqk2r/ppppbp1p/2n4p/3QP3/2B5/2P2N2/P4PPP/RN3RK1 b kq - 1 10 e8g8",
+      "title": "Choose the Safer Imperfect Shelter",
+      "question": "How can Black meet the pressure on f7 when the usual kingside pawn shelter has already been damaged?",
+      "takeaway": "Black castles despite the missing g-pawn because remaining in the center is more dangerous. The king leaves e8 and the rook arrives on f8 to defend f7. This does not make the kingside comfortable, but it answers the immediate queen-and-bishop pressure. Good defense often means choosing the safer imperfect position rather than waiting for a shelter that no longer exists.",
+      "intent": "Black must prevent the pressure on f7 from becoming decisive. Castling improves the defensive arrangement of king and rook together, while accepting continuing weaknesses around the doubled h-pawns. The next task is to meet White's change of attacking diagonal, not to assume king safety is now permanently solved.",
+      "plan": "White's main continuation is Bd3, redirecting the bishop toward h7 and preparing queen support. Black then uses ...Kg7 before challenging the center. White can also choose Qe4 immediately, when the supplied ...d5 leads to tactical exchanges. Both sides must update their plans after the king and rook change squares.",
+      "tactic": "The urgency appears in the alternative ...d6: Qxf7+ and ...Kd7 allow Be6 mate. Castling avoids that exact mechanism and reinforces f7. The queen's d5–g8 diagonal is currently blocked by Black's f7 pawn, so it does not make castling illegal; afterward, that pawn is pinned to the king.",
+      "theme": "Black's defense changes the target rather than ending the initiative. White must adapt from pressure against a central king to pressure against the remaining shelter, while Black seeks enough stability to contest the center.",
+      "alternativeNote": "The supplied ...Rf8 also reinforces f7, but leaves the king on e8 and allows Re1. Castling combines rook defense with king evacuation. The comparison is about answering two concrete problems together, not pretending that the resulting pawn shelter is free of weaknesses."
+    },
+    {
+      "key": "r1bq1rk1/ppppbp1p/2n4p/3QP3/2B5/2P2N2/P4PPP/RN3RK1 w - - 2 11 c4d3",
+      "title": "Redirect the Bishop After Castling",
+      "question": "Now that f7 has gained rook protection, which remaining weakness should guide White's attacking coordination?",
+      "takeaway": "Bd3 shifts the bishop from the better-defended f7 pawn to h7. Its new diagonal is clear, and Qe4 can bring queen and bishop together against that pawn. White is adapting to Black's castling rather than repeating the old threat. The retreat also avoids a pawn attack by ...d5, although the bishop's new place on the d-file creates a future liability.",
+      "intent": "The rook on f8 has reduced the force of White's original attack. The remaining h7 shelter is a more useful target for the light-squared bishop. White keeps the queen central, but must remember that the queenside is undeveloped and Black will seek central counterplay rather than defend forever.",
+      "plan": "Black's main defense is ...Kg7, after which White can centralize with Nd4 or prepare the queen-and-bishop battery. Black should challenge e5 once the immediate king threats are covered. The supplied ...d6 and later ...dxe5 sequence illustrates a second purpose of that break: opening the queen's file toward the bishop on d3.",
+      "tactic": "Trace the bishop's diagonal through e4, f5 and g6 to h7. Queen support on e4 would make that pawn a serious tactical target, so Black must calculate before routine development. In the other direction, the d3 bishop currently faces Black's queen along a file blocked by the d7 pawn.",
+      "theme": "A successful defensive move calls for a new target, not stubborn repetition. White keeps the initiative by changing diagonals, while the bishop's new square quietly connects the king attack to the central tactics that follow.",
+      "alternativeNote": "Immediate Qe4 is also supplied, but Black answers ...d5, attacking the bishop on c4 and provoking exchanges. Bd3 moves the bishop away from that pawn attack first. Compare how the opponent can challenge your attacking pieces, not just how threatening the intended queen-and-bishop battery looks."
+    },
+    {
+      "key": "r1bq1rk1/ppppbp1p/2n4p/3QP3/8/2PB1N2/P4PPP/RN3RK1 b - - 3 11 g8g7",
+      "title": "Make Room for Defensive Choices",
+      "question": "What king adjustment would give Black more defensive options against a queen-and-bishop battery?",
+      "takeaway": "The king step ...Kg7 is defensive preparation, not an attacking adventure. It leaves the queen's diagonal toward g8, freeing the f7 pawn from its pin, and protects both h-pawns. White still has pressure, but Black now has more flexibility for central pawn play and rook defense. The supplied continuations combine this adjustment with ...d6 or ...Rh8 rather than passive waiting.",
+      "intent": "White's bishop on d3 makes queen support against h7 a serious concern. Black improves the king's relationship with its defenders and releases the f-pawn from an absolute pin. This does not repair the shelter; it makes the remaining defensive resources more usable before Black challenges White's center.",
+      "plan": "White can answer with Nd4, increase development with Nbd2, or form the battery with Qe4. Black's supplied continuations use ...d6 to challenge e5 and ...Rh8 against the h-file pressure. Choose the response according to White's setup: the king move creates options, not a universal sequence to repeat regardless of threats.",
+      "tactic": "With the king on g8, the queen on d5 pins f7 along d5–e6–f7–g8. The move ...Kg7 removes that pin. Rook movement to h8 was already legal; the improvement is the overall defensive arrangement, not newly acquired permission to move the rook. Queen-and-bishop threats still need concrete calculation.",
+      "theme": "A small king adjustment connects defense with counterplay. Black wants enough flexibility to challenge the center, while White must decide whether to strengthen the direct attack or use the active pieces to seek another kind of advantage.",
+      "alternativeNote": "The supplied ...Qe8 also breaks the queen's diagonal pin, but allows Qe4, ...f5 and an en passant capture with continued pressure. The immediate ...d6 lacks a supplied defensive continuation here and is assessed unfavorably. Compare king-safety coverage first; do not infer a forced refutation from the score alone."
+    },
+    {
+      "key": "r1bq1r2/ppppbpkp/2n4p/3QP3/8/2PB1N2/P4PPP/RN3RK1 w - - 4 12 f3d4",
+      "title": "Use the Center to Change Targets",
+      "question": "How can White broaden the pressure instead of relying entirely on an immediate king attack?",
+      "takeaway": "Nd4 brings the developed knight into contact with Black's c6 knight and offers a choice between continued king pressure and a structural exchange. The c3 pawn supports the new post. If Black challenges e5 with ...d6, White can exchange on c6 and seek queen activity on the queenside instead of insisting that the position must produce a mating attack.",
+      "intent": "Black has improved the king's defensive options, so White broadens the pressure. The supported knight attacks c6 while the queen remains active on d5. This gives White a concrete exchange plan, but costs another move with a developed piece while the b1 knight still waits to participate.",
+      "plan": "After ...d6, the supplied continuation exchanges on c6, then considers a queen capture and pressure on a8. Black can instead play ...Nxd4, allowing cxd4 and a changed White center. White should compare those structures and open lines, while Black must weigh central exchanges against completing the queenside's development.",
+      "tactic": "The knight is not simply occupying a supported square. After Nxc6 it would attack Black's queen on d8 and bishop on e7, making the exchange forcing. Conversely, ...Nxd4 allows the c3 pawn to recapture. Calculate both directions, including which pawn moves and which queen lines open afterward.",
+      "theme": "The initiative begins to branch from king pressure into structural and material possibilities. White's active pieces make that transition possible, but the untouched b1 knight warns that any material gain will still need careful coordination to convert.",
+      "alternativeNote": "Nbd2 develops the untouched knight, and its supplied continuation uses Qe4 and Rad1 against ...d6. Nd4 is more immediately confrontational toward c6. Compare completing development with exploiting the current queen placement to provoke an exchange; the packet supports both ideas without making either a universal rule."
+    },
+    {
+      "key": "r1bq1r2/ppppbpkp/2n4p/3QP3/3N4/2PB4/P4PPP/RN3RK1 b - - 5 12 d7d6",
+      "title": "Challenge the Pawn Behind the Initiative",
+      "question": "With the king's defensive options improved, how can Black contest White's space and release the undeveloped bishop?",
+      "takeaway": "Black finally plays ...d6, attacking e5 and opening the c8 bishop's diagonal. The earlier defensive moves make this central challenge more realistic now. It comes with a calculation obligation: White can exchange on c6 and bring the queen toward a8. Black accepts that possibility because a subsequent pawn capture can clear the d-file against White's bishop on d3.",
+      "intent": "The e5 pawn helped White gain time and restrict Black's pieces. Challenging it attacks the basis of that activity while releasing the light-squared bishop. Black must balance this central liberation against the queenside vulnerability that arises if the b-pawn recaptures a knight on c6.",
+      "plan": "White can continue Nxc6, meet ...bxc6 with Qxc6 and examine the offered rook. Black can then capture on e5, opening the queen's route to d3. Alternatively, White may preserve direct king pressure with Qe4, answered by ...Rh8 in the packet. The central break creates choices rather than forcing a single liquidation.",
+      "tactic": "After Nxc6, ...bxc6 and Qxc6, the queen sees a8 through the vacated b7 square. Black's counterpoint is ...dxe5, which clears the d-file toward the bishop. Calculate these two lines together: the rook can be taken, but its capture gives Black time to collect a substantial countertarget.",
+      "theme": "Black shifts from arranging the king's defense to active resistance in the center. The pawn that supported White's attack is now challenged, and the resulting open lines will change both the material balance and the direction of the initiative.",
+      "alternativeNote": "The supplied ...Nxd4 gives White cxd4 before Black challenges that new center with ...c6 and ...d5. Playing ...d6 first questions e5 immediately and preserves the choice of knight exchanges. Compare the pawn structure you permit with the piece activity your central break creates."
+    },
+    {
+      "key": "r1bq1r2/ppp1bpkp/2np3p/3QP3/3N4/2PB4/P4PPP/RN3RK1 w - - 0 13 d4c6",
+      "title": "Exchange with a Queen Threat Attached",
+      "question": "Can White answer the central challenge by making a forcing structural change on the queenside?",
+      "takeaway": "Nxc6 takes Black's remaining knight and attacks the queen on d8. That makes the exchange more forcing than a routine trade. After ...bxc6, White can take the new pawn with the queen and pressure a8. The operation gives the initiative a material direction, but Black's central counterplay must remain part of the calculation from the start.",
+      "intent": "White uses the queen's active placement before Black consolidates through central exchanges. Recapturing the knight with the b-pawn would vacate b7 and open the diagonal toward a8. The point is not merely to double pawns, especially since the new c6 pawn can itself be captured immediately.",
+      "plan": "Black's main reply is ...bxc6, after which White can choose Qxc6 or retain king pressure with Qe4. If White captures the pawn, Black's ...dxe5 exposes the bishop on d3. Decide whether that complete transaction is attractive before beginning the exchange, rather than noticing only the loose rook afterward.",
+      "tactic": "The knight on c6 attacks both the queen on d8 and bishop on e7. In the supplied ...Bd7 line, Nxd8 collects the queen because Black has not answered that threat. Queen retreats are legal alternatives, so ...bxc6 is not literally forced, but declining the recapture carries a serious material cost.",
+      "theme": "White translates central activity into a forcing operation on the opposite wing. Both sides of the board remain connected: the queenside gain becomes possible just as the center is preparing to open for Black's queen.",
+      "alternativeNote": "Qe4 preserves direct king pressure and is a close supplied alternative. Exd6 instead allows ...Qxd6 and a different sequence of checks and bishop exchanges. Compare the resulting piece activity and defensive resources, rather than assuming that exchanging the attacked central pawn must be the simplest choice."
+    },
+    {
+      "key": "r1bq1r2/ppp1bpkp/2Np3p/3QP3/8/2PB4/P4PPP/RN3RK1 b - - 0 13 b7c6",
+      "title": "Recapture and Calculate the Open Diagonal",
+      "question": "How can Black remove the knight attacking the queen while accounting for the line the recapture will open?",
+      "takeaway": "The recapture ...bxc6 removes the knight attacking Black's queen and restores the minor-piece count. It also vacates b7, exposing the a8 rook to a queen arriving on c6. Black should recognize that drawback without panicking: White's bishop on d3 becomes a countertarget if the d-pawn captures on e5 and clears the queen's file.",
+      "intent": "Black's immediate need is to recover the knight rather than retreat the queen and leave White an extra piece. The doubled c-pawns may be temporary because White can capture the front pawn. More important than their appearance is the diagonal opened toward the rook and the central response available afterward.",
+      "plan": "White can capture on c6, when Black's main continuation answers ...dxe5 instead of automatically saving the rook. White can also choose Qe4, retaining king pressure, and Black then organizes ...Rh8 and ...d5. Black's next defensive choice should follow the queen's placement rather than a fixed determination to preserve every pawn.",
+      "tactic": "Removing the knight ends its attack on d8, but moving the b-pawn also opens c6–b7–a8. After Qxc6, examine the threatened rook and the bishop on d3 together. The d6 pawn still blocks Black's queen at this moment; only its departure will create the countercapture on the bishop.",
+      "theme": "The knight exchange produces a dynamic material problem rather than a quiet pawn weakness. Black's recapture preserves the army while accepting a vulnerable rook, and the central tension supplies the tactical justification for that concession.",
+      "alternativeNote": "The supplied queen retreats ...Qd7 and ...Qe8 evade the knight's attack without recovering it immediately. The ...Bd7 line even allows Nxd8. Recapturing directly keeps the material situation manageable, provided Black understands the open diagonal rather than discovering its consequences only after White's queen arrives."
+    },
+    {
+      "key": "r1bq1r2/p1p1bpkp/2pp3p/3QP3/8/2PB4/P4PPP/RN3RK1 w - - 0 14 d5c6",
+      "title": "Recover Material Without Losing the Thread",
+      "question": "What does the open queenside diagonal offer, and which central counterplay must White include before using it?",
+      "takeaway": "Qxc6 recovers the pawn created by Black's recapture and directly attacks the rook on a8. White has found a material use for the active queen, but also takes it farther from the king attack. Black can reply ...dxe5, opening the d-file against the bishop. The rook is a genuine target, not a gift that can be taken without consequences.",
+      "intent": "White exploits the departure of Black's b-pawn to recover material and threaten more. Meanwhile, e5 remains under pawn attack and the bishop on d3 is vulnerable to file clearance. The relevant imbalance is now an active queen against Black's potential coordination, not simply damaged queenside pawns.",
+      "plan": "After ...dxe5, White can capture the rook and permit ...Qxd3, or consider Qe4 to keep central pressure first. Black can instead save the rook with ...Rb8, when the supplied response returns to Qe4. Compare complete resulting positions, remembering that White's b1 knight has not joined the game yet.",
+      "tactic": "From c6 the queen attacks a8 through the empty b7 square. Before committing to Qxa8, calculate Black's central pawn capture and the resulting ...Qxd3. Once the d-pawn leaves the file, no piece blocks Black's queen from the bishop, so the material calculation must include that possible loss.",
+      "theme": "The opening initiative produces its first material recovery. Conversion now means choosing an advantageous whole position, not maximizing the value of the next capture while ignoring which side will have the more immediate threats afterward.",
+      "alternativeNote": "Qe4 keeps the queen nearer the kingside, and its supplied line develops the b1 knight after ...Rh8. Qxc6 instead takes a pawn and tests the rook's safety. Compare sustained attacking coordination with the sharper material transaction, making sure Black's central break appears in both calculations."
+    },
+    {
+      "key": "r1bq1r2/p1p1bpkp/2Qp3p/4P3/8/2PB4/P4PPP/RN3RK1 b - - 0 14 d6e5",
+      "title": "Open a Countertarget Before Saving Material",
+      "question": "Must Black move the attacked rook, or can a central capture change the cost of taking it?",
+      "takeaway": "With ...dxe5, Black removes White's advanced pawn and clears the d-file from the queen to the bishop on d3. The rook on a8 remains attacked, but taking it allows Black to recover a bishop. This is active defense: Black accepts the possibility of losing the exchange for material compensation and a much more active queen, rather than simply overlooking the rook.",
+      "intent": "Black needs counterplay before White consolidates the queenside gain. The capture removes White's space-gaining pawn, establishes a black central pawn and exposes the bishop to the queen. Its value rests on those combined effects; winning e5 alone would not explain leaving a rook under attack.",
+      "plan": "If White takes on a8, Black should collect the bishop on d3 before it escapes. White may instead return the queen to e4, when the supplied ...f5 gains time against it. Black must use the newly opened lines promptly, while White weighs exchange-winning material against the defensive work that follows.",
+      "tactic": "Before the capture, the d6 pawn obstructs the queen on d8. Moving to e5 clears the route through d7, d6, d5 and d4 to the bishop. Calculate Qxa8 and ...Qxd3 as one transaction: White receives a rook for a bishop, not an entire rook without compensation.",
+      "theme": "The pawn that powered White's initiative disappears, and Black's queen gains entry. This is the pivot from a king attack to an unbalanced material contest, with White gaining rook material while Black acquires immediate activity.",
+      "alternativeNote": "The supplied ...Rb8 saves the rook, but White can return to Qe4 and continue developing against the king. Capturing on e5 chooses counterplay through a concrete target instead. Compare the pressure endured after retreating with the activity obtained from the calculated exchange concession."
+    },
+    {
+      "key": "r1bq1r2/p1p1bpkp/2Q4p/4p3/8/2PB4/P4PPP/RN3RK1 w - - 0 15 c6a8",
+      "title": "Take the Exchange with Eyes Open",
+      "question": "Does the available rook justify letting Black capture the bishop and activate the queen?",
+      "takeaway": "Qxa8 takes the rook and accepts ...Qxd3. White is choosing an exchange gain, not a free rook: the bishop on d3 is part of the price. The supplied continuation supports the decision, but the practical task changes. White must return the queen to useful work and organize the remaining pieces while respecting Black's active queen and bishop pair.",
+      "intent": "After the expected bishop capture, White will have two rooks and a knight against a rook and two bishops, with queens still present. Black also has an extra pawn then. The distant queen and undeveloped b1 knight make coordination the main obstacle to enjoying the exchange advantage.",
+      "plan": "After ...Qxd3, White can collect a7 and meet ...Rg8 with Re1, as a supplied continuation shows. Black should activate quickly while White's queen is away from home. Additional pawn captures require fresh threat checks: winning the exchange does not justify continuing the queen raid regardless of Black's replies.",
+      "tactic": "The queen travels from c6 through b7 to capture the undefended rook on a8. Black's queen can then take the bishop along the cleared d-file. Count the resulting armies and pawn deficit before judging the operation; the first capture alone greatly exaggerates the material White actually keeps.",
+      "theme": "White crosses from creating an initiative to managing an exchange advantage. The attack has produced a new imbalance rather than ended the game, and Black's increased activity becomes the main price White must pay for the material gain.",
+      "alternativeNote": "Qe4 has a similar assessment in the bounded supplied analysis and keeps the queen central, although ...f5 can challenge it. Qxa8 makes the material decision immediately. Compare the defensive workload after taking the exchange with the work still needed to maintain pressure without that material gain."
+    },
+    {
+      "key": "Q1bq1r2/p1p1bpkp/7p/4p3/8/2PB4/P4PPP/RN3RK1 b - - 0 15 d8d3",
+      "title": "Collect the Compensation Immediately",
+      "question": "After losing the rook, which available capture keeps Black's concession connected to meaningful counterplay?",
+      "takeaway": "Black follows through with ...Qxd3, taking the bishop exposed by the central clearance. This limits the material loss to an exchange and places the queen deep in White's position. Delaying would give the bishop a chance to escape. The queen's activity and bishop pair provide practical counterplay, although White retains the more valuable overall piece balance.",
+      "intent": "The immediate objective is to recover the bishop while it remains available. The queen's new square also influences White's development and brings pressure near the king. Black needs this activity because a quiet position would make the exchange deficit much harder to offset with the extra pawn.",
+      "plan": "White can take a7, after which Black's main continuation activates the rook with ...Rg8. White should prepare a useful arrangement for the f1 rook and eventually develop the knight. Black can coordinate the queen and bishops toward the king, while staying alert to queen checks against its own exposed monarch.",
+      "tactic": "The d-file is clear all the way to the bishop, so no further preparation is needed for ...Qxd3. From d3 the queen also looks toward f1 through e2. White's king defends that rook, however: pressure along a diagonal is not the same as a profitable immediate queen capture.",
+      "theme": "The exchange transaction is complete, and the attacking roles begin to reverse. White has the material benefit, while Black's queen has entered the position and the two bishops can join it against the king.",
+      "alternativeNote": "The supplied ...Kh8 permits Qf3 and later Bc4, preserving White's bishop along with the captured rook. Likewise, ...f5 allows Bc2. These branches explain why collecting the bishop now matters more than making a general attacking or king-safety move without first securing compensation."
+    },
+    {
+      "key": "Q1b2r2/p1p1bpkp/7p/4p3/8/2Pq4/P4PPP/RN3RK1 w - - 0 16 a8a7",
+      "title": "Recover a Pawn While Keeping Options",
+      "question": "Can White improve the material balance further without neglecting the time needed to organize the defense?",
+      "takeaway": "Qxa7 removes another pawn and brings the queen off the corner, leaving White an exchange ahead with equal pawn counts. It is a useful gain, but not permission to ignore the kingside. Black's queen is active on d3, and the remaining rook can head toward the g-file. White must connect the capture to timely defensive coordination.",
+      "intent": "White uses the queen's excursion to erase the pawn deficit remaining after the exchange transaction. The gain is concrete, while the risk is time: the a1 rook and b1 knight still lack useful roles. Black's active queen and bishop pair give the defender more resources than the material count alone suggests.",
+      "plan": "The supplied ...Rg8 asks White to consider Re1 before developing the knight. Black may then centralize with ...Qd5, when c4 gains time against the queen. White can also consider the sharper capture on c7, but only after checking whether Black's kingside coordination requires an immediate defensive response.",
+      "tactic": "The a7 pawn is available directly from a8, but continue the calculation to ...Rg8. Black's king on g7 would still block the rook's path toward g2. This distinction provides White some time, not lasting immunity: a later king move can uncover the rook's pressure in a single turn.",
+      "theme": "The queen raid has restored the pawn balance, yet the advantage increasingly depends on coordinating the pieces left at home. Concrete gains remain worthwhile only while White can meet the threats Black builds in exchange for that time.",
+      "alternativeNote": "Immediate Re1 organizes the rook first, and the supplied continuation meets ...Bc5 with Qc6. Qxa7 takes the pawn before addressing that coordination problem. Compare the actual gain with the threats Black can assemble in the intervening tempo, rather than automatically calling either choice cautious or greedy."
+    },
+    {
+      "key": "2b2r2/Q1p1bpkp/7p/4p3/8/2Pq4/P4PPP/RN3RK1 b - - 0 16 f8g8",
+      "title": "Prepare the File Before Opening It",
+      "question": "How can Black use the changed pawn structure to build counterplay while White's queen is far from its king?",
+      "takeaway": "The rook move ...Rg8 prepares pressure down the file opened by the earlier g-pawn recapture. There is an important detail: Black's own king on g7 still blocks the rook, so this is preparation rather than an immediate attack on g2. With the queen on d3 and both bishops available, Black is assembling threats that White should anticipate accurately.",
+      "intent": "Black seeks active compensation for the exchange deficit. The semi-open g-file points toward White's king, but the rook needs its own king to move before that pressure becomes direct. Bishop development and king placement therefore matter as much as placing the rook on the apparently attacking file.",
+      "plan": "White can organize with Re1 or take c7 in the sharper supplied branch. After Qxc7, Black develops the c8 bishop to h3 and can clear the file with ...Kf8. White should prepare a sound rook arrangement and a response to pressure on g2 before assuming there is time for further material collection.",
+      "tactic": "Trace the rook's line from g8: the first occupied square is g7, containing Black's king. There is no current rook attack on g2. Moving the king can reveal one immediately, especially with a bishop on h3 supporting g2. Evaluate that future coordination without falsely treating it as an existing threat.",
+      "theme": "The damaged structure that helped White attack now supplies Black with a counterattacking file. Structural weaknesses and useful open lines can coexist; which feature matters depends on the pieces and the time available to coordinate them.",
+      "alternativeNote": "The supplied ...Qd5 centralizes the queen but permits c4 to gain time against it. The ...Qd6 line allows White to return with Qe3. Rook activation instead builds pressure near the king while White's queen remains on the flank, without yet threatening a forced breakthrough."
+    },
+    {
+      "key": "2b3r1/Q1p1bpkp/7p/4p3/8/2Pq4/P4PPP/RN3RK1 w - - 1 17 a7c7",
+      "title": "Take a Pawn with Defense Ready",
+      "question": "Is there time for another material gain before Black completes the coordination against White's king?",
+      "takeaway": "Qxc7 captures Black's remaining queenside pawn, giving White an extra pawn as well as the exchange. The queen also attacks the bishop on e7 across the seventh rank. This is a calculated gain, not a dismissal of the danger: Black can answer ...Bh3, and White must be ready to stop collecting material and rearrange the kingside rook.",
+      "intent": "White takes advantage of the g8 rook's temporary obstruction to improve the material balance. The queen on c7 stays active against both e7 and e5, so the move is not a complete withdrawal from play. Nevertheless, king defense and the undeveloped b1 knight are becoming more urgent concerns.",
+      "plan": "After ...Bh3, the main line uses Re1, followed by ...Kf8 and g3. Black can instead play ...Bd6, attacking the queen and improving bishop coordination. White should preserve queen activity while preparing the home pieces to help; the material advantage is useful only if the ensuing defensive sequence works.",
+      "tactic": "The queen captures c7 through the empty b7 square and attacks e7 through d7. Black need not move the bishop immediately if stronger counterplay is available. The supplied ...Bh3 branch with Qxe7 allows ...Qe4 and a checking sequence, so a loose bishop is not a reason to stop calculating.",
+      "theme": "This is the last material collection before defensive precision takes priority. White has gained an exchange and a pawn, but those gains must now be supported by a workable king defense rather than another automatic capture.",
+      "alternativeNote": "Re1 first addresses coordination directly, with ...Qd5 in the supplied continuation. Qxc7 adds a pawn and retains queen targets, but demands a precise reply to ...Bh3. Compare the entire defensive sequence after each choice, not just the material collected by the first move."
+    },
+    {
+      "key": "2b3r1/2Q1bpkp/7p/4p3/8/2Pq4/P4PPP/RN3RK1 b - - 0 17 c8h3",
+      "title": "Bring the Last Undeveloped Bishop In",
+      "question": "How can Black turn the bishop pair into concrete kingside pressure before White completes development?",
+      "takeaway": "The move ...Bh3 brings the undeveloped bishop directly against g2. Its diagonal continues toward the rook on f1, although the pawn currently blocks that line. Black builds cooperation between bishop, queen and rook rather than immediately recovering material. White should recognize the developing pressure and move the rook before advancing the pawn that screens it from the bishop.",
+      "intent": "Black's compensation depends on activity, and the c8 bishop can now reach h3 because the central pawn moves cleared its diagonal. From there it supports possible captures on g2. The rook still needs the king to leave g7 before it can join the attack directly down the file.",
+      "plan": "White's main reply is Re1, preparing g3 without exposing the f1 rook. Black can follow with ...Kf8, defending e7 while releasing the rook, or choose ...Bd6 in another supplied branch. White should coordinate this defense before reconsidering the loose central pawn or the attacked bishop on e7.",
+      "tactic": "The bishop attacks g2, not f1 directly: the pawn intervenes. In the supplied Re1, ...Bd6, Qc6, ...Bxg2, Kxg2 sequence, ...Kh8+ then uncovers a rook check. Notice that the black king's move gives check through the rook; the bishop capture alone did not create a clear g-file while g7 remained occupied.",
+      "theme": "Black's bishop pair becomes a concrete attacking asset. White's earlier bishop exchange damaged the shelter, but left Black the long-range pieces now approaching White's king; that strategic price has become a tactical problem to solve.",
+      "alternativeNote": "The supplied ...Bd6 attacks the queen on c7 first, and Qc6 can be answered by ...Bh3, reaching a similar arrangement. Immediate ...Bh3 instead establishes the kingside pressure first. Compare the value of gaining a queen tempo with the urgency of arranging support for a capture on g2."
+    },
+    {
+      "key": "6r1/2Q1bpkp/7p/4p3/8/2Pq3b/P4PPP/RN3RK1 w - - 1 18 f1e1",
+      "title": "Move the Rook Before Opening the Diagonal",
+      "question": "Which piece must be rearranged before White can advance the attacked kingside pawn without conceding material?",
+      "takeaway": "Re1 moves the rook away from the h3 bishop's line through g2 to f1. That prepares g3 without exposing a rook, and places the rook opposite Black's central pawn on e5. White is converting material into coordination. The move also leaves f1 available to the king, whereas another queen capture would postpone the more urgent task of organizing the defense.",
+      "intent": "White has an exchange and an extra pawn, but Black's active pieces are gathering near the king. The relocation fixes a specific alignment problem while creating central pressure. It does not complete development: the b1 knight and a1 rook still need useful roles once the immediate threats are controlled.",
+      "plan": "Black's main response is ...Kf8, protecting e7 and clearing the g-file. White can then play g3, or insert Qb8+ and meet ...Bd8 with g3. Black should maintain pressure through active rook placement, while White uses the queen's checking possibilities to find time for the remaining knight to develop.",
+      "tactic": "Advancing the g-pawn with the rook still on f1 would open the h3 bishop's diagonal to it. Re1 removes that liability in advance rather than waiting for an attack. Black must also account for White's queen attacking e7, which is why the next king move has a defensive as well as attacking role.",
+      "theme": "Taking material gives way to making it usable. White's quiet rook move respects Black's initiative and shows why a favorable material balance may require defensive preparation rather than another immediate capture or check.",
+      "alternativeNote": "Qxe5+ leads to a supplied checking sequence without a demonstrated improvement, while Qxe7 allows ...Qe4 and repeated checks after f3. Re1 preserves the existing advantage while preparing defense. Compare the resulting king safety and coordination, not merely whether the first move collects something."
+    },
+    {
+      "key": "6r1/2Q1bpkp/7p/4p3/8/2Pq3b/P4PPP/RN2R1K1 b - - 2 18 g7f8",
+      "title": "Unblock the Rook and Defend the Bishop",
+      "question": "Can Black activate the rook's pressure while also protecting the bishop attacked by White's queen?",
+      "takeaway": "The move ...Kf8 does two jobs Black urgently needs. It defends the bishop on e7 and leaves the g-file, allowing the rook on g8 to attack g2. With the h3 bishop supporting that square, the pressure becomes concrete. White can no longer treat the rook as obstructed, although the new king placement offers queen checks along the back rank.",
+      "intent": "Black must coordinate attack and defense together. The queen on c7 attacks e7 while Black's own king obstructs the rook. Moving to f8 solves both problems, at the price of an exposed back-rank position. This is a practical defensive choice, not merely a way of starting an attack.",
+      "plan": "White's main response is g3, avoiding the supported capture on g2 while keeping a pawn barrier on the file. Qb8+ is another move order, answered by ...Bd8 and then g3. Black should retain activity with a rook lift rather than assume that clearing the file makes a sacrifice decisive.",
+      "tactic": "Once the king leaves g7, ...Rxg2+ becomes a real resource: the rook's path is clear and the bishop on h3 protects its destination. The supplied Qxe5 line allows that capture. Meanwhile, the king now defends e7, so White cannot take the bishop without permitting a direct recapture.",
+      "theme": "One king move completes the rook's attacking connection while covering a loose bishop. White must recognize this change immediately: pressure that was only being prepared on the previous move now calls for a concrete defensive response.",
+      "alternativeNote": "The supplied ...Kh8 also clears the file but leaves e7 without king protection; White later captures that bishop in its continuation. The move ...Kf8 balances both responsibilities. Compare not only the attacking line a king vacates, but also the pieces its new square can defend."
+    },
+    {
+      "key": "5kr1/2Q1bp1p/7p/4p3/8/2Pq3b/P4PPP/RN2R1K1 w - - 3 19 g2g3",
+      "title": "Keep a Pawn Barrier on the File",
+      "question": "How can White meet the newly opened rook pressure without permitting a supported capture beside the king?",
+      "takeaway": "The move g3 takes the pawn away from the bishop's attack while keeping the g-file blocked. On its new square the pawn is defended by both f2 and h2, so Black cannot simply collect it. White's earlier Re1 makes this possible without exposing the rook on f1. The defense works because the two quiet moves were played in the right order.",
+      "intent": "White neutralizes the convergence of rook and bishop on g2 by changing the contact point. The pawn remains a barrier, now supported by neighboring pawns. This does not end Black's activity, but creates time for queen counterplay and the eventual development of the knight still on b1.",
+      "plan": "Black's main continuation is ...Rg4, retaining activity in front of the pawn instead of capturing it. White can then use Qb8+ to make Black address its exposed king. After ...Bd8, Nd2 appears in the supplied lines. Both sides should calculate central exchanges rather than assume the kingside situation is permanently settled.",
+      "tactic": "The supplied Qxe5 alternative allows ...Rxg2+, with the bishop on h3 protecting the rook. After g3, that bishop no longer supports a capture of the pawn. Black's queen on d3 and rook can still attack g3, but f2 and h2 defend it; count the complete exchange, not just the attackers.",
+      "theme": "White preserves the material advantage through coordination rather than neglect of threats. The supported pawn barrier gives the queen a chance to create counterplay while the remaining pieces catch up with the active forces already on the board.",
+      "alternativeNote": "Qb8+ can be inserted first, and the supplied ...Bd8, g3 sequence reaches the same position as g3, ...Rg4, Qb8+, ...Bd8 after the rook lift follows. The comparison is move order, not defense versus attack. Taking e5 instead lets Black strike before the barrier is reorganized."
+    },
+    {
+      "key": "5kr1/2Q1bp1p/7p/4p3/8/2Pq2Pb/P4P1P/RN2R1K1 b - - 0 19 g8g4",
+      "title": "Give the Rook a Central Role",
+      "question": "Once White has blocked the direct breakthrough, how can Black preserve activity without forcing a sacrifice?",
+      "takeaway": "The rook lift ...Rg4 keeps Black's rook near the king while accepting that the supported g3 pawn blocks a direct breakthrough. From the fourth rank, the rook can also participate in central exchanges on e4. Black preserves practical pressure rather than sacrificing just because an attack was started. White should use its checking opportunities to interrupt that coordination.",
+      "intent": "The immediate convergence on g2 has been neutralized, so Black gives the rook another role. Its fourth-rank placement combines pressure on g3 with lateral access to the center. Black's king remains exposed on f8, making defensive readiness just as important as keeping pieces near White's king.",
+      "plan": "White's main continuation checks with Qb8+, and Black blocks with ...Bd8. White can then develop Nd2 while Black centralizes the queen with ...Qd5. The supplied branches involve exchanges on e4, so both players should anticipate a change in material balance rather than expect the rook lift to produce a mating attack.",
+      "tactic": "The g3 pawn is defended by f2 and h2, so proximity alone does not make a rook capture profitable. More useful is the route from g4 through f4 to e4. When a white knight or rook reaches e4 in the supplied continuations, ...Rxe4 becomes a concrete exchange resource requiring full calculation.",
+      "theme": "Black's attack changes from an immediate threat into sustained activity. White has built a barrier, not complete security; the next phase connects queen checks and development with central liquidation rather than a one-directional kingside assault.",
+      "alternativeNote": "The supplied ...Rg5 keeps similar kingside pressure and later shifts toward f5. The fourth-rank placement instead connects with the coming e4 exchanges. Compare the rook's access to central targets and defensive work, not merely which square appears closer to the opposing king."
+    },
+    {
+      "key": "5k2/2Q1bp1p/7p/4p3/6r1/2Pq2Pb/P4P1P/RN2R1K1 w - - 1 20 c7b8",
+      "title": "Use a Check to Reshape the Defense",
+      "question": "How can White interrupt Black's active setup before trying to bring the remaining knight into play?",
+      "takeaway": "Qb8+ uses the exposed king on f8 to demand a defensive decision. The leading supplied reply is ...Bd8, pulling the bishop back from e7 and pinning it to the king. White can then turn toward development with that changed tactical background. The check matters because of the arrangement it induces, not because checking is automatically preferable to improving a piece.",
+      "intent": "White wants to reduce Black's freedom while bringing the queenside pieces into play. The clear eighth rank gives the queen a forcing way to change the defensive setup. Black must choose between interposition and king relocation, each of which alters the opportunities for White's central play.",
+      "plan": "After ...Bd8, the supplied continuation is Nd2 and ...Qd5. White can then consider Re4 or Ne4, but must calculate the exchanges through the later queen check rather than stop at apparent material losses. Black can instead move the king to g7, when White's supplied response takes e5 with check.",
+      "tactic": "The checking line runs from b8 through c8, d8 and e8 to f8. A bishop interposed on d8 is pinned while that alignment remains. Do not assume this makes every developing move safe: immediate Nd2 in the original position permits ...Qxd2 in the supplied analysis, and the new position needs its own calculation.",
+      "theme": "White uses the queen's activity to support consolidation rather than collect another pawn. Pressure against Black's king now serves a defensive purpose, restricting choices while the rest of White's army tries to participate.",
+      "alternativeNote": "Qb6 is a supplied alternative that reaches the same arrangement after ...Bg5, Qb8+ and ...Bd8. Checking immediately asks the defensive question sooner. Qb7 instead allows ...e4 and more active counterplay, illustrating why nearby queen squares can give the opponent quite different options."
+    },
+    {
+      "key": "1Q3k2/4bp1p/7p/4p3/6r1/2Pq2Pb/P4P1P/RN2R1K1 b - - 2 20 e7d8",
+      "title": "Block the Check While Preserving Counterplay",
+      "question": "Which response to the check best preserves Black's central pawn and active queen-and-rook arrangement?",
+      "takeaway": "The interposition ...Bd8 answers the check while keeping the king on f8 and preserving the active queen on d3. The bishop accepts a defensive restriction: it is pinned along the eighth rank. Black retains counterplay, but White can now consider developing the b1 knight. This remains a calculation-heavy middlegame, not a simple conversion based solely on the exchange advantage.",
+      "intent": "Black must answer the check without conceding the e5 pawn with tempo or accepting an immediate queen exchange. Blocking with the bishop preserves more of the active setup. The cost is reduced bishop freedom, which changes how both sides should calculate White's development and the approaching central exchanges.",
+      "plan": "White's leading supplied continuation is Nd2, followed by ...Qd5. One branch runs Ne4, ...Rxe4, Rxe4 and ...Qxe4, then Qb4+ and ...Qxb4. White's c3 pawn can recapture on b4. Both sides should count the complete liquidation: White may give back the exchange advantage to remove the attacking queen and rook.",
+      "tactic": "The d8 bishop cannot leave the eighth rank while doing so would expose its king to the b8 queen. That restriction is temporary, not a permanent loss of mobility. In the supplied central liquidation, Qb4+ checks along b4–c5–d6–e7–f8; after ...Qxb4, cxb4 completes the queen exchange rather than leaving White's queen simply lost.",
+      "theme": "The line ends at a transition, not a finished win. White's initiative became material and Black's damaged structure became attacking lines; precise central liquidation may now matter more than preserving the original material advantage unchanged.",
+      "alternativeNote": "The supplied ...Kg7 permits Qxe5+, losing a pawn with another check. The alternative ...Qd8 allows Qxd8+ and ...Bxd8, removing queens and much of Black's attacking potential. Blocking with the bishop keeps more activity, although its pin and the exposed king demand continued defensive calculation."
+    }
+  ],
+  "review": {
+    "status": "accepted",
+    "positionsReviewed": 29,
+    "issues": [],
+    "notes": "Independently reviewed all 29 new lessons, plies 12–40, against the complete packet, exact FENs, candidate continuations and author draft. Corrected the minor-piece inventory after ...gxh6; clarified that ...Kg7 does not newly legalize ...Rh8; included both knights when discussing captures on e5; removed forced-response implications; corrected the bishop and rook-role titles; sharpened the obstructed g-file, defensive move order and final liquidation explanations. The final cxb4 recapture was independently checked for legality from the supplied continuation. Preserved exact stable keys and omitted the 11 existing accepted lessons without rewriting them. All required teaching fields are included."
+  }
+}
